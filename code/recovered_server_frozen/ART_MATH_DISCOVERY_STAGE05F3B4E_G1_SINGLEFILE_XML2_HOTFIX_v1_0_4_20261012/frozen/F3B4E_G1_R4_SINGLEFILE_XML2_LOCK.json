@@ -1,0 +1,23 @@
+{
+  "stage": "Stage05F3B4E-G1-R4-single-file-XML2-retrieval-freeze",
+  "gate": "PASS_F3B4E_G1_R4_SINGLE_FILE_XML2_RETRIEVAL_HOTFIX_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "hotfix_role": "RESULT_BLIND_RESULT_RETRIEVAL_FORMAT_ONLY",
+  "trigger": "Existing RT5 RID became READY, but R3 repeatedly requested FORMAT_TYPE=XML2 (multiple-file XML2) and then searched the returned payload for single-file XML tags, causing a READY loop.",
+  "existing_ready_rid_reuse_first": true,
+  "retrieval_format_old": "XML2 (multiple-file report)",
+  "retrieval_format_new": "XML2_S (single-file report)",
+  "query_membership_changed": false,
+  "query_sequences_changed": false,
+  "database_scope_changed": false,
+  "evalue_changed": false,
+  "hitlist_size_changed": false,
+  "filtering_changed": false,
+  "novelty_thresholds_changed": false,
+  "resubmit_existing_ready_rid": false,
+  "ready_retrieval_retry_n": 5,
+  "ready_retrieval_retry_seconds": 30,
+  "urlapi_client_sha256": "18bcb37c85d296575c56d7e2a5993e9a6e8a67ee62d3634f14dc418f25fee45c",
+  "summarizer_sha256": "77f883beaf25def207654ca1dfd57d5fe6ac46a993a33f8a6b770a465b1c1d8b",
+  "claim_boundary": "Retrieval-format repair only. READY indicates completed server search; changing XML2 to XML2_S changes only serialization/retrieval, not BLAST search or biological results."
+}

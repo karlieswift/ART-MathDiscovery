@@ -1,0 +1,14 @@
+{
+  "stage": "Stage05F3V2-Stage03-packaging-hotfix",
+  "hotfix": "R2H1",
+  "date": "2026-10-14",
+  "problem": "R2 package omitted scripts/extract_fasta_ids.py required by scan_one_accession.sh",
+  "resolution": "Restored byte-exact helper from frozen R1 package",
+  "helper_sha256": "b81e98c1c43afdccc5a14c677134a0e4108089d5cc96922dc498b06d19bda246",
+  "source_selection_changed": false,
+  "translation_changed": false,
+  "hmm_thresholds_changed": false,
+  "candidate_definition_changed": false,
+  "science_change": false,
+  "retuning_authorized": false
+}

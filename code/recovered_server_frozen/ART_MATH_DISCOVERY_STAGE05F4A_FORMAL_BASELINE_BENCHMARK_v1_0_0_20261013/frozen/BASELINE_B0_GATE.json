@@ -1,0 +1,15 @@
+{
+  "all_case_sequences_resolved": false,
+  "gate": "HOLD_STAGE05F4A_B0_INPUTS_OR_TOOLCHAIN_INCOMPLETE",
+  "gate_pass": false,
+  "hmmscan_present": true,
+  "note": "Board inventory may be partial; score-freeze can run only after sequence/HMM/toolchain PASS. Frozen math-board comparison is finalized post-score-freeze.",
+  "prodigal_present": false,
+  "project_root": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1",
+  "retuning_authorized": false,
+  "rvt_expected_profile_resolved": true,
+  "single_tree_walk": true,
+  "stage": "Stage05F4A-B0-input-and-toolchain-freeze",
+  "trf_optional_present": false,
+  "truth_opened_for_scoring": false
+}

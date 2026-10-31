@@ -1,0 +1,11 @@
+{
+  "gate": "STAGE04C0_R1_SEQUENCE_ACQUISITION_HOTFIX",
+  "provider": "DDBJ_GETENTRY_INSDC",
+  "min_sequence_length_bp": 1000000,
+  "required_fasta_prefix": ">",
+  "required_flatfile_prefix": "LOCUS",
+  "reject_html_markers": ["<!DOCTYPE html", "<html", "WWW Error Blocked Diagnostic"],
+  "mutate_original_c0": false,
+  "run_acnv_or_recurrence": false,
+  "retuning_authorized": false
+}

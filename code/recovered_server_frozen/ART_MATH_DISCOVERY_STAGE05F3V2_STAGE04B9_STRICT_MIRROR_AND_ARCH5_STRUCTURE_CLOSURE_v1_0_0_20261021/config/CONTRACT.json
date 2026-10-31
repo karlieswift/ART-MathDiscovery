@@ -1,0 +1,27 @@
+{
+  "stage": "Stage05F3V2-Stage04B9",
+  "version": "v1.0.0",
+  "date": "2026-10-21",
+  "purpose": "Close two predeclared gaps: a strict 54G mirror of the historical 6.12G F3B3A protein-priority route on the native 26,396 delta operational families, and structural follow-up of the five B8R1 original-contig-complete architecture-first ORFs.",
+  "branch_A_strict_mirror": {
+    "source_universe": "54.378-Gb frozen delta universe",
+    "family_universe": "all 26,396 native delta operational families from the frozen Stage03/MMseqs partition; no OLD/DELTA combined-family novelty filter",
+    "selection": "exact historical F3B3A four-axis rule: 8 replication, 8 max ORF length, 8 formal-model coverage, 8 motif-C topology, deterministic backfill to 32",
+    "structure": "Boltz2; MSA server; seed 20261007; recycling 3; sampling 200; diffusion_samples 1; no_kernels; no truncation; no single-sequence fallback",
+    "foldseek": "clean_rt_afsp; evalue 1.0; max-seqs 100; exact-tmscore 1",
+    "classification": "maximum compatibility tier over all returned reference hits; STRONG TM>=0.50,qcov>=0.50,tcov>=0.50; SUGGESTIVE TM>=0.40,qcov>=0.30,tcov>=0.30"
+  },
+  "branch_B_arch5": {
+    "source": "the five Stage04B8R1 unitig-ABSENT candidates proven complete stop-to-stop on their frozen original source contigs",
+    "selection_changed": false,
+    "structure_role": "post-B8 technical-completeness extension of the architecture-first DELTA_ONLY arm",
+    "negative_interpretation": "authorized because all five are original-contig stop-bounded on both sides with zero sequence extension"
+  },
+  "forbidden": [
+    "retune thresholds after results",
+    "replace the strict-mirror 26,396 native delta family partition with Stage04A combined-family topology",
+    "use B5 reclustering as a silent substitute if the frozen native Stage03 family partition is unavailable",
+    "call MIXED sequence-space connectivity one-to-one system replication",
+    "call an edge-censored architecture candidate a structural negative"
+  ]
+}

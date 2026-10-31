@@ -1,0 +1,19 @@
+{
+  "archive": "ART_MATH_DISCOVERY_STAGE03A_RESULTS_20260928_085109.tar.gz",
+  "archive_sha256": "d46b0246ae4cf965b18663d27eee04ca7c917596d96a5394f44acf87abde6308",
+  "original_sidecar_verified": true,
+  "selected_files": [
+    {
+      "member": "outputs/MW218148.1/STAGE03A_WINDOW_FAMILY_SCORES.tsv.gz",
+      "local_path": "/workspace/scratch/ed60a1e57ea2/work/j1j2_v100/recovered_stage03/STAGE03A_WINDOW_FAMILY_SCORES.tsv.gz",
+      "bytes": 2743933,
+      "sha256": "ca83dd14a6f08af5ca8b0d885a0c55c87b538ec18b045fcfccd3ad95c660742c"
+    },
+    {
+      "member": "outputs/MW218148.1/STAGE03A_PRIMARY_GATE.json",
+      "local_path": "/workspace/scratch/ed60a1e57ea2/work/j1j2_v100/recovered_stage03/STAGE03A_PRIMARY_GATE.json",
+      "bytes": 10187,
+      "sha256": "0f3e3afa4e574b264b139c2bc61e83d9cc06dd057d62b1a4205d159a51b09808"
+    }
+  ]
+}

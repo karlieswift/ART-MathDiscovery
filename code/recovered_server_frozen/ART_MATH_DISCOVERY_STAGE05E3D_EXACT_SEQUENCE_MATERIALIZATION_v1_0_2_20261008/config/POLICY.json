@@ -1,0 +1,11 @@
+{
+  "stage":"Stage05E3D",
+  "version":"v1.0.2",
+  "supersedes":"v1.0.1 protein materialization",
+  "materialize_repeat_source":"STAGE05E3A_E2A_WITNESS_PAIRS.tsv signature_repeat_core",
+  "materialize_protein_source":"STAGE05E3A_CANDIDATE_OFFICIAL_CONTEXT.tsv explicit witness_official_protein_id joined exactly to frozen official FASTA",
+  "whole_neighborhood_proteins_allowed":false,
+  "dna_score_recomputed":false,
+  "dna_rank_recomputed":false,
+  "family_membership_changed":false
+}

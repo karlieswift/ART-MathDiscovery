@@ -1,0 +1,24 @@
+{
+  "stage04a_universe_sha256": "24f69c4f463678413d772cc567332bd0b94ff18019d53ea7e454aa5e30fb5ea4",
+  "stage04a_board_sha256": "272b59fd09d853bc7336e364a64e909c3cca7b082a684c69355d873707be9337",
+  "stage04a_registry_sha256": "73007864fdef7dba662c9b90a02e2b915359c1fbd93a6061edeea35afde07349",
+  "stage03a_zip_sha256": "902bddb7813a6aa04736c4a5dc4cd2439821c8a21efb1c931a98ad0a9a3bfe3c",
+  "r1a_manifest_sha256": "76d33c80ad7df1303d97edfa83b6d492853fe7494da00ba8cf2811e63edf06e8",
+  "r1a_cache_sha256": "8342fe5a317ff837894a33d27f0fd89655dfab24127efebaa811223dcccbc50c",
+  "r1d0_fasta_sha256": "5f9a5313479805b30888ab2043e5a191113dfc45dc084f9a115013104859f2c7",
+  "r1d0_registry_sha256": "3380e37f28dcb98ee4bf021e421bb50db8b021d98ef894c168e83bad6c97c66e",
+  "n_candidates": 383,
+  "n_sequences": 174,
+  "neighborhood_radius_bp": 10000,
+  "coordinate_policy": "1-based inclusive provider ranges -> 0-based half-open; exact CDS/genome verification",
+  "official_protein_primary": true,
+  "automatic_translation_primary": false,
+  "unsupported_records_fail_closed": true,
+  "genome_only_accessions": [
+    "NC_138483.1"
+  ],
+  "orf_rescue_pending": true,
+  "domain_scan_pending": true,
+  "mathematical_candidate_filtering_authorized": false,
+  "missing_annotation_not_negative": true
+}

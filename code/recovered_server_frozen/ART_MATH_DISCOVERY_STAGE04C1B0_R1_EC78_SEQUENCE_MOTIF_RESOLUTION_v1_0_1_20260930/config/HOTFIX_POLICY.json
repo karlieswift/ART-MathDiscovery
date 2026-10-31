@@ -1,0 +1,16 @@
+{
+  "stage": "Stage04C1B0-R1",
+  "version": "v1.0.1",
+  "purpose": "repair Ec78 truth resolution without reading or modifying C1 scores",
+  "supersedes": "Stage04C1B0 v1.0.0 failed at Ec78 annotation-neighborhood heuristic",
+  "network_fetch_performed": false,
+  "reuse_failed_v1_flatfiles": true,
+  "score_inputs_read": false,
+  "score_mutation_authorized": false,
+  "retuning_authorized": false,
+  "ec78_primary_rule": "unique 311-aa CDS (allowed 310-312 for audit) carrying exact YADD catalytic motif; fail closed if unique exact candidate not found",
+  "ec78_annotation_product_required": false,
+  "ec78_ptu_annotation_required": false,
+  "primary_cross_control_anchor": "experimentally established RT coding interval",
+  "coordinate_convention_output": "1-based inclusive and 0-based half-open"
+}

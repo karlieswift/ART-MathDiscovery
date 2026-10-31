@@ -1,0 +1,40 @@
+{
+  "stage": "Stage05F3V2-Stage04B7",
+  "version": "v1.0.0",
+  "date": "2026-10-21",
+  "purpose": "Close the 54-Gb architecture-selected delta-only structural arm after deterministic unitig rescue, and close the mixed-family historical replication arm using family-wide crosswalk.",
+  "frozen_inputs": {
+    "b6_target_family_n": 41,
+    "mixed_family_n": 23,
+    "delta_only_family_n": 18,
+    "delta18_expected_stop_bounded_both_n": 12,
+    "delta18_expected_edge_censored_unique_n": 1,
+    "delta18_expected_absent_n": 5
+  },
+  "structural_compatibility": {
+    "reference": "fixed clean-RT structural reference set",
+    "foldseek_evalue": 1.0,
+    "foldseek_max_seqs": 100,
+    "exact_tmscore": 1,
+    "strong": "alntmscore>=0.50 and qcov>=0.50 and tcov>=0.50",
+    "suggestive": "alntmscore>=0.40 and qcov>=0.30 and tcov>=0.30",
+    "query_rule": "maximum tier over all hits; representative chosen within final tier by highest TM, qcov, tcov, lowest evalue, target",
+    "boltz_model": "boltz2",
+    "boltz_seed": 20261007,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1,
+    "no_kernels": true,
+    "use_msa_server": true,
+    "no_truncation": true,
+    "no_single_sequence_fallback": true
+  },
+  "interpretation": {
+    "primary_structure_set": "the 12 UNIQUE_STOP_BOUNDED_BOTH delta-only rescued representatives",
+    "sensitivity_structure_set": "the single UNIQUE_EDGE_CENSORED representative; positive may support, negative is not authorized",
+    "unresolved_set": "five ABSENT unitig-rescue families; no primary structural negative call",
+    "motif_rule": "[YF]xDD remains descriptive only and is not a structure-entry criterion",
+    "retuning_performed": false,
+    "rules_changed": false
+  }
+}

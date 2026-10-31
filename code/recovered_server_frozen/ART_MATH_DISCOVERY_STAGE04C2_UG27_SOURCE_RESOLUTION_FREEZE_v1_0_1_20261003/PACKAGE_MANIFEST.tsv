@@ -1,0 +1,9 @@
+README.md	1401
+config/policy.json	513
+docs/RUN_COMMANDS.md	445
+docs/SCIENTIFIC_DESIGN.md	1034
+run_selftest.sh	156
+run_stage04c2_ug27_source_freeze.sh	473
+scripts/download_minerva_sources.sh	1120
+scripts/resolve_ug27_sources.py	6420
+tests/test_resolver.py	2142

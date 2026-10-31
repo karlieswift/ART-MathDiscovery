@@ -1,0 +1,56 @@
+{
+  "stage": "Stage05F4A-formal-baseline-benchmark",
+  "version": "v1.0.4",
+  "date": "2026-10-13",
+  "purpose": "Outcome-agnostic formal comparison of the frozen raw-DNA mathematical discovery layer against protein-first and conventional repeat-first baselines.",
+  "primary_positive_set": [
+    "MADAWASKA",
+    "MACHIAS",
+    "SA1",
+    "LY01",
+    "S6",
+    "PALS_2",
+    "UFV_DC4",
+    "PB50"
+  ],
+  "development_excluded_from_primary": [
+    "MARSHILL"
+  ],
+  "locked_retrospective_sensitivity": [
+    "L0050"
+  ],
+  "mechanistic_nonarray_rt_controls": [
+    "SEN2",
+    "EC78_ECO7",
+    "DRT2"
+  ],
+  "primary_baseline_contrast": [
+    "ARM_M_FULL_FROZEN",
+    "PRODIGAL_RVT_PLUS_FROZEN_REC",
+    "SIXFRAME_RVT_PLUS_FROZEN_REC"
+  ],
+  "primary_endpoints": [
+    "truth-locus recovered under frozen candidate definition",
+    "truth-locus rank and reciprocal rank",
+    "Hit@1, Hit@3, Hit@5 and Hit@10",
+    "normalized rank percentile",
+    "candidate burden per Mb",
+    "fraction of genome exposed by RT-first neighborhoods",
+    "non-array RT control dual-signal rate"
+  ],
+  "primary_rt_neighborhood_radius_bp": 10000,
+  "sensitivity_rt_neighborhood_radius_bp": [
+    5000,
+    20000
+  ],
+  "rvt_hmm_evalue": 0.0001,
+  "rvt_dom_evalue": 0.0001,
+  "sixframe_min_aa": 45,
+  "prodigal_mode": "meta",
+  "frozen_recurrence_threshold": 0.005,
+  "truth_must_not_be_used_before_score_freeze": true,
+  "retuning_authorized": false,
+  "primary_statistics": "paired descriptive metrics; exact paired sign/Wilcoxon only after score freeze; bootstrap CIs; no asymptotic claims from tiny n",
+  "interpretation_boundary": "This benchmark tests discovery/localization behavior and annotation dependence. It is not an assay of ART biochemical function.",
+  "implementation_hotfix": "B2-closeout-only package: imports byte-frozen R2 B1 archive; deterministically resolves previously sealed project truth; evaluates protein-first candidates as prespecified RT-centered +/-10 kb neighborhoods; adds pre-registered non-array RT dual-signal endpoint and a clearly labeled 7-case exact-array descriptive subset. No B0/B1 score, candidate, threshold, ordering, or neighborhood radius is changed."
+}

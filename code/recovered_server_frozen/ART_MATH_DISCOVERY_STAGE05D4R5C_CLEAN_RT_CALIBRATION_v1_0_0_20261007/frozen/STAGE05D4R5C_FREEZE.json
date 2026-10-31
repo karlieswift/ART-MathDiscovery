@@ -1,0 +1,10 @@
+{
+  "stage": "Stage05D4-R5C-freeze",
+  "n_clean_rt_structures": 32,
+  "n_matched_nonrt_controls": 96,
+  "negative_controls_per_rt": 3,
+  "seed": "ART_STAGE05D4R5C_20261007",
+  "reference_selection_uses_candidate_results": false,
+  "gate": "PASS_CLEAN_RT_AND_MATCHED_NONRT_CALIBRATION_UNIVERSE_FROZEN",
+  "gate_pass": true
+}

@@ -1,0 +1,28 @@
+{
+  "stage": "Stage05D4-R5B",
+  "purpose": "Candidate-independent RT-focused structural reference panel for orthogonal comparison of the 43 frozen R5 P1 full-coordinate structures.",
+  "source_r5_gate": "PASS_P1_BOLTZ2_FULL3D_AND_AFSP_FOLDSEEK_QUERY_IDS_NORMALIZED",
+  "query_universe_expected": 43,
+  "reference_selection_arms": [
+    "Swiss-Prot annotation RT-text arm",
+    "RVT-All 45-profile HMM arm"
+  ],
+  "rvt_all_expected_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "swissprot_expected_sha256": "a9c3496aa727e61d25d9e1291c9ba28d2c2ad19c0e26569dc083d53ec4169536",
+  "hmmsearch_full_evalue": 1e-5,
+  "hmmsearch_domain_evalue": 1e-5,
+  "hmm_top_per_profile": 10,
+  "foldseek_search_evalue": 1.0,
+  "foldseek_max_seqs": 100,
+  "foldseek_exact_tmscore": 1,
+  "strong_rt_fold_rule": "alntmscore >= 0.50 AND qcov >= 0.50 AND tcov >= 0.50",
+  "suggestive_rt_fold_rule": "alntmscore >= 0.40 AND qcov >= 0.30 AND tcov >= 0.30",
+  "weak_hit_rule": "Foldseek hit passing the frozen E-value threshold but not strong/suggestive structural criteria",
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "reference_panel_selected_from_candidate_results": false,
+  "structural_hit_is_identity_assignment": false,
+  "no_hit_is_negative": false,
+  "claim_boundary": "R5B is post-discovery protein interpretation only. An RT-panel structural match is evidence of fold compatibility, not proof of reverse-transcriptase activity or ART identity. No-hit remains unresolved, not negative."
+}

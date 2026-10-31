@@ -1,0 +1,12 @@
+{
+  "stage": "Stage04C1B0",
+  "purpose": "post-score-freeze truth resolution for mechanistically characterized RT controls",
+  "score_inputs_read": false,
+  "score_mutation_authorized": false,
+  "retuning_authorized": false,
+  "controls": ["SEN2_14028S", "EC78_ECO7", "DRT2_KPN"],
+  "primary_cross_control_anchor": "experimentally established RT coding interval",
+  "secondary_system_envelope": "coding components only when uniquely resolvable; ncRNA boundaries are not invented",
+  "coordinate_convention_output": "1-based inclusive and 0-based half-open",
+  "truth_resolution_occurs_after_C1_score_freeze": true
+}

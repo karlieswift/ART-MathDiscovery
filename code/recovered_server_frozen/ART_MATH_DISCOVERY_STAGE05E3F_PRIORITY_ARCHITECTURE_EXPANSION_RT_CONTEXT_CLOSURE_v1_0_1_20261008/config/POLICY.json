@@ -1,0 +1,26 @@
+{
+  "stage": "Stage05E3F",
+  "version": "v1.0.1",
+  "priority_families": [
+    "ARCH250_0010",
+    "ARCH250_0013",
+    "ARCH250_0033"
+  ],
+  "phmmer_strong_evalue": 1e-05,
+  "repeat_close_radius_bp": 500,
+  "repeat_context_radius_bp": 2000,
+  "rt_context_radius_bp": 10000,
+  "candidate_filtering_performed": false,
+  "family_membership_changed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "retuning_authorized": false,
+  "external_global_novelty_audit_performed": false,
+  "structure_search_performed": false,
+  "rt_context_resolution_policy": {
+    "preferred": "exact Stage05C1 RT_LOCI_ALL919.tsv coordinate table",
+    "fallback": "frozen ten-RT-core-genome accession lock only when E3E homolog accession intersection is exactly zero",
+    "fail_closed_if_intersection_positive_without_coordinates": true,
+    "frozen_rt_accession_n": 10
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stage": "Stage05D4-R3",
+  "purpose": "Freeze a compact architecture-aware structure-query tier from the already-frozen N1/N2 protein universe after Swiss-Prot triage.",
+  "source_n1_n2_candidates": 602,
+  "source_nr90_queries": 9245,
+  "source_no_swissprot_hit_queries": 8062,
+  "primary_tier": {
+    "name": "TIER_A_COMPACT_STRUCTURE_READY",
+    "swissprot_triage": "NO_SWISSPROT_HIT_NOT_NEGATIVE",
+    "aa_length_min": 180,
+    "aa_length_max": 700,
+    "max_orf_to_math_candidate_distance_bp": 1000
+  },
+  "extended_tier": {
+    "name": "TIER_B_EXTENDED_STRUCTURE_READY",
+    "swissprot_triage": "NO_SWISSPROT_HIT_NOT_NEGATIVE",
+    "aa_length_min": 180,
+    "aa_length_max": 700,
+    "min_orf_to_math_candidate_distance_bp_exclusive": 1000,
+    "max_orf_to_math_candidate_distance_bp": 2500
+  },
+  "rules": {
+    "n1_n2_candidates_retained": true,
+    "dna_score_recomputed": false,
+    "dna_rank_recomputed": false,
+    "candidate_filtering_performed": false,
+    "swissprot_no_hit_is_negative": false,
+    "structure_tiering_changes_candidate_identity": false,
+    "protein_evidence_is_post_discovery_only": true,
+    "formal_broad_rt_targets_remain_separate": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "stage": "Stage05E3C",
+  "version": "v1.0.1",
+  "date": "2026-10-08",
+  "default_expected_family_n": 12,
+  "inputs_are_post_score_only": true,
+  "candidate_filtering_performed": false,
+  "family_membership_changed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "selection_uses_structure_results": false,
+  "negative_homology_is_novelty_proof": false,
+  "negative_keyword_is_novelty_proof": false,
+  "art95_exact_catalogue_required_for_95of95_claim": true,
+  "primary_actions": [
+    "freeze and audit the 12 E2A/E3B families without changing membership",
+    "synthesize lineage breadth, topology coherence, official CDS support, and known-system context",
+    "audit available family-linked protein/repeat sequences without using them to rescore DNA",
+    "optionally scan family-linked proteins against user/project-supplied HMMs as positive conflict evidence only",
+    "prepare a transparent family-level closure queue and ART95 exact-catalogue readiness audit"
+  ],
+  "claim_boundary": "E3C is a family-closure and known-system evidence audit. Positive known-system evidence can trigger conflict review, but absence of keyword/HMM/sequence similarity never proves novelty or non-RT identity. E3C does not establish ART identity, biochemical activity, or biological function."
+}

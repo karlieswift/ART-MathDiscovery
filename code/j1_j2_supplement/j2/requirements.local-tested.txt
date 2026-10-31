@@ -1,0 +1,5 @@
+# Exact Python package versions used for the local historical regression.
+# No forced upgrade of existing user environments is performed.
+numpy==2.3.5
+pandas==2.2.3
+tqdm==4.67.1

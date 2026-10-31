@@ -1,0 +1,47 @@
+{
+  "stage": "Stage05F3V2-Stage03-distributed-operational-sharding",
+  "hotfix": "R2H2",
+  "date": "2026-10-14",
+  "gate": "PASS_F3V2_STAGE03_R2H2_THREE_HOST_SHARDS_FROZEN",
+  "gate_pass": true,
+  "base_manifest_sha256": "8faa369c8c974e01a3caccc6ed666210735472fcbd3b144714a662576d939eb5",
+  "base_accession_n": 254,
+  "base_nucleotide_bp": 54377819157,
+  "algorithm": "deterministic LPT balancing using frozen nucleotide_bp only; ties by original manifest order then shard index; execution order restored to original manifest order within each shard",
+  "hosts": [
+    "r750-1",
+    "r750-2",
+    "as-4125"
+  ],
+  "shards": [
+    {
+      "shard": 0,
+      "host": "r750-1",
+      "accession_n": 85,
+      "nucleotide_bp": 18131556032,
+      "shard_sha256": "3dd1f64abb59e12db8f9d1dcf3ef20fc027107d7945bcd2878bff31da1b32824"
+    },
+    {
+      "shard": 1,
+      "host": "r750-2",
+      "accession_n": 85,
+      "nucleotide_bp": 18130861880,
+      "shard_sha256": "43bcf267d39a42207f341f6b213707bfabf6dc4b5e6ca15b6cf04bf1ecd822a6"
+    },
+    {
+      "shard": 2,
+      "host": "as-4125",
+      "accession_n": 84,
+      "nucleotide_bp": 18115401245,
+      "shard_sha256": "b12cf8040e99cb4ba97148a1836b85c995b643d40d7df1405c2334ca5f84ca28"
+    }
+  ],
+  "per_accession_worker_changed": false,
+  "translation_changed": false,
+  "rvt_hmm_changed": false,
+  "hmm_thresholds_changed": false,
+  "candidate_definition_changed": false,
+  "source_universe_changed": false,
+  "science_change": false,
+  "note": "Original scan lock recorded four parallel accession jobs on one host. R2H2 changes resource sharding only: three mutually exclusive host shards, each using the same frozen per-accession worker."
+}

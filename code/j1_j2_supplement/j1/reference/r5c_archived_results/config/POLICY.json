@@ -1,0 +1,23 @@
+{
+  "stage": "Stage05D4-R5C",
+  "purpose": "Candidate-independent calibration of the R5B structural RT interpretation using a clean annotation-confirmed RT target panel and deterministic matched non-RT structural controls.",
+  "source_r5_gate": "PASS_P1_BOLTZ2_FULL3D_AND_AFSP_FOLDSEEK_QUERY_IDS_NORMALIZED",
+  "source_r5b_gate": "PASS_P1_RT_FOCUSED_STRUCTURAL_PANEL_SEARCH_COMPLETE",
+  "query_universe_expected": 43,
+  "clean_rt_definition": "R5B frozen panel rows with non-empty annotation_class and has_afsp_structure=true",
+  "negative_control_definition": "Swiss-Prot/AlphaFold entries not in the R5B panel and lacking prespecified RT-associated annotation text, deterministically length-matched to clean RT references",
+  "negative_controls_per_rt": 3,
+  "negative_control_seed": "ART_STAGE05D4R5C_20261007",
+  "negative_length_tolerance_schedule_aa": [10, 25, 50, 100, 200],
+  "foldseek_search_evalue": 1.0,
+  "foldseek_max_seqs": 100,
+  "foldseek_exact_tmscore": 1,
+  "strong_rt_fold_rule": "alntmscore >= 0.50 AND qcov >= 0.50 AND tcov >= 0.50",
+  "suggestive_rt_fold_rule": "alntmscore >= 0.40 AND qcov >= 0.30 AND tcov >= 0.30",
+  "calibration_informative_rule": "known-RT non-self suggestive-or-strong sensitivity >= 0.75 AND matched-non-RT suggestive-or-strong rate <= 0.05",
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "reference_selection_uses_candidate_results": false,
+  "claim_boundary": "R5C calibrates structural-fold evidence only. Even a calibrated RT-fold match does not establish enzymatic RT activity or ART identity; no-hit remains unresolved rather than negative."
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "Stage05F3B3B-implementation-freeze",
+  "gate": "PASS_F3B3B_KNOWN_SYSTEM_AUDIT_RULE_FROZEN_BEFORE_SEQUENCE_SIMILARITY_RESULTS",
+  "gate_pass": true,
+  "f3b3a_gate_sha256": "e52904cc05138ec10eefa186269eba3f264c1e78706c848eab769bd74b375baf",
+  "shortlist_tsv_sha256": "4be833aa05dd4d9842980072ee6339495ddd58c89900a574250c8027617894b6",
+  "shortlist_fasta_sha256": "3ec783d2a10764e6d04d9ca5a34abeb103a8f3ff7a9ff59954db0d6946d667df",
+  "reference_resolution": "explicit F3B3B_REFERENCE_FASTAS if set; otherwise deterministic scan of pre-F3B frozen ART project reference directories using path-role and protein-content guards",
+  "swissprot_focus": "when prior D4R5B RVTALL_SWISSPROT.tblout exists, full SwissProt references are restricted to those pre-existing RVT-All positive-calibration IDs",
+  "sequence_similarity_engine": "MMseqs2 easy-search",
+  "sequence_similarity_evalue": 0.001,
+  "sequence_similarity_sensitivity": 7.5,
+  "sequence_similarity_max_seqs": 100,
+  "descriptive_exact_match_rule": "fident>=1.0, qcov>=0.99, tcov>=0.99",
+  "descriptive_high_identity_rule": "fident>=0.90, qcov>=0.80, tcov>=0.80",
+  "reference_hit_used_to_remove_shortlist_family": false,
+  "novelty_decision_authorized": false,
+  "builder_sha256": "42efb9cf4ee1f3680d7f1d2a5ebfc056d32ddbe487a7e7548f2f65946ef27c10",
+  "summarizer_sha256": "e57fc784b33f31c673138d9f3617a5a846bad70f935cd2c16feac8b31539b0bf",
+  "claim_boundary": "Post-freeze known-system audit only. Known matches are retained. No-hit is not novelty evidence."
+}

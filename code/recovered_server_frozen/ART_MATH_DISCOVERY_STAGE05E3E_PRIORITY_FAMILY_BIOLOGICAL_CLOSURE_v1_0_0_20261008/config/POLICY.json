@@ -1,0 +1,18 @@
+{
+  "stage": "Stage05E3E",
+  "version": "v1.0.0",
+  "date": "2026-10-08",
+  "priority_families_frozen": ["ARCH250_0010", "ARCH250_0013", "ARCH250_0033"],
+  "family_membership_changed": false,
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "retuning_authorized": false,
+  "phmmer_database": "Stage05C1 FULL919_PREDICTED_PROTEINS.faa only",
+  "phmmer_report_evalue": 0.01,
+  "phmmer_strong_evalue": 1e-5,
+  "exact_repeat_search_radius_bp": 2000,
+  "exact_repeat_close_radius_bp": 500,
+  "rt_context_radius_bp": 10000,
+  "claim_boundary": "Local biological closure inside the frozen 919-genome project universe: representative-protein homology expansion, exact frozen repeat-core colocalization, topology, and optional proximity to the already-computed Stage05C1 RT loci. This does not establish global novelty, molecular function, ART identity, RNA expression, translation, structure, or wet-lab validation."
+}

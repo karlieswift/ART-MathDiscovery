@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05E3A-freeze",
+  "source_E2_result_archive_sha256": "3524bcb4a13e94101dcf9f8a43bc7e28e2897b0cda9196b0ec22bfdfd1272d86",
+  "source_D1_candidate_table_sha256": "d5ae91ba36be8b743b0c9dd0a62a94f86eca7e080540c4d698a576f298751c26",
+  "n_E2A_families": 12,
+  "n_E2A_candidates": 119,
+  "n_E2A_unique_sequence_ids": 61,
+  "n_exact_primary_joint_witness_candidates": 80,
+  "n_exact_primary_joint_witness_genomes": 44,
+  "selection_uses_structure_results": false,
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "claim_boundary": "The 12 E2A families are frozen review targets defined before official-context retrieval. Official annotation and lineage context are post-discovery biological interpretation and do not establish ART identity."
+}

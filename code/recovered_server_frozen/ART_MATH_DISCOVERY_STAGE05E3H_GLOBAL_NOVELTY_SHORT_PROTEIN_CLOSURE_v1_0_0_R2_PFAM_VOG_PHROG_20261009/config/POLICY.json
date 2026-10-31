@@ -1,0 +1,13 @@
+{
+  "stage": "Stage05E3H",
+  "version": "v1.0.0",
+  "purpose": "Accelerated global-novelty and short-protein functional-closure layer for ARCH250_0010/0013/0033.",
+  "frozen_boundaries": {
+    "family_membership_changed": false,
+    "dna_score_recomputed": false,
+    "dna_rank_recomputed": false,
+    "candidate_filtering_performed": false,
+    "retuning_authorized": false
+  },
+  "claim_boundary": "Existing evidence plus deterministic sequence/architecture characterization and optional external-database searches. No absence result establishes natural-world novelty; no sequence/structure prediction establishes molecular function."
+}

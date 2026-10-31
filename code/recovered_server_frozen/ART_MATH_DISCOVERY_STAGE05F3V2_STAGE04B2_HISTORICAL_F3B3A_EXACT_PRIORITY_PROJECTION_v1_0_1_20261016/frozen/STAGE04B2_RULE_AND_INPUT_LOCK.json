@@ -1,0 +1,33 @@
+{
+  "stage": "Stage05F3V2-Stage04B2-rule-input-freeze",
+  "gate": "PASS_F3V2_STAGE04B2_HISTORICAL_RULE_AND_DELTA_INPUTS_FROZEN_PRE_PROJECTION",
+  "gate_pass": true,
+  "hashes": {
+    "historical_script": "d222f638c627566909765012874c7aaa531a1a79b5e67a0d73f726f184a30ed8",
+    "historical_lock": "a4d8be5e03c0ef096667460d653e355baa8db23b232b129c269ee21a36b39762",
+    "historical_shortlist": "4be833aa05dd4d9842980072ee6339495ddd58c89900a574250c8027617894b6",
+    "r4_map": "859ea2ef382668853e413837c98f235dada60810ea83ea335d30a316c5185406",
+    "r3_pair": "3713fe76967b9ee2bf28797a159789e42aa29b0f26e0b607f357beadf74710db",
+    "r3_dom": "69af29fd83790cb29ea43bd88b90c543a47951f83c5542f2e55f7c5d155b2046",
+    "delta_gate": "97ec418780713d74199c2b2476059c4bc1d6a5f7b22f87da2bd9a4f674ff40ec",
+    "delta_formal_instances": "c73d1852f7c7d3d82c6ad62d10872a3d1fd05fd67b477bf93706994faef03e97",
+    "delta_manifest": "8faa369c8c974e01a3caccc6ed666210735472fcbd3b144714a662576d939eb5",
+    "stage04a_gate": "5edb1445ed08c1120e855ec81dad10837d5e5b0a80b01d5def727716c4a8c88a",
+    "stage04a_membership": "fb84dca6ff346b2438b736b95a7dd606a7163e476e8d0e162ff70a72a6b3a0c0",
+    "stage04b1_gate": "a71a020736c9a7ac22db0102e3469228dda7a74c9555e6da4c6d05de8b74836e",
+    "projection_script": "0a8c5359893e732c369725252df36d06700f7e9138c3483d21fd7dd9876700ee",
+    "semantics_script": "a0855a2f8d85180f99607c1ad2ab6ecd655a2df7138117323a1b85c6b0b83412",
+    "rule_core": "bc06f1ff4bc8ff3b0028ad7c39cbc913ca62c4b4e7b2b6b3b025f4194773a96c",
+    "bundled_historical_script": "d222f638c627566909765012874c7aaa531a1a79b5e67a0d73f726f184a30ed8"
+  },
+  "historical_rule_source_date": "2026-10-11",
+  "historical_rule": "four axes x8: replication, max ORF length, formal-model coverage, motif-C topology; preserve axis order; deterministic backfill to 32",
+  "motif_c_like_regex": "[YF]xDD",
+  "family_universe": "Stage04A DELTA_ONLY combined families only",
+  "known_rt_annotation_used_for_ranking": false,
+  "novelty_used_for_ranking": false,
+  "structure_used_for_ranking": false,
+  "retuning_authorized": false,
+  "science_change": false,
+  "claim_boundary": "The historical F3B3A priority implementation predates the 54-Gb delta. This lock fixes the exact source implementation and delta-only combined-family input universe before Stage04B2 projection results are generated."
+}

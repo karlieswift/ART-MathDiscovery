@@ -1,0 +1,17 @@
+{
+  "stage": "Stage05E3A",
+  "target_family_stratum": "E2A_EXACT_PRIMARY_JOINT_SIGNATURE",
+  "frozen_family_n": 12,
+  "frozen_candidate_n": 119,
+  "frozen_sequence_id_n": 61,
+  "frozen_exact_primary_joint_witness_candidate_n": 80,
+  "official_context_window_bp": 10000,
+  "near_context_window_bp": 5000,
+  "predicted_orf_official_match_high_overlap_fraction": 0.8,
+  "predicted_orf_official_match_near_exact_boundary_bp": 15,
+  "candidate_filtering_performed": false,
+  "selection_uses_structure_results": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "claim_boundary": "Official GenBank annotations, taxonomy and neighborhood products are post-discovery interpretation. Keyword absence is not evidence of novelty, and annotation/context does not establish RT activity or ART identity."
+}

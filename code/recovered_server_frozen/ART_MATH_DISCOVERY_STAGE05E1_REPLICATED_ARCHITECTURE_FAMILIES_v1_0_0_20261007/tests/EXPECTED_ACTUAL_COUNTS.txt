@@ -1,0 +1,10 @@
+Expected on the frozen 2026-10-07 inputs used during package validation:
+N1+N2 candidates = 602
+primary (250 bp) edges = 1166
+primary replicated families = 66
+primary replicated candidates = 324
+sensitivity (1000 bp) edges = 1835
+sensitivity replicated families = 74
+sensitivity replicated candidates = 388
+candidate strata: E1A=200, E1B=124, E1C=64, E1D=214
+These are regression expectations, not biological thresholds.

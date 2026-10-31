@@ -1,0 +1,82 @@
+{
+  "candidate_fields": [
+    "sample_id",
+    "accession",
+    "accession_aliases",
+    "native_parent_accession",
+    "genome_path",
+    "fasta_sha256",
+    "sequence_sha256",
+    "taxon",
+    "source_url",
+    "source_version",
+    "source_study",
+    "source_publication_date",
+    "family_cluster",
+    "leakage_unit",
+    "match_group",
+    "exposure_status",
+    "eligibility_status",
+    "eligibility_reason",
+    "leakage_review_path",
+    "leakage_review_sha256",
+    "leakage_review_status"
+  ],
+  "coordinate_basis": "0-based half-open native contig",
+  "dependencies": [
+    "numpy",
+    "pandas",
+    "tqdm"
+  ],
+  "execution_modes": {
+    "default": "exact_two_arm",
+    "optional": "full_legacy",
+    "prefreeze": "mode + wrapper SHA256 are immutable pre-scoring fields; no scientific threshold changes"
+  },
+  "independence": "confirmed unseen accession/parent/sequence + source and sequence-group review; family/parent/source/match-group connected components share leakage_unit; ledger absence is insufficient",
+  "matched_controls": "match_group must contain an ART-positive and independently defined hard-neighbor/certified-negative for primary_art",
+  "method_ranking": "verbatim frozen algorithms; all surviving candidates retained; no top-K censoring",
+  "no_functional_claim": "sequence localization is not wet-lab validation",
+  "optional_candidate_fields": [
+    "accession_aliases"
+  ],
+  "positive_art_component_coordinates": "array and RT intervals required for every independently curated target and must lie within author system interval",
+  "primary_art_labels": [
+    "positive",
+    "hard_neighbor",
+    "certified_negative",
+    "background_unknown"
+  ],
+  "primary_truth_basis": {
+    "background_unknown": "NO_ART_NEGATIVE_CLAIM",
+    "certified_negative": "INDEPENDENT_NEGATIVE_CERTIFICATION",
+    "hard_neighbor": "INDEPENDENT_NON_ART_ANNOTATION",
+    "positive": "INDEPENDENT_AUTHOR_ANNOTATION"
+  },
+  "secondary_labels": [
+    "other_structured_rna",
+    "background_unknown"
+  ],
+  "secondary_rt_interpretation": "General structured RNA need not contain RT; RT non-recovery is not evidence of poor ART detection or Arm M superiority",
+  "secondary_truth_basis": "other_structured_rna uses INDEPENDENT_AUTHOR_ANNOTATION, author_defined_rna_interval, SECONDARY_ONLY; no new-blind ART inference",
+  "truth_fields": [
+    "sample_id",
+    "target_id",
+    "label_class",
+    "label_scope",
+    "truth_start0",
+    "truth_end0",
+    "array_start0",
+    "array_end0",
+    "rt_start0",
+    "rt_end0",
+    "author_truth_url",
+    "truth_evidence_path",
+    "truth_evidence_sha256",
+    "truth_basis",
+    "curator",
+    "truth_fixed_utc"
+  ],
+  "truth_targets": "one target_id per independently curated target; whole native FASTA supplied once per sample",
+  "unlabelled_background": "NO_ART_NEGATIVE_CLAIM; never specificity or precision"
+}

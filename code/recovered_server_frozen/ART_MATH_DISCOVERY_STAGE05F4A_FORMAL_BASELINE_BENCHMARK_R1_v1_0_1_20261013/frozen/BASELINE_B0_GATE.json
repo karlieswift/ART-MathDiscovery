@@ -1,0 +1,18 @@
+{
+  "all_case_sequences_resolved": true,
+  "all_historical_boards_canonicalized": true,
+  "gate": "PASS_STAGE05F4A_B0_R1_INPUTS_BOARDS_TOOLCHAIN_FROZEN_SCORE_READY",
+  "gate_pass": true,
+  "hmmscan_path": "/home/hgq/conda-envs/art_novelty/bin/hmmscan",
+  "hmmscan_present": true,
+  "hotfix_scope": "exact-source precedence + corrected Stage04C1 scored-source accession binding + C1_SELECTED_PROPOSALS support + canonical frozen-board extraction + exact runtime binding; no scientific score/threshold changes",
+  "prodigal_path": "/home/hgq/conda-envs/art_rt_evidence/bin/prodigal",
+  "prodigal_present": true,
+  "project_root": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1",
+  "retuning_authorized": false,
+  "rvt_expected_profile_resolved": true,
+  "stage": "Stage05F4A-B0-R1-input-board-toolchain-freeze",
+  "trf_optional_present": false,
+  "truth_opened_for_scoring": false,
+  "version": "v1.0.1"
+}

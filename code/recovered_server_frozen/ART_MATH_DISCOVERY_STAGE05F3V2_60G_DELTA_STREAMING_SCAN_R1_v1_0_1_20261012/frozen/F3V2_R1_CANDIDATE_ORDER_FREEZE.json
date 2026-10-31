@@ -1,0 +1,18 @@
+{
+  "stage": "Stage05F3V2-R1-source-blind-candidate-order",
+  "gate": "PASS_F3V2_R1_UNBOUNDED_DETERMINISTIC_CANDIDATE_ORDER_FROZEN",
+  "gate_pass": true,
+  "seed": "F3V2_60G_DELTA_20261011",
+  "metadata_uri": "s3://logan-pub/stats/sra_taxid.csv.zst",
+  "candidate_counts": {
+    "A": 7684536,
+    "B": 57598045,
+    "C": 3409961,
+    "D": 18881
+  },
+  "old_accessions_sha256": "9999ed0abac437794f6ce775bc9970f38b05131caa56613ac18f8fb03e92cffb",
+  "ordering": "ascending uint64(first16hex(SHA256(seed|stratum|accession))); accession tie-break; identical to v1.0.0 top-K ordering",
+  "acquisition_change_only": "fixed K=5000 ceiling removed; all eligible candidates are externally sorted and downstream acquisition stops only after frozen bp quota is met",
+  "source_selection_used_rt_or_candidate_information": false,
+  "selection_inputs": "SRA accession/assay/organism/taxonomy plus downstream Logan technical file size and realized nucleotide bp only"
+}

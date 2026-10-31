@@ -1,0 +1,93 @@
+{
+  "stage": "Stage05F3V2-Stage04B4",
+  "version": "v1.0.1",
+  "freeze_date": "2026-10-20",
+  "purpose": "Native-architecture and saturation closeout for the independent 54.38-Gb delta universe",
+  "structural_input_rule": "include every DELTA32 candidate whose frozen reference-set structural compatibility tier is STRONG or SUGGESTIVE",
+  "expected_structural_positive_n": 12,
+  "native_context_bp_each_side": 10000,
+  "candidate_generation_changed": false,
+  "structural_threshold_changed": false,
+  "repeat_rules": {
+    "exact_seed_k": [
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "minimum_copies": 3,
+    "repeat_start_gap_bp": [
+      60,
+      360
+    ],
+    "maximal_exact_core_max_bp": 80,
+    "strict_published_art_geometry": {
+      "orientation": "UPSTREAM",
+      "copy_n": [
+        3,
+        21
+      ],
+      "every_inferred_spacer_bp": [
+        120,
+        220
+      ]
+    }
+  },
+  "partner_rules": {
+    "candidate_oriented_downstream_max_bp": 10000,
+    "genetic_code": 11,
+    "start_codons": [
+      "ATG",
+      "GTG",
+      "TTG"
+    ],
+    "stop_codons": [
+      "TAA",
+      "TAG",
+      "TGA"
+    ],
+    "minimum_complete_orf_aa": 30,
+    "primary_partner_candidate": "physically nearest complete downstream ORF",
+    "mmseqs_min_seq_id": 0.3,
+    "mmseqs_coverage": 0.7,
+    "mmseqs_cov_mode": 0,
+    "mmseqs_cluster_mode": 0,
+    "mmseqs_sensitivity": 7.5,
+    "recurrent_partner_definition": "same partner cluster in >=2 independent source accessions within the same structural-positive RT family"
+  },
+  "primary_native_architecture_endpoints": [
+    "family with any exact repeat array",
+    "family with upstream repeat array",
+    "family with strict published ART geometry",
+    "family with strict geometry plus recurrent nearest-downstream partner cluster"
+  ],
+  "saturation_endpoints": [
+    "sequence-level RT-like instances per Gb",
+    "operational-family density per Gb",
+    "delta-only family density",
+    "structural-priority generalization 28/30 versus 12/32",
+    "native architecture recovery among the frozen 12 delta structural-compatible families",
+    "architecture distribution across source strata A/B/C/D"
+  ],
+  "claim_boundaries": [
+    "12/32 is a conditional frozen priority-panel generalization rate, not a per-Gb yield",
+    "delta-only family exclusion intentionally makes the 54-Gb priority panel harder and more out-of-distribution",
+    "strict ART geometry is a descriptive architecture label and does not establish biochemical RT activity or ART identity",
+    "nearest downstream ORF remains a partner candidate until causal validation",
+    "no post-result retuning of structural, repeat, partner, or source-selection rules is authorized"
+  ],
+  "technical_hotfix": {
+    "science_change": false,
+    "membership_changed": false,
+    "threshold_changed": false,
+    "coordinate_rule_changed": false,
+    "repeat_rule_changed": false,
+    "partner_rule_changed": false,
+    "changes": [
+      "close zstd stdout before process wait on early FASTA-record completion to prevent pipe deadlock",
+      "group requested contigs by source file and scan each compressed source FASTA at most once",
+      "add source/SHA/locus progress logging"
+    ]
+  }
+}

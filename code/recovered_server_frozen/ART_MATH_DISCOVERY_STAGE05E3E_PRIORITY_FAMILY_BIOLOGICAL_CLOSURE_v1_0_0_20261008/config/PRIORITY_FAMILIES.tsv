@@ -1,0 +1,4 @@
+family_id	fam50_cluster	expected_official_supported_witness_n	expected_unique_witness_aa_n	expected_repeat_core_unique_n	frozen_e3b_genomes	frozen_e3b_taxonomy_tail_groups	frozen_e3b_modal_side	frozen_e3b_median_gap_bp	frozen_priority
+ARCH250_0010	FAM50_00744	5	1	1	7	5	UPSTREAM	277	E3C1_PRIORITY_BIOLOGICAL_CLOSURE
+ARCH250_0013	FAM50_00697	2	1	1	5	2	UPSTREAM	85	E3C1_PRIORITY_BIOLOGICAL_CLOSURE
+ARCH250_0033	FAM50_04667	3	1	1	3	2	DOWNSTREAM	155	E3C1_PRIORITY_BIOLOGICAL_CLOSURE

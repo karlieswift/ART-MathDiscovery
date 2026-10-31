@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05E3D",
+  "version": "v1.0.5",
+  "supersedes": "v1.0.1-v1.0.4 protein-sequence retrieval logic",
+  "family_defining_protein_identity": "E2A predicted witness record_key + aa_sha256 / frozen FAM50 membership",
+  "official_support_role": "E3A annotation/coordinate support metadata; not required as FASTA sequence source",
+  "materialize_repeat_source": "STAGE05E3A_E2A_WITNESS_PAIRS.tsv signature_repeat_core",
+  "materialize_protein_source": "exact aa_sha256 recovery from existing project protein FASTAs",
+  "whole_neighborhood_proteins_allowed": false,
+  "official_protein_fasta_required": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "family_membership_changed": false,
+  "missing_or_ambiguous_hash_policy": "fail closed; never guess or substitute neighboring protein"
+}

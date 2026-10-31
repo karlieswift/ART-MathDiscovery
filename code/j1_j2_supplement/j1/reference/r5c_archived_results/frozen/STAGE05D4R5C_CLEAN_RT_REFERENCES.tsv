@@ -1,0 +1,33 @@
+accession	entry	description	aa_length	annotation_class	afsp_key	afsp_target
+O00939	TERT_EUPAE	Telomerase reverse transcriptase OS=Euplotes aediculatus OX=5940 PE=1 SV=1	1031	TELOMERASE_RT	33028825	AF-O00939-F1-model_v6
+O13339	TERT_SCHPO	Telomerase reverse transcriptase OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=trt1 PE=1 SV=1	988	TELOMERASE_RT	99440322	AF-O13339-F1-model_v6
+O14746	TERT_HUMAN	Telomerase reverse transcriptase OS=Homo sapiens OX=9606 GN=TERT PE=1 SV=1	1132	TELOMERASE_RT	83649483	AF-O14746-F1-model_v6
+O70372	TERT_MOUSE	Telomerase reverse transcriptase OS=Mus musculus OX=10090 GN=Tert PE=1 SV=1	1122	TELOMERASE_RT	81152809	AF-O70372-F1-model_v6
+O76332	TERT_OXYTR	Telomerase reverse transcriptase OS=Oxytricha trifallax OX=94289 GN=TERT PE=3 SV=1	1132	TELOMERASE_RT	56902835	AF-O76332-F1-model_v6
+O77448	TERT_TETTS	Telomerase reverse transcriptase OS=Tetrahymena thermophila (strain SB210) OX=312017 GN=TERT PE=1 SV=1	1117	TELOMERASE_RT	113317841	AF-O77448-F1-model_v6
+P08548	LIN1_NYCCO	LINE-1 reverse transcriptase homolog OS=Nycticebus coucang OX=9470 PE=4 SV=1	1260	GENERIC_RT_TEXT	193600395	AF-P08548-F1-model_v6
+P0DV59	RT8_ECOLX	Retron Eco8 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=1	374	RETRON_RT	119356237	AF-P0DV59-F1-model_v6
+P0DV86	RT73_ECOLX	Retron Ec73 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=1	316	RETRON_RT	239539469	AF-P0DV86-F1-model_v6
+P0DV89	RT72_SALH5	Retron Se72 reverse transcriptase OS=Salmonella heidelberg (strain 579083-10) OX=1054962 GN=ret PE=1 SV=1	379	RETRON_RT	174658418	AF-P0DV89-F1-model_v6
+P0DV94	RT95_VIBCE	Retron Vc95 reverse transcriptase OS=Vibrio cholerae serotype O1 biovar El Tor OX=686 GN=ret PE=1 SV=1	315	RETRON_RT	233659847	AF-P0DV94-F1-model_v6
+P11660	RTL_CHLRE	Reverse transcriptase-like protein OS=Chlamydomonas reinhardtii OX=3055 GN=RTL PE=4 SV=1	368	GENERIC_RT_TEXT	20588903	AF-P11660-F1-model_v6
+P19593	RDPO_TETOB	Probable reverse transcriptase OS=Tetradesmus obliquus OX=3088 PE=4 SV=1	608	GENERIC_RT_TEXT	2442622	AF-P19593-F1-model_v6
+P21328	RTJK_DROME	RNA-directed DNA polymerase from mobile element jockey OS=Drosophila melanogaster OX=7227 GN=pol PE=1 SV=1	916	GENERIC_RT_TEXT	143681608	AF-P21328-F1-model_v6
+P21329	RTJK_DROFU	RNA-directed DNA polymerase from mobile element jockey OS=Drosophila funebris OX=7221 GN=jockey\pol PE=1 SV=1	916	GENERIC_RT_TEXT	47932833	AF-P21329-F1-model_v6
+P23070	RT86_ECOLX	Retron Ec86 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=1	320	RETRON_RT	233918566	AF-P23070-F1-model_v6
+P23071	RT65_MYXXA	Retron Mx65 reverse transcriptase OS=Myxococcus xanthus OX=34 PE=3 SV=1	427	RETRON_RT	68241437	AF-P23071-F1-model_v6
+P23072	RT162_MYXXA	Retron Mx162 reverse transcriptase OS=Myxococcus xanthus OX=34 PE=3 SV=1	485	RETRON_RT	214565997	AF-P23072-F1-model_v6
+P31843	RRPO_OENBE	RNA-directed DNA polymerase homolog OS=Oenothera berteroana OX=3950 PE=4 SV=1	142	GENERIC_RT_TEXT	93089502	AF-P31843-F1-model_v6
+P71276	RT48_ECOLX	Retron Ec48 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=2	408	RETRON_RT	19485019	AF-P71276-F1-model_v6
+Q06163	TERT_YEAST	Telomerase reverse transcriptase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=EST2 PE=1 SV=2	884	TELOMERASE_RT	23279994	AF-Q06163-F1-model_v6
+Q1PS67	TERT_ORYLA	Telomerase reverse transcriptase OS=Oryzias latipes OX=8090 GN=tert PE=1 SV=2	1090	TELOMERASE_RT	138725873	AF-Q1PS67-F1-model_v6
+Q27ID4	TERT_BOVIN	Telomerase reverse transcriptase OS=Bos taurus OX=9913 GN=TERT PE=3 SV=2	1125	TELOMERASE_RT	29138476	AF-Q27ID4-F1-model_v6
+Q46666	RT78_ECOLX	Retron Ec78 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=2	311	RETRON_RT	11157049	AF-Q46666-F1-model_v6
+Q47526	RT83_ECOLX	Retron Ec83 reverse transcriptase OS=Escherichia coli OX=562 GN=ret PE=1 SV=1	312	RETRON_RT	154264695	AF-Q47526-F1-model_v6
+Q4KTA7	TERT_TAKRU	Telomerase reverse transcriptase OS=Takifugu rubripes OX=31033 GN=tert PE=1 SV=1	1074	TELOMERASE_RT	192215886	AF-Q4KTA7-F1-model_v6
+Q673L6	TERT_RAT	Telomerase reverse transcriptase OS=Rattus norvegicus OX=10116 GN=Tert PE=2 SV=1	1125	TELOMERASE_RT	91140240	AF-Q673L6-F1-model_v6
+Q6A548	TERT_CANLF	Telomerase reverse transcriptase OS=Canis lupus familiaris OX=9615 GN=TERT PE=2 SV=1	1123	TELOMERASE_RT	149820206	AF-Q6A548-F1-model_v6
+Q8LKW0	TERT_ORYSJ	Telomerase reverse transcriptase OS=Oryza sativa subsp. japonica OX=39947 GN=TERT PE=2 SV=2	1259	TELOMERASE_RT	115032044	AF-Q8LKW0-F1-model_v6
+Q95SX7	RTBS_DROME	Probable RNA-directed DNA polymerase from transposon BS OS=Drosophila melanogaster OX=7227 GN=RTase PE=2 SV=1	906	GENERIC_RT_TEXT	112062077	AF-Q95SX7-F1-model_v6
+Q9NBX4	RTXE_DROME	Probable RNA-directed DNA polymerase from transposon X-element OS=Drosophila melanogaster OX=7227 GN=X-element\ORF2 PE=3 SV=1	908	GENERIC_RT_TEXT	3670099	AF-Q9NBX4-F1-model_v6
+Q9SPU7	TERT_ARATH	Telomerase reverse transcriptase OS=Arabidopsis thaliana OX=3702 GN=TERT PE=1 SV=1	1123	TELOMERASE_RT	122624541	AF-Q9SPU7-F1-model_v6

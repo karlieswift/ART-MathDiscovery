@@ -1,0 +1,10 @@
+{
+  "tests_run": 11,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "scientific_boundary": "Synthetic and real-tool interface tests only; archived-control audit tests replay existing data, not a new experiment.",
+  "official_foldseek_executable": "/workspace/scratch/ed60a1e57ea2/work/j1j2_v100/toolchain/foldseek/bin/foldseek",
+  "official_integration_executed": true
+}

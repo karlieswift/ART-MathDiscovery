@@ -1,0 +1,29 @@
+{
+  "stage": "Stage05E1",
+  "version": "v1.0.0",
+  "purpose": "Replicated DNA-protein architecture-family closure after calibrated full-3D RT deprioritization",
+  "universe": "Frozen Stage05D1 N1+N2 candidates only (expected 602 loci)",
+  "family_definition_primary": {
+    "orf_to_candidate_max_bp": 250,
+    "protein_family": "Stage05D4R1 FAM50 cluster",
+    "repeat_core": "reverse-complement-canonicalized exact core_nt from high-complexity, full-span-outside-predicted-CDS repeat groups overlapping the mathematical candidate",
+    "candidate_edge": "share >=1 qualifying FAM50 cluster AND >=1 qualifying canonical repeat core",
+    "replicated_component": ">=2 distinct sequence_id values"
+  },
+  "family_definition_sensitivity": {
+    "orf_to_candidate_max_bp": 1000,
+    "all_other_rules": "identical to primary"
+  },
+  "strata": {
+    "E1A_PRIMARY_REPLICATED_WITH_N1": "member of primary replicated component containing >=1 frozen N1 candidate",
+    "E1B_PRIMARY_REPLICATED_N2_ONLY": "member of primary replicated component containing only frozen N2 candidates",
+    "E1C_SENSITIVITY_ONLY_REPLICATED": "not primary-replicated but member of sensitivity replicated component",
+    "E1D_UNREPLICATED_RETAINED": "not in a replicated primary or sensitivity component"
+  },
+  "construction_independent_of_R5_structure_results": true,
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "negative_call_authorized": false,
+  "claim_boundary": "Replicated architecture families are post-discovery organizational units defined from frozen DNA-repeat and nearby-protein-family evidence. They do not establish RT activity, ART identity, transcription, or function."
+}

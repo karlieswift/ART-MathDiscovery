@@ -1,0 +1,23 @@
+{
+  "stage": "Stage05F3V2-scan-freeze",
+  "gate": "PASS_F3V2_DELTA_SCAN_RULES_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "selected_manifest_sha256": "8faa369c8c974e01a3caccc6ed666210735472fcbd3b144714a662576d939eb5",
+  "rvt_hmm_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "rvt_hmm_expected_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "translation": "six-frame maximal stop-to-stop; genetic code 11; no start-codon requirement; min 45 aa",
+  "formal_full_evalue": 0.0001,
+  "formal_domain_i_evalue": 0.0001,
+  "exploratory_full_evalue": 0.01,
+  "exploratory_domain_i_evalue": 0.01,
+  "family_min_seq_id": 0.3,
+  "family_coverage": 0.7,
+  "family_cov_mode": 0,
+  "family_cluster_mode": 0,
+  "family_sensitivity": 7.5,
+  "cpu_per_hmmscan_job": 12,
+  "parallel_accession_jobs": 4,
+  "annotation_used_for_candidate_generation": false,
+  "old_6p12gb_recomputed": false,
+  "claim_boundary": "Resource sharding may change runtime only; source universe and frozen F3 scientific rules are fixed before delta scan results."
+}

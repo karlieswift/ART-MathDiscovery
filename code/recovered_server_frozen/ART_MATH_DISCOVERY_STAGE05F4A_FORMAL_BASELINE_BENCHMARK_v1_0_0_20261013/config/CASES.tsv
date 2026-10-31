@@ -1,0 +1,14 @@
+case_id	accession	role	group	primary_eval	truth_mode	truth_start0	truth_end0	notes
+MARSHILL	MW248466.1	DEVELOPMENT_ONLY	ART_POSITIVE	0	KNOWN_ARRAY	213847	215071	Development case; excluded from primary comparison.
+L0050	L0050	LOCKED_RETROSPECTIVE	ART_POSITIVE	0	KNOWN_ARRAY	153152	156052	Original Anthropic discovery contig; sensitivity only.
+MADAWASKA	MW349129.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	STRICT_REPEAT_CORE	213194	214001	Untouched external validation.
+MACHIAS	MW349128.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	STRICT_REPEAT_CORE	218595	219017	Untouched external validation.
+SA1	MW218148.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	STRICT_REPEAT_CORE	9596	10371	Untouched external validation.
+LY01	OR836606.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	PROJECT_TRUTH_RESOLVE	.	.	Author-explicit ART array; exact project truth must be resolved post-score-freeze.
+S6	LC680885.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	PROJECT_TRUTH_RESOLVE	.	.	Author-explicit ART array; exact project truth must be resolved post-score-freeze.
+PALS_2	MN091626.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	PROJECT_TRUTH_RESOLVE	.	.	Author-explicit ART array; exact project truth must be resolved post-score-freeze.
+UFV_DC4	MZ779063.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	PROJECT_TRUTH_RESOLVE	.	.	Author-explicit ART array; exact project truth must be resolved post-score-freeze.
+PB50	OR770614.1	PRIMARY_EXTERNAL	ART_POSITIVE	1	RT_PROXY	150937	152491	Known ART_17/PB50 RT proxy; math method previously missed this locus.
+SEN2	NC_016856.1	MECHANISTIC_CONTROL	NONARRAY_RT_CONTROL	1	PROJECT_TRUTH_RESOLVE	.	.	Mature non-array RT control.
+EC78_ECO7	CP026202.1	MECHANISTIC_CONTROL	NONARRAY_RT_CONTROL	1	PROJECT_TRUTH_RESOLVE	.	.	Mature non-array RT control.
+DRT2	NC_012731.1	MECHANISTIC_CONTROL	NONARRAY_RT_CONTROL	1	RT_PROXY	598753	600030	Mature non-array RT control; RT proxy already frozen.

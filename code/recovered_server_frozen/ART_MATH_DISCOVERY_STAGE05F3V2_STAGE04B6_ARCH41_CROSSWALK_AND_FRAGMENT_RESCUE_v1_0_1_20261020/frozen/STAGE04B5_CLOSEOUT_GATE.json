@@ -1,0 +1,51 @@
+{
+  "architecture_by_arm": [
+    {
+      "arm": "MIXED_REPLICATION_ARM",
+      "family_n": 2727,
+      "family_with_any_repeat_n": 887,
+      "family_with_strict_art_geometry_n": 149,
+      "family_with_strict_plus_recurrent_partner_n": 23,
+      "family_with_upstream_repeat_n": 438,
+      "locus_n": 55300,
+      "partner_evaluable_locus_n": 8345,
+      "strict_array_evaluable_locus_n": 6449
+    },
+    {
+      "arm": "DELTA_ONLY_NOVELTY_ARM",
+      "family_n": 23669,
+      "family_with_any_repeat_n": 3242,
+      "family_with_strict_art_geometry_n": 444,
+      "family_with_strict_plus_recurrent_partner_n": 18,
+      "family_with_upstream_repeat_n": 1439,
+      "locus_n": 33187,
+      "partner_evaluable_locus_n": 8073,
+      "strict_array_evaluable_locus_n": 5561
+    }
+  ],
+  "claim_boundary": "Architecture absence is interpretable only within evaluable loci. This stage scans all 88,487 frozen formal delta loci before any structural shortlist. Selected accessions with zero frozen formal RT-like candidates are retained as valid zero-results and require no sequence scan. Broad ART-like sensitivity is not redefined; strict published geometry plus recurrent partner is the matched primary endpoint.",
+  "context_evaluability": {
+    "both_flanks_10000bp_n": 254,
+    "both_flanks_2000bp_n": 1750,
+    "both_flanks_5000bp_n": 685,
+    "both_flanks_500bp_n": 4644,
+    "formal_locus_n": 88487,
+    "partner_evaluable_n": 16418,
+    "strict_array_evaluable_n": 12010
+  },
+  "delta_only_instance_n": 46323,
+  "delta_operational_family_n": 26396,
+  "exact_aa_unique_n": 85503,
+  "formal_bearing_accession_n": 239,
+  "formal_locus_n": 88487,
+  "gate": "PASS_STAGE04B5_54G_MATCHED_ARCHITECTURE_REPLAY_COMPLETE",
+  "gate_pass": true,
+  "mixed_instance_n": 42164,
+  "retuning_performed": false,
+  "rules_changed": false,
+  "selected_accession_n": 254,
+  "source_reselection_performed": false,
+  "stage": "Stage05F3V2-Stage04B5",
+  "structure_used_for_selection": false,
+  "zero_formal_accession_n": 15
+}

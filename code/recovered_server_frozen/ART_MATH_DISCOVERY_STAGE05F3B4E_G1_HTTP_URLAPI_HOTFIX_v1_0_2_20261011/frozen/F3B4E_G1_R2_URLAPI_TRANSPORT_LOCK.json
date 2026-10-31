@@ -1,0 +1,43 @@
+{
+  "stage": "Stage05F3B4E-G1-R2-transport-freeze",
+  "gate": "PASS_F3B4E_G1_R2_HTTPS_COMMON_URL_API_TRANSPORT_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "hotfix_role": "RESULT_BLIND_TRANSPORT_ONLY",
+  "reason": "BLAST+ -remote failed identically on as-4125 and r750-1 with CRPCClient Blast4 request connection stream bad state before any G1 result was produced",
+  "old_transport": "NCBI BLAST+ C++ Blast4 RPC via -remote",
+  "new_transport": "official NCBI BLAST Common URL API over HTTPS; XML2 result retrieval parsed to the original frozen TSV schema",
+  "query_membership_changed": false,
+  "query_sequences_changed": false,
+  "database_scope_changed": false,
+  "evalue_changed": false,
+  "hitlist_size_changed": false,
+  "low_complexity_filtering_changed": false,
+  "novelty_thresholds_changed": false,
+  "rt_search": {
+    "program": "blastp",
+    "database": "nr",
+    "expect": "1e-3",
+    "hitlist_size": 200,
+    "FILTER": "T"
+  },
+  "partner_search": {
+    "program": "blastp",
+    "database": "nr",
+    "expect": "1e-3",
+    "hitlist_size": 200,
+    "FILTER": "T"
+  },
+  "architecture_search": {
+    "program": "blastn",
+    "MEGABLAST": "on",
+    "database": "nt",
+    "NO_DATABASE_OVERRIDE": "true",
+    "expect": "1e-10",
+    "hitlist_size": 200,
+    "FILTER": "T"
+  },
+  "poll_policy": "serial three batched searches; wait >=60 s between polls for a RID; maximum 3 h per search",
+  "urlapi_client_sha256": "1aa10f55bb061df5d5042ee3260c125845f00b72bd67dda26a2c18c646fb6503",
+  "summarizer_sha256": "77f883beaf25def207654ca1dfd57d5fe6ac46a993a33f8a6b770a465b1c1d8b",
+  "claim_boundary": "Transport repair only. HTTPS URL API results are a dated NCBI nr/nt public audit; no-hit is not absolute global novelty."
+}

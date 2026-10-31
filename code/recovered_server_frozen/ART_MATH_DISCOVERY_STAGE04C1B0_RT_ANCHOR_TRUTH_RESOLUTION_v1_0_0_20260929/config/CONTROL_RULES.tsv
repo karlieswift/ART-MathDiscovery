@@ -1,0 +1,4 @@
+control_id	accession	primary_rule	secondary_rule	literature_basis
+SEN2_14028S	CP001363.1	locus_tag=STM14_4641	union STM14_4640+STM14_4641; include STM14_4639 only if annotated as noncoding/retron RNA	Retron-Sen2: rrtT=STM14_4641 and RcaT=STM14_4640
+EC78_ECO7	CP026202.1	unique 311-aa reverse-transcriptase CDS with neighboring PtuA-like ATPase and HNH nuclease	union RT+adjacent ATPase+HNH coding components; do not invent 144-nt ncRNA coordinates	Ec78 paper: ncRNA-RT-PtuA-PtuB locus; RT length 311 aa
+DRT2_KPN	AP006725.1	frozen PADLOC RT interval 598753..600030 (-), verified against overlapping RT CDS/protein WP_012737279.1 if annotated	RT interval only; published ~280-nt upstream ncRNA not assigned without exact boundary	C0 frozen truth + DRT2 biochemical paper

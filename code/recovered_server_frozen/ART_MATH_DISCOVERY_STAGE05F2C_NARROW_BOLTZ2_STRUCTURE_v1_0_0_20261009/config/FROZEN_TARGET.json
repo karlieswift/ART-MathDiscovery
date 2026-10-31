@@ -1,0 +1,28 @@
+{
+  "stage": "Stage05F2C",
+  "version": "v1.0.0",
+  "target_query_id": "SF_00172800",
+  "target_aa_sha256": "73f4e1517b9e8df706aefcf7fa60df9ecda1e0ed210b45eaf84834a0e2e42239",
+  "target_aa_length": 205,
+  "target_rvt_profile": "RVT-UG9",
+  "target_full_evalue": 4.1e-05,
+  "target_model_coverage": 0.5070422535211268,
+  "target_query_coverage": 0.551219512195122,
+  "target_yxdd_like": false,
+  "expected_accessions": ["PX404140.1", "PX418225.1"],
+  "expected_candidate_keys": ["PX404140.1::AR0001", "PX418225.1::AR0003"],
+  "f2b_locus_class": "LONG_SINGLE_FRAGMENT_RT_LIKE",
+  "boltz_protocol": {
+    "model": "boltz2",
+    "use_msa_server": true,
+    "seed": 20261007,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1,
+    "no_kernels": true,
+    "output_format": "mmcif",
+    "devices": 1,
+    "accelerator": "gpu"
+  },
+  "claim_boundary": "F2C-A predicts full 3D coordinates for one exact-AA target only. Structure prediction alone does not establish RT or ART identity. Calibrated structural comparison is a separate F2C-B step."
+}

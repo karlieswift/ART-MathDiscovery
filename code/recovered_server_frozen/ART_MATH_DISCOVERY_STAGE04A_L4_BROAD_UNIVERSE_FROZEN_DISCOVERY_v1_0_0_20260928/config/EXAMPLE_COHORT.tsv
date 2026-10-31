@@ -1,0 +1,2 @@
+sequence_id	arm	source	release_date	fasta_path	cluster_id	notes
+EXAMPLE_A	L4_CURATED	LOCAL_EXAMPLE	2026-08-01	/path/to/EXAMPLE_A.fasta		Replace with real frozen universe

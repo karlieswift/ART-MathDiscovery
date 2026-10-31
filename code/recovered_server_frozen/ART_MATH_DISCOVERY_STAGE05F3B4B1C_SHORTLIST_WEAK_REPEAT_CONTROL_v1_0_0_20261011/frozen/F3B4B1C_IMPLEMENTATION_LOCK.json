@@ -1,0 +1,20 @@
+{
+  "stage": "Stage05F3B4B1C-implementation-freeze",
+  "gate": "PASS_F3B4B1C_WEAK_COMPARATOR_FROZEN_PRE_CONTROL_RESULTS",
+  "gate_pass": true,
+  "analysis_role": "POST_DISCOVERY_SAME_SHORTLIST_STRUCTURAL_COMPARATOR",
+  "control_definition": "all and only F3B3D final_best_tier=WEAK families from the same frozen 32-family priority panel; all formal family member loci included",
+  "weak_family_n": 9,
+  "technical_unresolved_family_n": 7,
+  "technical_unresolved_treated_as_negative": false,
+  "repeat_detector": "exactly same generic detector/parameters as F3B4B1: k=8,10,12,14,16; >=3 copies; start-gap 60-360; exact-core <=80; same strict/broad annotations",
+  "threshold_retuning_after_survivor_results": false,
+  "control_definition_frozen_before_control_results": true,
+  "control_prespecified_before_b4b1_survivor_results": false,
+  "f3b3d_summary_sha256": "ecf3451cc8f338b8267eae97a97097dbf8543cb85d4c09730f2bcc89b13011bb",
+  "r4_family_map_sha256": "859ea2ef382668853e413837c98f235dada60810ea83ea335d30a316c5185406",
+  "r4_instance_map_sha256": "6881ebb12c558b8713a0596a3e412ce6ed375691a17ee01002c88e18617538cf",
+  "survivor_b4b1_family_summary_sha256": "f54369b92e1a5f708588248d86944a0ddd9015987381eb75f1e89904eb875e62",
+  "implementation_sha256": "ce078db8fc8cde5b4539b90ee31b36269067241eeaeb8ddca63971844cf9945a",
+  "claim_boundary": "Post-discovery descriptive same-shortlist control. WEAK is not biochemical non-RT; unresolved remains censored."
+}

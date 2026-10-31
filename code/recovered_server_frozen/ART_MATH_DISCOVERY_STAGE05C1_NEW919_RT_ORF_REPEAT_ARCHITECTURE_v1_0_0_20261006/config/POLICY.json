@@ -1,0 +1,115 @@
+{
+  "stage": "Stage05C1",
+  "version": "v1.0.0",
+  "date": "2026-10-06",
+  "scientific_goal": "Discover new ART-like system architectures for later novelty review and wet-lab prioritization, not simply new RT labels.",
+  "source_score_archive_name": "ART_STAGE05B_NEW919_SCORE_RESULTS_20261006_081746.tar.gz",
+  "source_score_archive_sha256": "4fc4f1f09ed92f4e0be9817b14c0c14fe7f9eafd56cc0918cad5e6a73a054ebd",
+  "source_manifest_sha256": "5eec6d7ee00584c6266b8a953b6112540148b949341e400099b285ce30d235f0",
+  "source_candidate_sha256": "04706102bdb8129e105c6cdba915d33e95e19963463869552622ad73283729ae",
+  "source_all_regions_sha256": "954c23478224c33801440278cfd1741d93b4f5bbccae6a087740ece9fa22656b",
+  "source_score_manifest_sha256": "1935b63d9e1aafc915df926c759a579ba66d2944a3fe7f152a4169c10b623628",
+  "n_genomes": 919,
+  "n_candidates": 3674,
+  "n_candidate_genomes": 828,
+  "total_bp": 171397507,
+  "neighborhood_bp": 10000,
+  "coordinate_contract": "0-based half-open; original linear clipped neighborhoods, no origin wrapping; edge flags retained",
+  "protein_source": "Uniform full-genome Prodigal prediction for all 919 genomes. New de novo branch, not audited NCBI official protein annotations. Previous official-protein analyses unchanged.",
+  "orf": {
+    "tool": "Prodigal",
+    "version": "2.6.3",
+    "mode": "meta",
+    "full_genome_scope": true,
+    "translation_table": "record model-selected table; no forced -g in meta mode",
+    "no_internal_stop_replacement": true,
+    "noncanonical_or_empty_protein": "HOLD; do not replace, drop, or relabel as negative",
+    "special_recoding_not_exhaustive": true
+  },
+  "rt_scan": {
+    "tool": "HMMER",
+    "version": "3.4",
+    "profiles": [
+      {
+        "accession": "PF00078",
+        "name": "RVT_1",
+        "role": "RT_CORE"
+      },
+      {
+        "accession": "PF07727",
+        "name": "RVT_2",
+        "role": "RT_CORE"
+      },
+      {
+        "accession": "PF13456",
+        "name": "RVT_3",
+        "role": "RT_LIKE_AUXILIARY"
+      }
+    ],
+    "profile_snapshot": "Reuse byte-frozen RT panel returned by Stage04B-R1D2, including ACC.version and GA values. No network/model update.",
+    "primary": "hmmsearch --cut_ga; an included domain in RVT_1 or RVT_2 is profile-level RT evidence, not catalytic or ART proof",
+    "auxiliary": "RVT_3 alone is RT-like auxiliary evidence, not sufficient for the RT_CORE label",
+    "sensitivity": {
+      "full_evalue_max": 0.001,
+      "independent_domain_evalue_max": 0.001,
+      "hmm_coverage_min": 0.35,
+      "report_full_evalue": 10.0,
+      "report_domain_evalue": 10.0
+    },
+    "seed": 42,
+    "deduplication": "Exact amino-acid SHA256 for computation only; restore all predicted genomic loci and candidate links.",
+    "background": "one combined, frozen target universe; no data-dependent database reduction",
+    "absence_interpretation": "NO_HIT_IN_THIS_PROFILE_PANEL, never RT absent or non-ART",
+    "database_size_Z": 100000,
+    "scope": "All whole-genome predicted proteins from all 919 genomes plus the six registered references; exact-AA computational dedup then restore every locus"
+  },
+  "repeat_survey": {
+    "scope": "All 3674 fixed new919 candidate neighborhoods, independent of RT hits and scores",
+    "seed_nt": 12,
+    "min_copies": 3,
+    "max_core_nt": 64,
+    "max_adjacent_start_distance_bp": 1024,
+    "nonoverlap_required": true,
+    "selection": "each exact seed occurrence cluster; deterministic greedy nonoverlap; maximal common exact extension within the core limit",
+    "complexity_high_entropy_bits_min": 1.5,
+    "low_complexity": "retain and label; do not promote to high-complexity evidence",
+    "redundancy": "merge contained shifted representations with equal copy counts; preserve source-seed multiplicity",
+    "noncoding_label": "No overlap with predicted CDS is prediction-relative only; no NCBI official CDS annotation is used or claimed in this stage.",
+    "predicted_orf_overlap": "separate predicted-CDS mask; absence of annotation never establishes absence of a gene",
+    "limits": "exact-core, direct-repeat, finite-distance survey; not an exhaustive imperfect-repeat finder; no RNA expression or function inferred",
+    "known_ART_motif_used": false,
+    "known_ART_lag_band_used": false
+  },
+  "approximate_repeat_sensitivity": {
+    "analysis_class": "NEW_POSTSCORE_EXPLORATORY_DESCRIPTIVE_SENSITIVITY_NOT_ORIGINAL_DETECTOR",
+    "lengths_nt": [
+      16,
+      24,
+      32,
+      48
+    ],
+    "seed_nt": 8,
+    "seed_offsets": "0, floor((L-8)/2), L-8",
+    "max_substitution_fraction": 0.2,
+    "min_copies": 3,
+    "max_adjacent_start_distance_bp": 1024,
+    "high_complexity_entropy_bits_min": 1.5,
+    "indels_supported": false,
+    "RNA_structure_computed": false,
+    "coverage": "Only fixed-length copies sharing an unchanged sampled seed with an actual template; not exhaustive imperfect-array search",
+    "no_parameter_selection_from_new919_biology": true,
+    "no_precise_ART_motif_or_lag_band": true,
+    "candidate_exclusion_on_absence": false
+  },
+  "recurrence_witness": "Reconstruct exact k-mer match starts and merge consecutive overlapping matches into two-copy blocks at each frozen best window/k/lag. Do not call match count a repeat-copy count.",
+  "candidate_retention": "All 3674 rows and original fields unchanged, including candidates with no RT or repeat hit.",
+  "parent_scope": "Predicted CDS only; actual repeat copy and full-span CDS overlap reported separately. No proven-noncoding claim.",
+  "novelty_status": "NOT_ASSESSED. Exact DNA/AA de-duplication is not near-homology or known-ART exclusion.",
+  "no_RT_gate_for_repeat_scan": true,
+  "no_repeat_gate_for_RT_locus_preservation": true,
+  "negative_calls_authorized": false,
+  "retuning_authorized": false,
+  "mathematical_rescoring": false,
+  "UG27_touched": false,
+  "old240_or383_modified": false
+}

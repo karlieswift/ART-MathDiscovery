@@ -1,0 +1,71 @@
+{
+  "stage": "Stage05C2B",
+  "version": "v1.0.0",
+  "scientific_role": "post-score focused comparison and RNA hypothesis characterization; not a new mathematical hit",
+  "expected_loci": 10,
+  "expected_math_captured": 7,
+  "expected_math_not_captured": 3,
+  "expected_close_reference_related_captured": 5,
+  "expected_close_reference_related_uncaptured": 1,
+  "variant_alignment": {
+    "mode": "global",
+    "protein_matrix": "BLOSUM62",
+    "protein_gap_open": -11,
+    "protein_gap_extend": -1,
+    "DNA_match": 2,
+    "DNA_mismatch": -3,
+    "DNA_gap_open": -5,
+    "DNA_gap_extend": -2,
+    "terminal_gaps": "same penalties as internal",
+    "identity_denominator": "all alignment columns including gaps",
+    "ties": "first optimal alignment",
+    "no_family_clustering_threshold": true
+  },
+  "RNA_inputs": {
+    "sources": "all 10 RT-centered fixed contexts, all intergenic intervals relative to source Prodigal calls; 3 registered repeat cores; both genomic directions",
+    "min_length": 60,
+    "window_lengths": [
+      120,
+      240,
+      480
+    ],
+    "stride_fraction": 0.5,
+    "include_tail_window": true,
+    "short_60_119_full_length": true,
+    "full_immediate_upstream_max_length": 2048,
+    "known_core_full_length_included": true,
+    "transcript_boundaries_established": false,
+    "source_CDS_model_is_not_transcription_truth": true
+  },
+  "RNAfold": {
+    "required_version": "2.7.2",
+    "arguments": [
+      "--noPS",
+      "--temp=37",
+      "--salt=1.021",
+      "--dangles=2"
+    ],
+    "mode": "MFE only; no constraints; not conservation or expression assay",
+    "null_replicates": 99,
+    "seed_namespace": "STAGE05C2B_DINUC_EULER_V1",
+    "null_preservation": "directed dinucleotide multiset and first/last bases",
+    "null_sampler": "randomized outgoing edge order plus Hierholzer traversal; NOT uniform over distinct sequences",
+    "null_interpretation": "algorithm-specific lower-tail fraction only; no p-values, no FDR, no positive calls",
+    "target_timeout_seconds": 900
+  },
+  "author_source": {
+    "announcement_url": "",
+    "technical_report_url": "https://www-cdn.anthropic.com/22573675ada52a8ca8a97a1a4b4326b2f208a071.pdf",
+    "artifact_role": "retrieve author PDF, exact accession mentions, embedded-file inventory and source links only",
+    "not_author_full_family_catalogue": true,
+    "absence_of_text_mention_is_not_novelty": true,
+    "automatic_external_link_following": false
+  },
+  "invariants": {
+    "mathematical_scores_or_ranks_changed": false,
+    "all_3674_candidates_retained_upstream": true,
+    "UG27_touched": false,
+    "full_catalogue_novelty_audit_complete": false,
+    "wet_lab_ready": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "stage": "Stage05F1",
+  "version": "v1.0.0",
+  "date": "2026-10-08",
+  "primary_universe": "all 3674 frozen Stage05B dual-arm regions",
+  "candidate_neighborhood_flank_bp": 10000,
+  "translation": {
+    "mode": "six-frame maximal stop-to-stop peptides",
+    "start_codon_required": false,
+    "genetic_code": 11,
+    "minimum_aa": 45,
+    "edge_partial_segments_retained": true
+  },
+  "rt_profile_screen": {
+    "panel": "existing local RVT-All HMM panel",
+    "formal_full_e_max": 0.0001,
+    "formal_domain_e_max": 0.0001,
+    "exploratory_full_e_max": 0.01,
+    "exploratory_domain_e_max": 0.01
+  },
+  "motif_support": {
+    "yxdd_like_regex": "[YF][A-Z]DD",
+    "role": "descriptive support only; never sufficient for RT identity"
+  },
+  "selection_governance": {
+    "dna_score_recomputed": false,
+    "dna_rank_recomputed": false,
+    "candidate_membership_changed": false,
+    "annotation_used_to_generate_rescue_peptides": false,
+    "existing_prodigal_annotation_used_only_post_rescue": true
+  },
+  "claim_boundary": "Annotation-independent raw-DNA rescue can identify peptide segments missed or boundary-misrepresented by gene calling and can supply profile/motif/conservation evidence. HMM/motif/structure compatibility is not biochemical RT proof; no ART identity is assigned in Stage05F1."
+}

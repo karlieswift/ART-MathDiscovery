@@ -1,0 +1,32 @@
+{
+  "stage": "Stage04C2-R4",
+  "role": "POSTHOC_EXACT_TRUTH_REFINEMENT_NO_DETECTOR_RETUNE",
+  "truth_hierarchy": [
+    "AUTHOR_MACHINE_READABLE_EXACT_UNIT_COORDINATES",
+    "AUTHOR_FINAL_UG27_COVARIANCE_MODELS_WITH_PUBLISHED_CMSEARCH_RULE",
+    "AUTHOR_EXACT_UNIT_SEQUENCES_UNIQUELY_MAPPED_TO_FROZEN_NATIVE_CASSETTE"
+  ],
+  "forbidden_as_exact_truth": [
+    "ACNV_or_recurrence_scores",
+    "detector_region_geometry",
+    "motif_only_heuristics",
+    "generic_intergenic_boundaries",
+    "manual_visual_guess_from_detector_output",
+    "posthoc_nearby_distance_threshold"
+  ],
+  "published_cmsearch_unit_evalue_max": 0.01,
+  "published_overlapping_model_resolution": "retain_lower_E_value",
+  "exact_array_span_rule": "min_start0_to_max_end0_of_author_defined_units_within_frozen_native_cassette",
+  "primary_exact_eval_endpoint": "strict_0_based_half_open_overlap_of_frozen_clean_dual_arm_region_with_at_least_one_exact_author_defined_ncRNA_unit",
+  "secondary_endpoints": [
+    "strict_overlap_with_exact_array_span",
+    "number_and_fraction_of_exact_units_overlapped",
+    "direct_ACNV_only_overlap_at_exact_units",
+    "nearest_clean_dual_arm_gap_to_exact_array_span_as_continuous_description"
+  ],
+  "nearby_threshold_defined": false,
+  "retuning_authorized": false,
+  "score_recomputed": false,
+  "region_board_recomputed": false,
+  "science_change": false
+}

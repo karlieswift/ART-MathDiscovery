@@ -1,0 +1,22 @@
+{
+  "package": "ART_MATH_DISCOVERY_STAGE04C0_RT_SYSTEM_CONTROL_REGISTRY_v1_0_0_20260929",
+  "stage": "Stage04C0",
+  "purpose": "Freeze a mechanistically characterized RT-system control registry before any control-panel ACNV+recurrence scoring.",
+  "primary_method_for_future_C1": ["ACNV_FAMILY", "GENERIC_RECURRENCE"],
+  "proposal_q_threshold": 0.005,
+  "merge_rule": "strict_interval_overlap_gap0",
+  "top_k_survival_cutoff": false,
+  "retuning_authorized": false,
+  "score_execution_in_C0": false,
+  "stage04a_mutation_authorized": false,
+  "truth_coordinates_must_remain_separate_from_scan_inputs": true,
+  "future_C1_primary_endpoints": [
+    "known_locus_clean_two_arm_region_rank_fraction",
+    "known_locus_dual_arm_support",
+    "best_truth_overlap_acnv_window_rank_fraction",
+    "best_truth_overlap_recurrence_window_rank_fraction",
+    "best_recurrence_k",
+    "best_recurrence_lag_bp"
+  ],
+  "interpretation_policy": "Mechanistic specificity panel; descriptive architecture comparison, not a population AUROC benchmark."
+}

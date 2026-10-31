@@ -1,0 +1,21 @@
+{
+  "UG27_touched": false,
+  "mathematical_rescoring": false,
+  "n_candidate_orf_links": 34701,
+  "n_candidates": 999,
+  "n_genomes": 402,
+  "n_noncoding_repeat_group_descriptions": 35150,
+  "n_unique_aa_targets": 17655,
+  "n_unique_orfs": 24020,
+  "n_unique_repeat_cores": 11788,
+  "old_results_modified": false,
+  "selection_after_broad_RT_results": false,
+  "source_stage05c1_archive_sha256": "e0f2e8e5049d2e7ec9526a0c1d1a8cae08d3e32bfa2866a66e5680f8711772fa",
+  "stage": "Stage05D1-prefreeze",
+  "stratum_counts": {
+    "N1_EXACT_NONCODING_ARRAY_OVERLAP": 262,
+    "N2_APPROX_NONCODING_ARRAY_OVERLAP": 340,
+    "N3_AUX_RT_LIKE_CONTEXT": 12,
+    "N4_REPEAT_CONTEXT_OTHER": 385
+  }
+}

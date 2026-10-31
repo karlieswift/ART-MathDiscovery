@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05F3V2-Stage04B6",
+  "version": "v1.0.1",
+  "date": "2026-10-20",
+  "target_family_n": 41,
+  "mixed_replication_family_n": 23,
+  "delta_only_novelty_family_n": 18,
+  "historical_strict_recurrent_family_n": 7,
+  "historical_structure_positive_system_n": 5,
+  "family_rule": {"min_seq_id": 0.30, "coverage": 0.70, "cov_mode": 0, "sensitivity": 7.5},
+  "motif_c_diagnostic": "[YF]xDD descriptive only; not a new filter",
+  "science_change": false,
+  "retuning_performed": false,
+  "purpose": "Resolve mixed-family historical replication and deterministically rescue longer stop-to-stop sequence context for the 18 delta-only architecture-selected fragment-rich families before any new structure calculation."
+}

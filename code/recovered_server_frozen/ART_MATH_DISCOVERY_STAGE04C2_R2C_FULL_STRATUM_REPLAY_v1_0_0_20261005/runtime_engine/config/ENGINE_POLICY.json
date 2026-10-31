@@ -1,0 +1,36 @@
+{
+  "project": "ART_MATH_DISCOVERY",
+  "stage": "Stage03A",
+  "version": "v1.0.0",
+  "scientific_status": "PREDECLARED_EXTERNAL_BLIND_VALIDATION",
+  "blindness_level": "L3_GENOME_BLIND",
+  "historical_cutoff_utc": "2025-12-31T23:59:59Z",
+  "truth_policy": "NO_POSTCUTOFF_ART_TRUTH_BEFORE_STAGE03A_SCORE_FREEZE",
+  "window_lengths_bp": [128,256,512,1024,2048,4096],
+  "stride_fraction": 0.25,
+  "strands": ["+","-"],
+  "proposal_q_threshold": 0.005,
+  "acnv_family_members": ["ACNV92","ACNV4MER_BLOCK","ACNV5MER_BLOCK","ACNV6MER_BLOCK"],
+  "acnv_family_aggregation": "within-window max(-log10 member_q), then empirical recalibration within window length",
+  "irregular_primary": {"features":"V3","max_distance":20,"combo_k":2,"combo_include_smaller":true},
+  "recurrence": {"k_values":[4,6,8],"min_lag_bp":8,"max_lag_bp":512,"min_valid_pairs":32,"min_recurrence_match_count":2,"truth_specific_lag_band":false},
+  "union_rule": {"operator":"OR","merge":"strict interval overlap only","gap_bp":0,"top_k_cutoff":false,"all_union_regions_retained":true},
+  "region_priority": ["support_family_n_desc","sum_family_surprisal_desc","best_single_family_q_asc","start0_asc"],
+  "confirmation": {
+    "anchor_rule":"one strongest-proposal anchor per frozen union region; sort family_q asc, window_len asc, start0 asc, end0 asc, family asc",
+    "background_per_window_length":24,
+    "background_selection":"non-union genomic windows sorted by SHA256(STAGE02B_C_BG_V1|sequence_id|window_len|start0|end0)",
+    "glmy":"canonical GLMY-F5 distances 2,3,4,5; 120 summary features",
+    "irregular":"V3+LGBETA d18; 7140 features",
+    "score":"background-only length-matched robust RMS-z; leave-one-background-window-out; max over strands",
+    "empirical_q":"(1 + # background scores >= candidate score)/(1+24)",
+    "orthogonal_consensus":"-log10(q_GLMY_all*q_IRR_joint), descriptive only"
+  },
+  "closed_methods": {"BPE":"exploratory sensitivity only; excluded from proposal and confirmation priority"},
+  "development_freeze": {
+    "stage02b_union_regions_sha256":"fb0b5cc990ef7ee3ec281e3e2b33f0bcda2c3188125a29eefcb5b7b278864ea2",
+    "stage02bc_confirmation_board_sha256":"72228665990288bccbd248df897ff693e526ce116f7c37f79d5a5537ae667427",
+    "stage02bc_results_tar_sha256":"b35f0755c106d51ca7973fc227cf2a358e84b3757d7f6094ba68116b402d29de",
+    "marsHill_retraining_or_retuning_authorized":false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stage": "Stage05B",
+  "version": "v1.0.0",
+  "purpose": "Unknown-source DNA discovery for downstream ART-like architecture, novelty and wet-lab prioritization. This stage performs mathematical scoring only.",
+  "prior_stage05a_archive_sha256": "b6978f796e36aece9f0dfa08c41d2a787338ed09f1e481bcb5902109cd2982a2",
+  "source_manifest_sha256": "5eec6d7ee00584c6266b8a953b6112540148b949341e400099b285ce30d235f0",
+  "selection_sha256": "7c5df0690a8ba123e2b39d1786f13740c06b568d693b2294d174c56b630a3953",
+  "n_genomes": 919,
+  "total_bp": 171397507,
+  "oriented_windows": 21062200,
+  "engine_archive_sha256": "9793e5ca3fd7198727d84ff43b8269efa20e5808c7ca617b65bd5c41dc1d20eb",
+  "engine_origin": "Stage04C1 clean two-arm v1.0.2; executed source bytes from archived 20260929_205125 result, identical to released v1.0.2 source.",
+  "engine_files": {
+    "scripts/01_scan_two_arm.py": "eccda3e662bd8959bdf74967ddfe6263b01a26ff474bdde3bb2de3a37d128a39",
+    "scripts/common_stage03a_exact.py": "d215ddebdf776bfa4ea7e0ef362c2ccb6407278df4bf1d4ebbc87dfd68f95424",
+    "frozen_sources/ACNV_SOURCE__legacy_acnv_extractor_frozen.py": "2e5754476d7615044dcb50d131e45e3f18b214aea5540d39f5bcb05ceb2d2a28",
+    "config/C1_POLICY.json": "6b5cd1be55380cdbe95f0caf6e96f784bc28c70542c8bd626e1452956ee510a8"
+  },
+  "families": [
+    "ACNV_FAMILY",
+    "GENERIC_RECURRENCE"
+  ],
+  "proposal_q_threshold": 0.005,
+  "queue_order": "length_bp descending, accession ascending; load-balancing only, NOT biological priority",
+  "whole_genome_calibration": true,
+  "whole_genome_all_scales": true,
+  "keep_raw": 0,
+  "validation_accessions": [
+    "NC_002666.1",
+    "NC_028671.2"
+  ],
+  "historical_file_hashes": {
+    "validation_inputs/NC_028671.2.frozen.fasta": "3915efcd742eec8515ba74bf1a08cafe3b70ee68cf5f83863e4c522472708e35",
+    "validation_inputs/NC_002666.1.frozen.fasta": "b900136c358a3d80be62fd14ab94867c1ba2d402827f0576b1e0547a0bd3aa89",
+    "validation_expected/NC_028671.2.STAGE04A_WINDOW_FAMILY_SCORES.tsv.gz": "cdada61d7bd984f9ebaf7372190d3625dfd9af0d42ab32f386adf27b66a1a95a",
+    "validation_expected/NC_002666.1.STAGE04A_WINDOW_FAMILY_SCORES.tsv.gz": "34acd9243f0d59cd3a11d9da65f49370c925ce73b4323211397f2e3c201c009e"
+  },
+  "default_genome_workers": 2,
+  "default_inner_threads": 8,
+  "minimum_free_disk_GiB": 20,
+  "recommended_available_RAM_GiB_per_worker": 8,
+  "minimum_extra_available_RAM_GiB": 4,
+  "partial_genome_restart": "Completed genome outputs are hash-checked and reused. Incomplete genome extraction is restarted. No within-genome feature checkpoint claim.",
+  "source_gene_annotation_used": false,
+  "known_locus_truth_used": false,
+  "retuning_authorized": false,
+  "UG27_touched": false,
+  "old240_modified": false,
+  "old383_modified": false,
+  "near_homology_independence_established": false,
+  "full_cohort_annotation_authorized_only_after_complete_score_freeze": true,
+  "no_rank_topk_survival_cutoff": true,
+  "zero_region_genomes_retained": true,
+  "no_runtime_based_cohort_deletion": true
+}

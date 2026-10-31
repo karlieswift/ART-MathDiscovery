@@ -1,0 +1,11 @@
+{
+  "stage": "Stage05D4-R5D-freeze",
+  "n_P2": 40,
+  "source": "Stage05D4-R5 P2 extension freeze",
+  "candidate_key_n_rule": 1,
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "gate": "PASS_P2_CALIBRATED_FULL3D_EXTENSION_FROZEN",
+  "gate_pass": true
+}

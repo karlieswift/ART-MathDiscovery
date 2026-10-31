@@ -1,0 +1,40 @@
+{
+  "stage": "Stage05E3B",
+  "version": "v1.0.0",
+  "date": "2026-10-07",
+  "input_stage": "Stage05E3A R1 official-context closeout",
+  "expected_input_archive_sha256": "31c70ee1c7769baec58da11dfcc40fc3ec6ab7c17d6608391f737bc404041bca",
+  "frozen_universe": {
+    "families": 12,
+    "candidates": 119,
+    "sequence_ids": 61,
+    "exact_primary_joint_witness_candidates": 80
+  },
+  "lineage_breadth_rules": {
+    "BROAD_MULTI_LINEAGE": "genome_n>=5 AND unique_taxonomy_tail3_n>=3 AND modal_taxonomy_tail3_fraction<=0.75",
+    "MULTI_LINEAGE": "not BROAD and genome_n>=3 AND unique_taxonomy_tail3_n>=2",
+    "NARROW_LINEAGE_REPLICATED": "otherwise"
+  },
+  "review_strata_rules": {
+    "E3B1_BROAD_COHERENT_REPLICATED": "BROAD_MULTI_LINEAGE AND official_witness_support_fraction>=0.75 AND modal_side_fraction>=0.75 AND no known-system keyword candidate",
+    "E3B2_MULTI_LINEAGE_COHERENT_REPLICATED": "MULTI_LINEAGE AND official_witness_support_fraction>=0.75 AND modal_side_fraction>=0.75 AND no known-system keyword candidate",
+    "E3B3_MULTI_LINEAGE_HETEROGENEOUS_RETAINED": "BROAD_MULTI_LINEAGE or MULTI_LINEAGE not assigned above",
+    "E3B4_NARROW_COHERENT_REPLICATED": "NARROW AND official_witness_support_fraction>=0.50 AND modal_side_fraction>=0.75 AND no known-system keyword candidate",
+    "E3B5_SPECIAL_CONFLICT_REVIEW": "otherwise; includes annotation conflict/missing official witness or known-system-context flags"
+  },
+  "claim_boundaries": [
+    "Review strata are post-E3A review-order categories, not discovery filters and not novelty calls.",
+    "Taxonomy-tail diversity is a lineage dereplication proxy, not a phylogenetic distance estimate.",
+    "Official annotation absence is not novelty evidence.",
+    "A CRISPR/Cas keyword in a 10-kb neighborhood is context only and does not establish a retro system.",
+    "All 12 E2A families remain retained."
+  ],
+  "prohibited": [
+    "candidate filtering",
+    "DNA score recomputation",
+    "DNA rank recomputation",
+    "structure-result-based family construction",
+    "claiming ART identity",
+    "claiming novelty from keyword absence"
+  ]
+}

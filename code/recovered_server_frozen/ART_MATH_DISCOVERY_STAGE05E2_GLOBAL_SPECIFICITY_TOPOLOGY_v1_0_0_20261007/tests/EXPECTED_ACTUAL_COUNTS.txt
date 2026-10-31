@@ -1,0 +1,12 @@
+Regression expectation against the frozen Stage05D1 + Stage05D4R1 + Stage05E1 inputs used for package validation on 2026-10-07:
+D1 candidates global audit = 999
+E1 primary families = 66
+E1 primary candidates = 324
+E2A exact-primary joint families = 12; candidates in those families = 119
+E2B approximate/mixed joint families = 33; candidates = 118
+E2C partial family-specific families = 20; candidates = 84
+E2D broadly shared evidence families = 1; candidates = 3
+Signature witness pairs = 179
+Family membership changed = false
+Candidate filtering = false
+Structure results used = false

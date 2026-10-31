@@ -1,0 +1,56 @@
+{
+  "all_rvt_candidates": [
+    {
+      "path": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05D1_NOVELTY_FIRST_MINING_v1_0_0_20261006/references/myRT/RVT-All.hmm",
+      "sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e"
+    },
+    {
+      "path": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05D4R5B_RT_FOCUSED_STRUCTURAL_PANEL_v1_0_0_20261007/references/RVT-All.hmm",
+      "sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e"
+    },
+    {
+      "path": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F3B_DE_NOVO_ANNOTATION_INDEPENDENT_RT_DISCOVERY_v1_0_1_20261011/references/RVT-All.hmm",
+      "sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e"
+    },
+    {
+      "path": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F3B_DE_NOVO_ANNOTATION_INDEPENDENT_RT_DISCOVERY_v1_0_0_20261010/references/RVT-All.hmm",
+      "sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e"
+    }
+  ],
+  "rvt_expected_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "rvt_path": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05D1_NOVELTY_FIRST_MINING_v1_0_0_20261006/references/myRT/RVT-All.hmm",
+  "rvt_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "rvt_status": "RESOLVED",
+  "tools": {
+    "hmmpress": {
+      "path": "/home/hgq/conda-envs/art_novelty/bin/hmmpress",
+      "present": true,
+      "sha256": "18b3002c9196e10826cbc27efc063444a03b894c910526e7ed3c4b4cd34e6267",
+      "version": "Failed to parse command line: No such option \"--version\"."
+    },
+    "hmmscan": {
+      "path": "/home/hgq/conda-envs/art_novelty/bin/hmmscan",
+      "present": true,
+      "sha256": "016a95acdcb5a8a8c31733a1b165533a51e4571909dd806958ec971ff1468a3d",
+      "version": "Failed to parse command line: No such option \"--version\"."
+    },
+    "prodigal": {
+      "path": "/home/hgq/conda-envs/art_rt_evidence/bin/prodigal",
+      "present": true,
+      "sha256": "b595f2855e7407dc4a2e3b6aa60704ab6478170630327d41802f9a64491a9e16",
+      "version": "Unknown option."
+    },
+    "python": {
+      "path": "/home/hgq/conda-envs/art_novelty/bin/python3.11",
+      "present": true,
+      "sha256": "ed109c191d99a937f15102d4daeee918df76038b10c04a64b19ee1d70e55fa91",
+      "version": "Python 3.11.16"
+    },
+    "trf": {
+      "path": null,
+      "present": false,
+      "sha256": null,
+      "version": null
+    }
+  }
+}

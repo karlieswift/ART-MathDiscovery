@@ -1,0 +1,16 @@
+{
+  "stage": "Stage05F4A-B2-R4-postfreeze-truth-resolution",
+  "version": "v1.0.4",
+  "gate": "PASS_STAGE05F4A_B2_R4_FULLY_RESOLVED_TRUTH_SEAL",
+  "gate_pass": true,
+  "truth_resolution_after_b1_score_freeze": true,
+  "truth_used_before_score_freeze": false,
+  "retuning_authorized": false,
+  "primary_positive_n": 8,
+  "primary_exact_array_n": 7,
+  "primary_rt_proxy_n": 1,
+  "mechanistic_control_n": 3,
+  "truth_seal_path": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F4A_FORMAL_BASELINE_B2_CLOSEOUT_R4_v1_0_4_20261013/frozen/FULLY_RESOLVED_BASELINE_TRUTH_SEAL.tsv",
+  "truth_seal_sha256": "3cfa9035de0c37b0aa1ca72b0d9248790d893504adc8aaf1183c9d42e5b09626",
+  "note": "The pre-registered 8-case primary panel is preserved. A 7-case exact-array subset is labeled descriptive sensitivity; PB50 remains the prelocked RT-proxy challenge case."
+}

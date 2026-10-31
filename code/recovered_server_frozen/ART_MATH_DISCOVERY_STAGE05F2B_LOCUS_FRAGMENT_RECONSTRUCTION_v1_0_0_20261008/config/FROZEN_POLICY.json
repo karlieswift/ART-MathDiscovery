@@ -1,0 +1,27 @@
+{
+  "stage": "Stage05F2B",
+  "version": "v1.0.0",
+  "date": "2026-10-08",
+  "purpose": "Targeted locus-level annotation-independent RT fragment reconstruction after frozen F2A triage.",
+  "primary_discovery_universe_changed": false,
+  "input_novelty_compute_queues": [
+    "P1_YXDD_PURE_MISSED_ORF",
+    "P2_CROSS_GENOME_REPLICATED",
+    "P3_HIGHCOV_SINGLETON"
+  ],
+  "calibration_sets": [
+    "KNOWN_CAPTURED_RT_CALIBRATION",
+    "PRIOR_D1_FORMAL_CONTEXT"
+  ],
+  "local_flank_bp": 3000,
+  "local_translation": "six-frame maximal stop-to-stop, table11, no start-codon requirement, min25aa",
+  "local_hmmscan_evalue": 0.1,
+  "local_hmmscan_domevalue": 0.1,
+  "single_stop_readthrough_sensitivity": true,
+  "single_stop_max_joined_aa": 900,
+  "single_stop_hmmscan_evalue": 0.1,
+  "classification_is_descriptive": true,
+  "no_dna_rescoring": true,
+  "no_candidate_membership_change": true,
+  "claim_boundary": "Targeted post-selection reconstruction. Local weak HMM hits, profile-fragment chains, and single-stop readthrough sensitivity do not establish an RT, ART system, programmed readthrough, or frameshift."
+}

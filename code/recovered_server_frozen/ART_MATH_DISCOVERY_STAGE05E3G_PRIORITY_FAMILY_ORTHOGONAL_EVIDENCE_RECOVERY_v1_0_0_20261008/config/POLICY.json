@@ -1,0 +1,14 @@
+{
+  "stage": "Stage05E3G",
+  "version": "v1.0.0",
+  "priority_families": ["ARCH250_0010", "ARCH250_0013", "ARCH250_0033"],
+  "purpose": "Recover and join pre-existing D1/D4 orthogonal protein evidence for the E3F priority-family representatives before any new computation.",
+  "family_membership_changed": false,
+  "candidate_filtering_performed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "retuning_authorized": false,
+  "new_external_search_performed": false,
+  "new_structure_prediction_performed": false,
+  "claim_boundary": "Evidence recovery / provenance join only. Absence from an existing artifact is not a biological negative and does not establish novelty."
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "Stage04C2",
+  "version": "v1.0.0",
+  "date": "2026-10-03",
+  "purpose": "UG27 exact experimental source-resolution freeze",
+  "expected_experimental_systems_n": 5,
+  "scoring_authorized": false,
+  "retuning_authorized": false,
+  "arbitrary_representative_substitution_authorized": false,
+  "required_primary_source": "Minerva 2026 supplementary material / official linked data",
+  "zenodo_record": "22903368",
+  "paper_doi": "10.64898/2026.09.22.753630",
+  "zenodo_doi": "10.5281/zenodo.22903368"
+}

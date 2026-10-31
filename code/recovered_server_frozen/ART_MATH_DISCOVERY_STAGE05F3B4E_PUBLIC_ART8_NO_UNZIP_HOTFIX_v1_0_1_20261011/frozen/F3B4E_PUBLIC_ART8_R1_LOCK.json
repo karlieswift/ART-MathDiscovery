@@ -1,0 +1,18 @@
+{
+  "stage": "Stage05F3B4E-G2-R1",
+  "gate": "PASS_F3B4E_PUBLIC_ART8_NO_UNZIP_HOTFIX_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "hotfix_role": "IMPLEMENTATION_EXTRACTION_DEPENDENCY_ONLY",
+  "base_stage": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F3B4E_GLOBAL_NOVELTY_AND_PUBLIC_ART_CROSSWALK_v1_0_0_20261011",
+  "previous_failure": "base public-ART8 runner aborted at preflight because external unzip executable was absent; no ART8 BLAST result was generated",
+  "change": "replace external unzip with Python stdlib zipfile extraction; datasets request, ART8 accession list, BLAST programs/parameters and summarizer remain unchanged",
+  "scientific_parameters_changed": false,
+  "target_membership_changed": false,
+  "public_art8_membership_changed": false,
+  "base_manifest_sha256": "86e6ec7aa54762ed7f8d0d04f204361ad504d8423201cab7cc6dd2f4c1141392",
+  "rt5_sha256": "2bc4b561e4df459c5ca6fd380054076b3f0a1e5330305f32072d79df565c81bb",
+  "partner5_sha256": "ea904cfd6fb2bc54bcb7aee1a23ecb379d3a563cce486670e01f807033ff15f6",
+  "architecture5_sha256": "c496dca26651abd3f83b74ece325cb947d315a5fc11c2c880f932a1cfad75cbe",
+  "runner_sha256": "98eafe1810201803b951a2756c66614f97b501a2349f4fbf9418a6a516b12d3e",
+  "claim_boundary": "Implementation-only extraction hotfix. Public ART8 remains a named eight-genome subset, not the full ART95 catalogue."
+}

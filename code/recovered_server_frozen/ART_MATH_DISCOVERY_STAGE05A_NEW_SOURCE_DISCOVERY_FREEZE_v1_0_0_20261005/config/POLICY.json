@@ -1,0 +1,44 @@
+{
+  "stage": "Stage05A",
+  "version": "v1.0.0",
+  "scope": "NEW_TO_PROJECT_CAUDOVIRICETES_DISCOVERY_COHORT",
+  "taxon_query": "Caudoviricetes",
+  "complete_only": true,
+  "host_rule": "bacterial_lineage_taxid_2_OR_missing_host_with_phage_name;known_nonbacterial_host_excluded",
+  "max_length_bp": 2000000,
+  "length_bins": [
+    {
+      "name": "20k_100k",
+      "min": 20000,
+      "max": 100000,
+      "target": 250
+    },
+    {
+      "name": "100k_200k",
+      "min": 100000,
+      "max": 200000,
+      "target": 250
+    },
+    {
+      "name": "200k_2M",
+      "min": 200000,
+      "max": 2000001,
+      "target": 500
+    }
+  ],
+  "target_n": 1000,
+  "selection_seed": "ART_STAGE05A_20261005_V1",
+  "rt_annotation_used_for_selection": false,
+  "new_to_project_not_new_biology": true,
+  "new_to_project_not_publication_prospective": true,
+  "exact_sequence_and_rc_duplicate_exclusion": true,
+  "near_homology_independence_not_established": true,
+  "quota_shortfall": "retain_actual_counts_no_cross_bin_backfill",
+  "download_retries": 3,
+  "profile_or_truth_input_for_math_scoring": false,
+  "posthoc_array_sensitivity_separate_from_primary": true,
+  "proposal_q_threshold": 0.005,
+  "whole_contig_scoring_required": true,
+  "one_per_reported_viral_taxid": true,
+  "taxid_is_not_species_or_sequence_cluster": true
+}

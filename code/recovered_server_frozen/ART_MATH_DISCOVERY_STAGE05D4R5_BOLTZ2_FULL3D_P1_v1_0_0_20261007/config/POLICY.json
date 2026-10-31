@@ -1,0 +1,44 @@
+{
+  "stage": "Stage05D4-R5",
+  "version": "v1.0.0",
+  "purpose": "Full-3D Boltz-2 prediction for a prespecified compute-priority subset of R4 structural-alphabet no-hit proteins, followed by full-coordinate Foldseek triage against AlphaFold/Swiss-Prot.",
+  "source_universe": "Stage05D4-R3 Tier-A=350, Stage05D4-R4 no-AFSP-3Di-hit subset=244; all 602 N1/N2 DNA-first candidates remain scientifically retained.",
+  "p1_selection_rule": {
+    "r4_triage_label": "NO_AFSP_STRUCTURAL_HIT_NOT_NEGATIVE",
+    "aa_length_min": 220,
+    "aa_length_max": 500,
+    "max_min_orf_to_candidate_distance_bp": 250,
+    "min_candidate_key_n": 2,
+    "expected_n": 43
+  },
+  "p2_extension_rule": {
+    "same_as_p1_except_candidate_key_n": 1,
+    "expected_n": 40
+  },
+  "boltz_primary": {
+    "model": "boltz2",
+    "msa": "remote MSA server via --use_msa_server",
+    "devices": 4,
+    "seed": 20261007,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 1,
+    "output_format": "mmcif"
+  },
+  "foldseek_full3d": {
+    "target": "Stage05D4-R4 local AlphaFold/Swiss-Prot Foldseek database",
+    "evalue": 0.01,
+    "max_seqs": 50,
+    "exact_tmscore": true
+  },
+  "frozen_boundaries": {
+    "dna_score_recomputed": false,
+    "dna_rank_recomputed": false,
+    "candidate_filtering_performed": false,
+    "p1_is_compute_priority_only": true,
+    "boltz_confidence_is_not_rt_identity": true,
+    "foldseek_hit_is_not_rt_or_art_identity": true,
+    "no_hit_is_not_negative": true,
+    "automatic_single_sequence_fallback": false
+  }
+}

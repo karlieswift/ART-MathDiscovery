@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05F3V2-Stage04B2-R1-hotfix",
+  "gate": "PASS_STAGE04B2_R1_ZERO_FORMAL_ACCESSION_IMPLEMENTATION_HOTFIX",
+  "gate_pass": true,
+  "parent_package_sha256": "243ae526bbadc818c9b9b54662e63cc0dc79f5174052da807ef8e29d1cea0e72",
+  "bug": "v1.0.0 incorrectly required every frozen manifest accession to appear in F3V2_FORMAL_INSTANCES.tsv, although zero-formal-hit accessions are valid and absent by construction.",
+  "fix": "Require formal-hit accession set to be a subset of the frozen manifest; preserve manifest-only accessions as zero-formal-hit members and continue all 254 per-accession file audits.",
+  "projection_script_sha256": "0a8c5359893e732c369725252df36d06700f7e9138c3483d21fd7dd9876700ee",
+  "selftest_sha256": "3286e0b490b008d624ed883add74c8c8e3d30d622c1d7844a047bf9e64fff1d7",
+  "scientific_threshold_changed": false,
+  "ranking_rule_changed": false,
+  "family_universe_changed": false,
+  "retuning_authorized": false,
+  "science_change": false
+}

@@ -1,0 +1,17 @@
+{
+  "stage02b_c_result_tar_sha256": "b35f0755c106d51ca7973fc227cf2a358e84b3757d7f6094ba68116b402d29de",
+  "stage02b_c_final_gate": "PASS_STAGE02B_C_ALL_REGION_ORTHOGONAL_CONFIRMATION_DEVELOPMENT_COMPLETE",
+  "stage02b_c_confirmation_board_sha256": "72228665990288bccbd248df897ff693e526ce116f7c37f79d5a5537ae667427",
+  "marsHill_truth_region_id": "R0005",
+  "marsHill_stage02b_region_rank": 5,
+  "marsHill_stage02b_support_families": ["ACNV_FAMILY", "GENERIC_RECURRENCE"],
+  "marsHill_confirmation_rank": 20,
+  "marsHill_glmy_all_q": 0.2,
+  "marsHill_irr_joint_q": 0.04,
+  "marsHill_irr_lgbeta_d18_q": 0.04,
+  "marsHill_irr_v3_d18_q": 0.08,
+  "marsHill_orthogonal_consensus": 2.096910013008056,
+  "status": "POST_UNBLINDING_DEVELOPMENT_ONLY",
+  "development_closed": true,
+  "retuning_on_marsHill_authorized": false
+}

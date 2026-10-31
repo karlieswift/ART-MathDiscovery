@@ -1,0 +1,22 @@
+{
+  "gate": "PASS_METADATA_SELECTION_FROZEN",
+  "gate_pass": true,
+  "n_selected": 980,
+  "target_n": 1000,
+  "by_bin": {
+    "20k_100k": 250,
+    "100k_200k": 250,
+    "200k_2M": 480
+  },
+  "quota_shortfall": {
+    "20k_100k": 0,
+    "100k_200k": 0,
+    "200k_2M": 20
+  },
+  "metadata_sha256": "a3fcd4a94740c9062ed9d78731c8f0c3c0c5b6a6e73ae6970ecaafb80320e788",
+  "selection_sha256": "7c5df0690a8ba123e2b39d1786f13740c06b568d693b2294d174c56b630a3953",
+  "policy_sha256": "06379001ff1be74aac360bf8f6a198a014f0243869a720c6867142ff2c54e61f",
+  "one_per_viral_taxid_not_species_independence": true,
+  "new_to_project_not_novel_system": true,
+  "math_scores_observed": false
+}

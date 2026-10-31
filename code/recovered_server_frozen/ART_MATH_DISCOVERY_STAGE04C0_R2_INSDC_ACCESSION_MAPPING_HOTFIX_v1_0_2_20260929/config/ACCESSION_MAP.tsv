@@ -1,0 +1,5 @@
+control_id	registry_accession	fetch_accession	relation	expected_length_bp	note
+EC86_ECO1	CP001509.3	CP001509.3	IDENTICAL	4558953	INSDC accession already fetchable from DDBJ
+SEN2_14028S	NC_016856.1	CP001363.1	REFSEQ_TO_IDENTICAL_GENBANK	4870265	NC_016856.1 RefSeq maps to GenBank CP001363.1 for Salmonella Typhimurium 14028S chromosome
+EC78_ECO7	CP026202.1	CP026202.1	IDENTICAL	0	INSDC accession already fetchable from DDBJ
+DRT2_KPN	NC_012731.1	AP006725.1	REFSEQ_TO_IDENTICAL_GENBANK	5472672	NC_012731.1 RefSeq maps to DDBJ/GenBank AP006725.1 for K. pneumoniae NTUH-K2044 chromosome

@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "accession": 60570,
+    "contig_id": 620,
+    "family_cluster": 57736,
+    "protein_sha256": 574,
+    "reverse_complement_sha256": 923,
+    "sequence_sha256": 1465
+  },
+  "entry_n": 121888,
+  "ledger_sha256": "a46ff6de331cb744e8bcf7573afdb0fecb30ed646a8e7903d4f21c06976b878d",
+  "limitations": [
+    "not evidence that an unlisted genome was never seen",
+    "local operational family IDs do not establish homology between new and old families",
+    "not a sequence-similarity search",
+    "not all original native discovery contigs are supplied",
+    "protein hashes are not DNA hashes",
+    "version-stripped accession checks are applied at admission; unresolved aliases require source curator review"
+  ],
+  "source_file_n": 76,
+  "status": "KNOWN_EXPOSURE_INDEXED_NOT_A_COMPLETENESS_CERTIFICATE"
+}

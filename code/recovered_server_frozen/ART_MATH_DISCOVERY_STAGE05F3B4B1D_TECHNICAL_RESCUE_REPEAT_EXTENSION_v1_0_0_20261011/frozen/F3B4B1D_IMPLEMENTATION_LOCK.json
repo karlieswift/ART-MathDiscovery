@@ -1,0 +1,43 @@
+{
+  "stage": "Stage05F3B4B1D-implementation-freeze",
+  "gate": "PASS_F3B4B1D_TECHNICAL_RESCUE_ARCHITECTURE_EXTENSION_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "analysis_role": "POST_HOC_TECHNICAL_RESCUE_EXTENSION_ALL_AND_ONLY_FIVE_REPAIRED_FAMILIES",
+  "target_rule": "all and only five F3B3E-R1 families with b3er1_resolution_source=FOLDSEEK_ONLY_TECHNICAL_REPAIR; no selection by repeat result",
+  "target_family_n": 5,
+  "target_final_strong_or_suggestive_family_n": 2,
+  "target_final_weak_family_n": 3,
+  "target_family_ids": [
+    "F3BI13671927",
+    "F3BI58593380",
+    "F3BI22953334",
+    "F3BI01847402",
+    "F3BI62825519"
+  ],
+  "target_candidate_ids": [
+    "F3BI05667557",
+    "F3BI58593380",
+    "F3BI22953334",
+    "F3BI01847402",
+    "F3BI35028317"
+  ],
+  "repeat_detector": "byte-identical vendored F3B4B1 detector: k=8,10,12,14,16; >=3 copies; start-gap 60-360; exact-core <=80; same strict/broad annotations",
+  "placement_engine": "byte-identical vendored F3B4B0 six-frame exact placement helper",
+  "original_b4b1_16_membership_changed": false,
+  "original_b4b1c_weak9_control_changed": false,
+  "two_resource_limited_unresolved_treated_as_negative": false,
+  "threshold_retuning": false,
+  "novelty_used": false,
+  "partner_analysis_performed": false,
+  "er1_summary_sha256": "53ffd1b4bf396588b6715440893b6c76d537e28510111b8ba6a3da7182e44152",
+  "r4_family_map_sha256": "859ea2ef382668853e413837c98f235dada60810ea83ea335d30a316c5185406",
+  "r4_instance_map_sha256": "6881ebb12c558b8713a0596a3e412ce6ed375691a17ee01002c88e18617538cf",
+  "original_b4b1_summary_sha256": "f54369b92e1a5f708588248d86944a0ddd9015987381eb75f1e89904eb875e62",
+  "original_b4b1c_summary_sha256": "de74e72f73b6e91da3118894946b7f922eb5340ce766bd27ac6b44fdd4177f75",
+  "upstream_b4b1_detector_sha256": "9e3c5b79f807a273e715eff4d01ddd45fdce96cb8047aefdd077ba425e44174f",
+  "vendored_b4b1_detector_sha256": "9e3c5b79f807a273e715eff4d01ddd45fdce96cb8047aefdd077ba425e44174f",
+  "upstream_b4b0_placement_sha256": "fe9dd9ca8190bdb3d066b33f5ba36de4c818662aec6592a7bd1471e081b6034f",
+  "vendored_b4b0_placement_sha256": "fe9dd9ca8190bdb3d066b33f5ba36de4c818662aec6592a7bd1471e081b6034f",
+  "extension_script_sha256": "b52a02ad5e1ca9e3b3c187994fd0fc6f970583547578d12628a758bf141b2066",
+  "claim_boundary": "Architecture analysis of the five newly structurally resolved families only. Integrated 18-vs-12 comparison is descriptive/post-discovery; original frozen analyses remain preserved."
+}

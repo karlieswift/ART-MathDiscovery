@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05D4",
+  "version": "v1.0.0",
+  "scope": "N1/N2 divergent-RT remote-homology preparation",
+  "expected_N1_candidates": 262,
+  "expected_N2_candidates": 340,
+  "expected_N1N2_candidates": 602,
+  "dna_score_recompute": false,
+  "dna_rank_recompute": false,
+  "candidate_filtering": false,
+  "formal_broad_rt_used_as_negative_filter": false,
+  "protein_evidence_post_discovery_only": true,
+  "claim_new_art": false,
+  "claim_wet_lab_ready": false
+}

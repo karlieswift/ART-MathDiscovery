@@ -1,0 +1,6 @@
+v1.0.1 - 2026-10-08
+Packaging-only hotfix after real-server launch audit.
+1. Corrected E3B result archive example path.
+2. Added unique-basename fallback resolver for E3B/E3A paths, fail-closed on zero or multiple matches.
+3. Hid synthetic selftest JSON so n_families=2 cannot be mistaken for a real-data result.
+4. No scientific scoring, family membership, rank, threshold, or interpretation logic changed.

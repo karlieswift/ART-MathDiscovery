@@ -1,0 +1,74 @@
+{
+  "schema_version": "J2-1.0.0",
+  "analysis_kind": "independent_external_benchmark",
+  "primary_methods": [
+    "ARM_M_FULL_FROZEN",
+    "PRODIGAL_RVT_PLUS_FROZEN_REC",
+    "SIXFRAME_RVT_PLUS_FROZEN_REC"
+  ],
+  "secondary_methods": [
+    "PRODIGAL_RVT_ONLY",
+    "SIXFRAME_RVT_ONLY"
+  ],
+  "minimum_sequence_length_bp": 4096,
+  "allowed_alphabet": "ACGT",
+  "multi_contig_policy": "one complete native contig per row; no concatenation; no truth-centred cropping",
+  "windows_bp": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "stride_fraction": 0.25,
+  "strands": [
+    "+",
+    "-"
+  ],
+  "proposal_q_threshold": 0.005,
+  "arm_m_engine": "exact formal ACNV+recurrence orchestration of unchanged original helpers, followed by frozen clean_two_arm build_two_arm_board",
+  "execution_mode": "exact_two_arm",
+  "unused_legacy_irregularity": "omitted in exact_two_arm; available with full_legacy; never an input to formal two-arm board",
+  "arm_m_ranking": [
+    "support_family_n desc",
+    "sum_two_family_surprisal desc",
+    "best_single_family_q asc",
+    "start0 asc"
+  ],
+  "rvt_expected_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "rvt_full_evalue": 0.0001,
+  "rvt_domain_ievalue": 0.0001,
+  "rt_radius_bp": 10000,
+  "sixframe_min_aa": 45,
+  "prodigal_mode": "meta",
+  "rt_locus_merge": "same route and strand, strict overlap, gap=0",
+  "rt_plus_rec_ranking": [
+    "has_recurrence desc",
+    "best_local_recurrence_q asc",
+    "full_evalue asc",
+    "domain_i_evalue asc",
+    "hmm_score desc"
+  ],
+  "rt_only_ranking": [
+    "full_evalue asc",
+    "domain_i_evalue asc",
+    "hmm_score desc"
+  ],
+  "candidate_limit": null,
+  "inputs": "identical full contig for all methods",
+  "primary_target": "independently author-defined ART system interval; strict genomic overlap, not functional validation",
+  "component_targets": "report array localization and RT localization separately where independently annotated",
+  "failure_policy": "all admitted samples retained; failed methods contribute zero recovery and remain flagged; burden undefined for failed methods",
+  "negative_policy": "candidate burden only; background and hard-neighbor contigs are not certified whole-genome ART negatives",
+  "exposure_policy": "report nominated-span fraction and RT-neighborhood fraction; never impose a truth-derived crop",
+  "bootstrap_unit": "prefrozen leakage_unit; paired resampling across methods",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261022,
+  "bootstrap_minimum_positive_units": 5,
+  "small_sample_policy": "below 5 independent positive leakage units: descriptive metrics only, no interval",
+  "truth_used_for_scoring": false,
+  "retuning_authorized": false,
+  "computational_blinding_scope": "script-level separation of truth from score inputs; no assertion of human/author blinding",
+  "legacy_stage_labels": "unchanged source engine outputs retain historical Stage03A labels; cohort eligibility is defined only by this driver analysis_kind and admission evidence"
+}

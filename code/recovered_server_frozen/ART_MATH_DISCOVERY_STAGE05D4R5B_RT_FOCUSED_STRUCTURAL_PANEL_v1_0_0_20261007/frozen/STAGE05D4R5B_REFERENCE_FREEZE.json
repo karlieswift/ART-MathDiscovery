@@ -1,0 +1,13 @@
+{
+  "stage": "Stage05D4-R5B-reference-freeze",
+  "swissprot_entries_total": 575748,
+  "annotation_rt_accessions": 34,
+  "hmm_profiles_with_hits": 41,
+  "hmm_top_union_accessions": 28,
+  "union_reference_accessions": 46,
+  "afsp_structural_reference_entries": 44,
+  "reference_panel_selected_from_candidate_results": false,
+  "top_per_hmm_profile": 10,
+  "gate": "PASS_RT_FOCUSED_REFERENCE_PANEL_FROZEN",
+  "gate_pass": true
+}

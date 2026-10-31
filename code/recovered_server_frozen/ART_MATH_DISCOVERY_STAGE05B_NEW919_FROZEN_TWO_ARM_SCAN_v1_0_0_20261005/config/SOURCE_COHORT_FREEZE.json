@@ -1,0 +1,22 @@
+{
+  "stage": "Stage05A",
+  "gate": "PASS_NEW_SOURCE_COHORT_FROZEN_WITH_ACTUAL_DENOMINATOR",
+  "gate_pass": true,
+  "n_metadata_selected": 980,
+  "n_frozen_new_genomes": 919,
+  "target_not_guaranteed": 1000,
+  "n_unresolved": 0,
+  "unresolved_accessions": [],
+  "no_replacement_after_sequence_exclusion": true,
+  "total_bp": 171397507,
+  "oriented_windows": 21062200,
+  "manifest_sha256": "5eec6d7ee00584c6266b8a953b6112540148b949341e400099b285ce30d235f0",
+  "selection_sha256": "7c5df0690a8ba123e2b39d1786f13740c06b568d693b2294d174c56b630a3953",
+  "novel_ART_systems_claimed": 0,
+  "protein_annotation_used_for_selection": false,
+  "mathematical_scoring_performed": false,
+  "UG27_touched": false,
+  "primary_383_unchanged": true,
+  "near_homology_independence_established": false,
+  "next": "Resource-informed isolated full-genome scoring; freeze score board before protein/array annotation."
+}

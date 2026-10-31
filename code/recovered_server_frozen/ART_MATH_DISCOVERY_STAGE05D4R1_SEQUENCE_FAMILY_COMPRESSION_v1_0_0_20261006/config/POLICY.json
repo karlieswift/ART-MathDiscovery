@@ -1,0 +1,17 @@
+{
+  "stage": "Stage05D4-R1",
+  "version": "v1.0.0",
+  "scope": "sequence redundancy and family compression of the frozen Stage05D4 N1/N2 nonformal broad-RT protein universe",
+  "expected_stage05d4_candidates": 602,
+  "expected_stage05d4_unique_aa": 13064,
+  "expected_stage05d4_nonformal_unique_aa": 13062,
+  "primary_redundancy_cluster": {"min_seq_id": 0.90, "coverage": 0.80, "cov_mode": 0},
+  "descriptive_family_cluster": {"min_seq_id": 0.50, "coverage": 0.70, "cov_mode": 0},
+  "candidate_filtering": false,
+  "dna_score_recompute": false,
+  "dna_rank_recompute": false,
+  "protein_evidence_post_discovery_only": true,
+  "cluster_membership_is_not_biological_identity": true,
+  "claim_new_art": false,
+  "claim_wet_lab_ready": false
+}

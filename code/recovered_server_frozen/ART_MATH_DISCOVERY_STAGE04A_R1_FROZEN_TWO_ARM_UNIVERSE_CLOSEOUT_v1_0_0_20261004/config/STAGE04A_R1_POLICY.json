@@ -1,0 +1,23 @@
+{
+  "stage": "Stage04A-R1",
+  "version": "v1.0.0",
+  "date": "2026-10-04",
+  "purpose": "Post-freeze two-arm projection of the already frozen Stage04A broad-universe region board.",
+  "required_source_filename": "STAGE04A_ALL_FROZEN_UNION_REGIONS.tsv",
+  "required_source_sha256": "272b59fd09d853bc7336e364a64e909c3cca7b082a684c69355d873707be9337",
+  "required_universe_manifest_sha256": "24f69c4f463678413d772cc567332bd0b94ff18019d53ea7e454aa5e30fb5ea4",
+  "two_arm_definition": {
+    "arm_1": "ACNV_FAMILY",
+    "arm_2": "GENERIC_RECURRENCE",
+    "criterion": "Both arms are already present in support_families of the frozen region board."
+  },
+  "score_recomputation_authorized": false,
+  "region_ranking_recomputation_authorized": false,
+  "threshold_change_authorized": false,
+  "annotation_authorized_in_this_stage": false,
+  "truth_use_authorized_in_this_stage": false,
+  "retuning_authorized": false,
+  "all_dual_arm_regions_retained": true,
+  "top_k_survival_cutoff_used": false,
+  "best_per_sequence_table_is_descriptive_only": true
+}

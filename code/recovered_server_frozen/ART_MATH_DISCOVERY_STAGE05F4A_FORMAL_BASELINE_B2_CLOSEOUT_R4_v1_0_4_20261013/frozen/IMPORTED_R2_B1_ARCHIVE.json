@@ -1,0 +1,26 @@
+{
+  "stage": "Stage05F4A-B2-R4-import-frozen-B1",
+  "version": "v1.0.4",
+  "gate": "PASS_STAGE05F4A_B2_R4_R2_B1_FROZEN_STATE_IMPORTED",
+  "gate_pass": true,
+  "source_archive": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F4A_FORMAL_BASELINE_BENCHMARK_R2_v1_0_2_20261013/ART_MATH_DISCOVERY_STAGE05F4A_B1_R2_SCORE_FREEZE_20261013_172035.tar.gz",
+  "source_archive_sha256": "19f4a4acc3033df0bb9d8d6fe1cd6c675a0e2fbb5de23f8896ddf020eb2ed957",
+  "source_b1_gate": {
+    "gate": "PASS_STAGE05F4A_B1_R2_PROTEIN_FIRST_BASELINE_SCORES_FROZEN_NO_TRUTH",
+    "gate_pass": true,
+    "hmmscan_path": "/home/hgq/conda-envs/art_novelty/bin/hmmscan",
+    "prodigal_path": "/home/hgq/conda-envs/art_rt_evidence/bin/prodigal",
+    "retuning_authorized": false,
+    "rt_locus_collapse": "same method + same strand + coordinate overlap only; gap=0; truth-blind",
+    "rt_neighborhood_radius_bp": 10000,
+    "rvt_domain_i_evalue": 0.0001,
+    "rvt_full_evalue": 0.0001,
+    "sixframe_min_aa": 45,
+    "stage": "Stage05F4A-B1-R2-score-freeze",
+    "truth_opened_for_scoring": false,
+    "version": "v1.0.2"
+  },
+  "truth_opened_for_scoring": false,
+  "retuning_authorized": false,
+  "note": "Imported frozen B0/B1 artifacts byte-for-byte from the archived R2 score-freeze; B0/B1 are not rerun in R4."
+}

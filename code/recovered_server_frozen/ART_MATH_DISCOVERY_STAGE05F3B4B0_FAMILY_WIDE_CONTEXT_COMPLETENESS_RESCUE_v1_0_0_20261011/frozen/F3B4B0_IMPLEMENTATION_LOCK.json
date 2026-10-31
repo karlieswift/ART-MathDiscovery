@@ -1,0 +1,43 @@
+{
+  "stage": "Stage05F3B4B0-implementation-freeze",
+  "gate": "PASS_F3B4B0_FAMILY_WIDE_CONTEXT_RESCUE_RULE_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "survivor_family_n": 16,
+  "survivor_family_ids": [
+    "F3BI33674290",
+    "F3BI62738707",
+    "F3BI44673912",
+    "F3BI30084094",
+    "F3BI31903718",
+    "F3BI26831028",
+    "F3BI35363801",
+    "F3BI28645216",
+    "F3BI06676476",
+    "F3BI55915933",
+    "F3BI07293003",
+    "F3BI35789656",
+    "F3BI07320961",
+    "F3BI55139992",
+    "F3BI36979769",
+    "F3BI42396795"
+  ],
+  "member_rule": "all and only formal F3B2-R4 candidate instances belonging to the 16 frozen F3B3D STRONG/SUGGESTIVE survivor families",
+  "translation_table": 11,
+  "start_codon_requirement": "none",
+  "placement_rule": "six-frame exact peptide replay on canonical parent contig; unique exact only eligible for technical completeness",
+  "context_completeness_bins_bp_each_side": [
+    500,
+    2000,
+    5000,
+    10000
+  ],
+  "technical_best_context_rule": "maximize min(left,right), then total flank, then parent contig length, then candidate_id lexical among unique exact placements",
+  "repeat_annotation_or_novelty_used_for_context_selection": false,
+  "repeat_analysis_performed": false,
+  "partner_analysis_performed": false,
+  "b4a_locus_map_sha256": "d39093a5ffaab99ae505568363c1d3b1023f053ba2e2b659abff7e8152c84e38",
+  "r4_family_map_sha256": "859ea2ef382668853e413837c98f235dada60810ea83ea335d30a316c5185406",
+  "r4_instance_map_sha256": "6881ebb12c558b8713a0596a3e412ce6ed375691a17ee01002c88e18617538cf",
+  "implementation_sha256": "fe9dd9ca8190bdb3d066b33f5ba36de4c818662aec6592a7bd1471e081b6034f",
+  "claim_boundary": "Pre-architecture technical context recovery across all members of frozen survivor families; no biological filtering or ART claim."
+}

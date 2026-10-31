@@ -1,0 +1,73 @@
+{
+  "project": "ART_MATH_DISCOVERY",
+  "stage": "Stage04C1",
+  "version": "v1.0.1",
+  "scientific_status": "MECHANISTIC_RT_SYSTEM_CONTROL_PANEL_TWO_ARM_SCORE_FREEZE",
+  "eligible_control_ids": [
+    "SEN2_14028S",
+    "EC78_ECO7",
+    "DRT2_KPN"
+  ],
+  "held_controls": [
+    "EC86_ECO1",
+    "DRT9_SEN",
+    "UG27_EXP1",
+    "UG27_EXP2",
+    "UG27_EXP3",
+    "UG27_EXP4",
+    "UG27_EXP5"
+  ],
+  "window_lengths_bp": [
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "stride_fraction": 0.25,
+  "strands": [
+    "+",
+    "-"
+  ],
+  "proposal_q_threshold": 0.005,
+  "acnv_family_members": [
+    "ACNV92",
+    "ACNV4MER_BLOCK",
+    "ACNV5MER_BLOCK",
+    "ACNV6MER_BLOCK"
+  ],
+  "acnv_family_aggregation": "within-window max(-log10 member_q), then empirical recalibration within window length",
+  "recurrence": {
+    "k_values": [
+      4,
+      6,
+      8
+    ],
+    "min_lag_bp": 8,
+    "max_lag_bp": 512,
+    "min_valid_pairs": 32,
+    "min_recurrence_match_count": 2,
+    "truth_specific_lag_band": false
+  },
+  "union_rule": {
+    "operator": "OR",
+    "merge": "strict interval overlap only",
+    "gap_bp": 0,
+    "top_k_cutoff": false,
+    "all_union_regions_retained": true
+  },
+  "region_priority": [
+    "support_family_n_desc",
+    "sum_two_family_surprisal_desc",
+    "best_single_family_q_asc",
+    "start0_asc"
+  ],
+  "truth_used_before_score_freeze": false,
+  "annotation_used_by_scoring": false,
+  "rt_coordinates_used_by_scoring": false,
+  "partner_coordinates_used_by_scoring": false,
+  "retuning_authorized": false,
+  "input_sequence_freeze_required": "STAGE04C0_R3_SEQUENCE_LENGTH_CORRECTION_FIXED",
+  "supersedes": "v1.0.0 hard-coded C0-R1 input filenames"
+}

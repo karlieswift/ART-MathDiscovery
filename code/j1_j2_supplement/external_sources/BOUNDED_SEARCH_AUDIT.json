@@ -1,0 +1,43 @@
+{
+  "status": "BOUNDED_SEARCH_FINISHED_PRIMARY_ART_SOURCE_GAP_REMAINS",
+  "started_utc": "2026-10-22T06:35:07Z",
+  "finished_utc": "2026-10-22T06:43:15.806222+00:00",
+  "original_ART_doi": "10.64898/2026.10.05.755809",
+  "original_ART_API": {
+    "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.05.755809",
+    "versions_returned": [
+      "1"
+    ],
+    "publication_date": "2026-10-11",
+    "jats_url": "https://www.biorxiv.org/content/early/2026/10/11/2026.10.05.755809.source.xml",
+    "raw_sha256": "a10a84f0dd266dab6c5e62b7486a94dc16666a9aefb20969cf3d58f255af67d1"
+  },
+  "access_limits": [
+    "bioRxiv landing, official JATS URL and supplementary-material URL returned HTTP 429 to direct public retrieval; web retrieval also returned 403/inaccessible. Attachment existence remains UNKNOWN, not absent.",
+    "Crossref relation was empty; its sole syndication link returned 403.",
+    "Europe PMC PPR1338779 reports hasSuppl=N, hasPDF=N, inEPMC=N; this is registry coverage metadata, not proof that author supplementary files do not exist.",
+    "The three inspected author ORCID person records (Yoon, Durrant, Perry) had no researcher URL entries. This is not an exhaustive search of all authors.",
+    "GitHub anthropics repository listing returned 403; repository searches found third-party reproductions but no verified author ART95 catalog. Third-party detector output was not admitted as author truth."
+  ],
+  "new_author_source": {
+    "author": "Yuzhen Ye",
+    "doi": "10.21203/rs.3.rs-11367685/v1",
+    "paper_url": "https://www.researchsquare.com/article/rs-11367685/v1",
+    "data_url": "https://omics.informatics.indiana.edu/myRT/ART.php",
+    "repository": "https://github.com/mgtools/retron2",
+    "commit": "89b052e44ce9bb29add44086cda1147e8ebbf82f",
+    "addendum": "work/j1j2_v100/external_sources/ye_source_audit_addendum_20261022",
+    "scope": "6 already exposed loci; author computational annotations only; no new primary ART cases"
+  },
+  "still_missing": [
+    "ART01-ART95 to native accession/version/contig mapping",
+    "Author-labelled array spans/copy coordinates and linked RT/partner CDS for the original catalog",
+    "NART native sequence/accession mapping and author-defined array-absent assessability evidence"
+  ],
+  "not_modified": [
+    "external_sources/delivery",
+    "existing J2 candidate/truth manifests",
+    "frozen manuscript and figures"
+  ],
+  "paper_pdf_in_computational_addendum": false
+}

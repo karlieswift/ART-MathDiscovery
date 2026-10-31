@@ -1,0 +1,11 @@
+{
+  "hotfix": "Stage05E3A_v1.0.1_GenBank_transport",
+  "frozen_E2A_families_changed": false,
+  "frozen_candidate_loci_changed": false,
+  "frozen_sequence_ids_changed": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "candidate_filtering_performed": false,
+  "biological_thresholds_changed": false,
+  "transport_only": true
+}

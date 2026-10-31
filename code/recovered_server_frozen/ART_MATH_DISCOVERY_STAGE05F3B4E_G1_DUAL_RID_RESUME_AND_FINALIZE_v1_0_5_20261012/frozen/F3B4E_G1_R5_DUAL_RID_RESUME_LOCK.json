@@ -1,0 +1,23 @@
+{
+  "stage": "Stage05F3B4E-G1-R5-dual-RID-resume-and-finalize",
+  "gate": "PASS_F3B4E_G1_R5_EXISTING_RIDS_REUSED_WITHOUT_RESUBMISSION",
+  "gate_pass": true,
+  "hotfix_role": "OPERATIONAL_CONSOLIDATION_OF_ALREADY_SUBMITTED_NCBI_RIDS_ONLY",
+  "rt5_rid": "CR73H1ST014",
+  "partner5_rid": "CSE25BRU016",
+  "architecture5_rid": "CSRWCA1M016",
+  "submission_policy": "NO_NEW_SUBMISSION; existing RIDs only",
+  "query_membership_changed": false,
+  "query_sequences_changed": false,
+  "database_scope_changed": false,
+  "evalue_changed": false,
+  "hitlist_size_changed": false,
+  "filtering_changed": false,
+  "novelty_thresholds_changed": false,
+  "rt5_search": "blastp vs nr; E<=1e-3; hitlist 200; filter T",
+  "partner5_search": "blastp vs nr; E<=1e-3; hitlist 200; filter T",
+  "architecture5_search": "megablast vs nt; E<=1e-10; hitlist 200; filter T; NO_DATABASE_OVERRIDE",
+  "urlapi_client_sha256": "18bcb37c85d296575c56d7e2a5993e9a6e8a67ee62d3634f14dc418f25fee45c",
+  "summarizer_sha256": "77f883beaf25def207654ca1dfd57d5fe6ac46a993a33f8a6b770a465b1c1d8b",
+  "claim_boundary": "Operational resume/finalization only. The three NCBI searches were already submitted under frozen F3B4E rules; this runner reuses their RIDs, retrieves results, summarizes, copies G1 outputs into the canonical base stage, and runs the pre-existing finalizer."
+}

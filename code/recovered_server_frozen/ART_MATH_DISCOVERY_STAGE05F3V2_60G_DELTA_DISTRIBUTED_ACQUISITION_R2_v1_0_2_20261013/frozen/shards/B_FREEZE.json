@@ -1,0 +1,16 @@
+{
+  "stage": "Stage05F3V2-R2-distributed-acquisition",
+  "stratum": "B",
+  "gate_pass": true,
+  "gate": "PASS_F3V2_R2_STRATUM_B_QUOTA_COMPLETE",
+  "target_bp": 18000000000,
+  "accepted_bp": 18187915749,
+  "accepted_n": 54,
+  "candidate_n": 57598045,
+  "source_r1_stage": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F3V2_60G_DELTA_STREAMING_SCAN_R1_v1_0_1_20261012",
+  "candidate_table_sha256": "5c2c1a90aa5cfb6681e748490a81535352c84b56756ea9a53cf6739f00a5b726",
+  "selected_sha256": "c17f7816ba5899be0da316d8e2504dcba50a67311ca17393392af55f8965bea6",
+  "host": "r750-1",
+  "science_change": false,
+  "claim_boundary": "Operational parallelization across independent frozen strata only; within-stratum deterministic order and all R1 acquisition rules are unchanged."
+}

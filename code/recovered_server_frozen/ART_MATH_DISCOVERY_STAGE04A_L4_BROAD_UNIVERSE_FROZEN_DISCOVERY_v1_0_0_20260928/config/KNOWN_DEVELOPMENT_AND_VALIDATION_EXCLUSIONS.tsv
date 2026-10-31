@@ -1,0 +1,5 @@
+accession	name	role	reason
+MW248466	MarsHill	Stage01/Stage02 development	Known ART development genome; exclude from Stage04 primary universe
+MW349129	Madawaska	Stage03 external truth validation	Known Stage03B truth genome; exclude from Stage04 primary universe
+MW349128	Machias	Stage03 external truth validation	Known Stage03B truth genome; exclude from Stage04 primary universe
+MW218148.1	SA1	Stage03 external truth validation	Known Stage03B truth genome; exclude from Stage04 primary universe

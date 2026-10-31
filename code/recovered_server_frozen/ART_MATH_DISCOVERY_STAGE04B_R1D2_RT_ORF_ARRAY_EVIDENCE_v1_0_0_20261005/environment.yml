@@ -1,0 +1,9 @@
+name: art_rt_evidence
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - hmmer=3.4
+  - prodigal=2.6.3

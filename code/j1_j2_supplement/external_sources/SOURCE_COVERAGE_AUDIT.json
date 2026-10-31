@@ -1,0 +1,47 @@
+{
+  "status": "SOURCE_AUDIT_COMPLETE_PRIMARY_EXTERNAL_ART_DATA_GAP_SECONDARY_NATIVE_DATA_READY",
+  "generated_utc": "2026-10-22T06:23:35.230629+00:00",
+  "science_scores_read_or_recomputed": false,
+  "art_primary_newly_admitted_genomes": 0,
+  "certified_new_negative_genomes": 0,
+  "secondary_native_genomes_prepared": 1,
+  "native_nucleotide_bp": 6722539,
+  "author_context_records": 40,
+  "unique_exact_context_matches": 40,
+  "raw_author_ncRNA_features": 56,
+  "unique_author_ncRNA_intervals": 40,
+  "independent_genome_units_in_secondary_data": 1,
+  "strict_new_external_status": "NOT_ASSERTED",
+  "exact_available_history_matches": 0,
+  "minerva_author_repository_commit": "900fb32a427f2ebed601569257877167ea45c9ed",
+  "minerva_genbank_examples": [
+    "UG27_systems.gb: 5 previously exposed systems",
+    "TwoAYGGAY_Pseudomonas_fluorescens_SBW25.gb: 40 overlapping author contexts from one native genome"
+  ],
+  "minerva_zenodo_22903368_files": [
+    "Minerva_manuscript_joined.pdf",
+    "Minerva_SupplementaryTables_preprint.xlsx"
+  ],
+  "minerva_supplementary_tables": {
+    "Table_S1": "150 native input species/source list; no locus coordinates",
+    "Table_S2": "model hyperparameters",
+    "Table_S3": "oligos and experimental plasmids, including previously used five UG27 systems; not additional native array truth"
+  },
+  "art_official_pdf": {
+    "sha256": "d43c2fa66aa1d255aba37a0499390bcd86e5b2cafa1f8d249d728e998a4b3b27",
+    "bytes": 21011275,
+    "pages": 40,
+    "embedded_file_count": 0,
+    "data_code_availability_heading_found": false,
+    "repository_or_catalog_download_pointer_found": false,
+    "audit_scope": "Downloaded official Anthropic PDF text plus PDF hyperlinks/embedded files, official announcement, indexed bioRxiv landing page. This does not prove nonavailability elsewhere."
+  },
+  "missing_primary_source_materials": [
+    "ART_01-ART_95 to accession/original contig FASTA/version map",
+    "author array presence/absence/not-assessed labels and repeat-copy coordinates",
+    "RT and partner native CDS coordinates and sequences",
+    "NART assessed loci source map and author locus classification",
+    "full unexposed source/near-homology audit after actual source files are available"
+  ],
+  "readiness": "Secondary manifests are prepared for separate frozen whole-genome evaluation. No detector was run by this source-audit script. Primary ART benchmark remains unready."
+}

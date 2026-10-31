@@ -1,0 +1,10 @@
+{
+  "stage": "Stage05E3D",
+  "version": "v1.0.0",
+  "purpose": "Materialize exact family-linked repeat nucleotide sequences and official/predicted protein amino-acid sequences for the frozen 12 E2A/E3C families.",
+  "expected_family_n": 12,
+  "priority_tier": "E3C1_PRIORITY_BIOLOGICAL_CLOSURE",
+  "selection_policy": "No family membership, DNA score, rank, threshold, or E3C review tier is changed.",
+  "gate_policy": "PASS requires all E3C1 priority families to recover at least one family-linked protein AA sequence and at least one family-linked repeat DNA sequence. Other families may remain partial and are retained.",
+  "claim_boundary": "Sequence recovery enables downstream MSA/homology/synteny analyses; sequence recovery or no-hit evidence is not ART identity, novelty, function, or wet-lab proof."
+}

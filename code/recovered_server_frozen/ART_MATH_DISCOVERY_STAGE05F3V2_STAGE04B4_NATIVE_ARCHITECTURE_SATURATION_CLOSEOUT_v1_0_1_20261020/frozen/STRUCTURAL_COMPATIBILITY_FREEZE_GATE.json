@@ -1,0 +1,39 @@
+{
+  "method": "clean-RT reference-set structural compatibility",
+  "version": "1.0.0",
+  "freeze_date": "2026-10-19",
+  "gate": "PASS_STRUCTURAL_COMPATIBILITY_DEFINITION_FROZEN_AND_VALIDATED",
+  "gate_pass": true,
+  "query_aggregation": "maximum tier over all returned reference hits",
+  "calibration_known_rt": {
+    "n": 32,
+    "strong": 32,
+    "positive": 32
+  },
+  "calibration_matched_nonrt": {
+    "n": 96,
+    "strong": 0,
+    "suggestive": 0,
+    "positive": 0
+  },
+  "historical_resolved30": {
+    "n": 30,
+    "strong": 20,
+    "suggestive": 8,
+    "weak": 2,
+    "no_hit": 0,
+    "positive": 28
+  },
+  "independent_delta32": {
+    "n": 32,
+    "strong": 3,
+    "suggestive": 9,
+    "weak": 18,
+    "no_hit": 2,
+    "positive": 12
+  },
+  "threshold_changed": false,
+  "reference_set_changed": false,
+  "foldseek_search_changed": false,
+  "candidate_membership_changed": false
+}

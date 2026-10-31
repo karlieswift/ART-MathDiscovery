@@ -1,0 +1,76 @@
+{
+  "stage": "Stage05F3V2-Stage04B5",
+  "version": "v1.0.1",
+  "date": "2026-10-20",
+  "role": "54G all-formal-locus architecture-first replay matched to the final 6.12-Gb discovery route",
+  "expected_delta_accessions": 254,
+  "expected_delta_bp": 54377819157,
+  "expected_formal_rvt_instances": 88487,
+  "expected_exact_aa_unique": 85503,
+  "expected_delta_operational_families": 26396,
+  "expected_delta_only_instance_n": 46323,
+  "expected_mixed_instance_n": 42164,
+  "repeat_rule": {
+    "k": [
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "copies_min": 3,
+    "start_gap_min_bp": 60,
+    "start_gap_max_bp": 360,
+    "max_exact_extension_core_bp": 80
+  },
+  "strict_art_geometry": {
+    "orientation": "UPSTREAM",
+    "copy_n_min": 3,
+    "copy_n_max": 21,
+    "every_inferred_spacer_min_bp": 120,
+    "every_inferred_spacer_max_bp": 220
+  },
+  "partner_rule": {
+    "candidate_oriented_downstream_max_bp": 10000,
+    "start_codons": [
+      "ATG",
+      "GTG",
+      "TTG"
+    ],
+    "stop_codons": [
+      "TAA",
+      "TAG",
+      "TGA"
+    ],
+    "min_complete_orf_aa": 30,
+    "both_strands": true,
+    "nearest_complete_orf_only": true,
+    "cluster_min_seq_id": 0.3,
+    "cluster_coverage": 0.7,
+    "cluster_cov_mode": 0,
+    "cluster_mode": 0,
+    "cluster_sensitivity": 7.5,
+    "recurrent_partner_min_accessions": 2
+  },
+  "family_rule": {
+    "min_seq_id": 0.3,
+    "coverage": 0.7,
+    "cov_mode": 0,
+    "cluster_mode": 0,
+    "sensitivity": 7.5
+  },
+  "context": {
+    "max_flank_bp_each_side": 10000,
+    "minimum_upstream_bp_for_smallest_strict_array": 264,
+    "minimum_downstream_bp_for_30aa_complete_partner_orf": 93
+  },
+  "broad_art_like_geometry": "NOT_RECOMPUTED_IN_V1_0_1: exact historical broad-sensitivity implementation is not redefined post hoc. Primary matched endpoint is strict published ART geometry plus recurrent partner.",
+  "source_reselection": false,
+  "retuning": false,
+  "structure_used_for_candidate_selection": false,
+  "annotation_used_for_candidate_selection": false,
+  "technical_hotfix": "Account for 15 selected accessions with zero frozen formal RT-like candidates; finalizer expects result directories only for the 239 formal-bearing accessions.",
+  "scientific_rules_changed": false,
+  "expected_formal_bearing_accessions": 239,
+  "expected_zero_formal_accessions": 15
+}

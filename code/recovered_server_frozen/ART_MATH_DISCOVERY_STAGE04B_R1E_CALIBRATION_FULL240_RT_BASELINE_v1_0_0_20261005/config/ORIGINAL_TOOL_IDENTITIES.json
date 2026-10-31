@@ -1,0 +1,12 @@
+{
+  "hmmsearch": {
+    "path": "/home/hgq/conda-envs/art_rt_evidence/bin/hmmsearch",
+    "sha256": "9fa72a2971e284d713f0639a8b219f17ea04ff307b0325c020111382fd872ce3",
+    "version_output": "# hmmsearch :: search profile(s) against a sequence database\n# HMMER 3.4 (Aug 2023); http://hmmer.org/\n# Copyright (C) 2023 Howard Hughes Medical Institute.\n# Freely distributed under the BSD open source license."
+  },
+  "prodigal": {
+    "path": "/home/hgq/conda-envs/art_rt_evidence/bin/prodigal",
+    "sha256": "b595f2855e7407dc4a2e3b6aa60704ab6478170630327d41802f9a64491a9e16",
+    "version_output": "\nProdigal V2.6.3: February, 2016\n\n"
+  }
+}

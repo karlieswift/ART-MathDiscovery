@@ -1,0 +1,18 @@
+{
+  "gate": "STAGE04C0_R3_SEQUENCE_LENGTH_CORRECTION",
+  "version": "v1.0.3",
+  "reason": "Correct DRT2_KPN AP006725.1 expected length from erroneous whole-strain two-replicon total 5,472,672 bp to chromosome-specific 5,248,520 bp. The DRT2 frozen control locus is on NC_012731.1/AP006725.1 chromosome; AP006726.1 plasmid is not part of this control sequence.",
+  "reuse_validated_or_downloaded_r2_records": true,
+  "network_fetch_required": false,
+  "expected_exact_lengths_bp": {
+    "EC86_ECO1": 4558953,
+    "SEN2_14028S": 4870265,
+    "EC78_ECO7": 5103533,
+    "DRT2_KPN": 5248520
+  },
+  "mutate_original_c0": false,
+  "mutate_failed_r1": false,
+  "mutate_r2": false,
+  "run_acnv_or_recurrence": false,
+  "retuning_authorized": false
+}

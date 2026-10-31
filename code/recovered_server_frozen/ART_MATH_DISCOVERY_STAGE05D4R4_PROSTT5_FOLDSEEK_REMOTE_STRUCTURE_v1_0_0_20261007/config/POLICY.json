@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05D4-R4",
+  "source_gate": "PASS_COMPACT_STRUCTURE_QUERY_TIERS_FROZEN",
+  "primary_query_tier": "TIER_A_COMPACT_STRUCTURE_READY",
+  "query_count_expected": 350,
+  "target_database": "Foldseek Alphafold/Swiss-Prot",
+  "query_representation": "ProstT5-predicted 3Di from amino-acid sequence",
+  "search_evalue": 0.01,
+  "max_seqs": 50,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "candidate_filtering_performed": false,
+  "structural_hit_is_identity_assignment": false,
+  "no_hit_is_negative": false
+}

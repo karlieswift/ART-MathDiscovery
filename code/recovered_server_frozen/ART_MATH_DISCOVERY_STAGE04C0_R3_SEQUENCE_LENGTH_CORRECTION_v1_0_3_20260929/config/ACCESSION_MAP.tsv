@@ -1,0 +1,5 @@
+control_id	registry_accession	fetch_accession	relation	expected_length_bp	note
+EC86_ECO1	CP001509.3	CP001509.3	IDENTICAL	4558953	INSDC chromosome accession; length frozen from validated R2 fetch
+SEN2_14028S	NC_016856.1	CP001363.1	REFSEQ_TO_IDENTICAL_GENBANK	4870265	RefSeq chromosome maps to identical GenBank/INSDC chromosome
+EC78_ECO7	CP026202.1	CP026202.1	IDENTICAL	5103533	INSDC chromosome accession; length frozen from validated R2 fetch
+DRT2_KPN	NC_012731.1	AP006725.1	REFSEQ_TO_IDENTICAL_GENBANK	5248520	Correct chromosome length; previous 5472672 mistakenly summed chromosome 5248520 + plasmid 224152

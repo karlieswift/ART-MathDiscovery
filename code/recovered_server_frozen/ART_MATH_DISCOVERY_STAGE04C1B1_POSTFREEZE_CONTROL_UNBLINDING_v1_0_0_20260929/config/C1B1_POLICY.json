@@ -1,0 +1,11 @@
+{
+  "stage":"Stage04C1B1",
+  "purpose":"post-freeze unblinding of mechanistic RT controls",
+  "required_c1_gate":"PASS_STAGE04C1_RT_CONTROL_TWO_ARM_SCORE_FREEZE_COMPLETE",
+  "required_c1b0_gate":"PASS_STAGE04C1B0_RT_ANCHOR_TRUTH_RESOLUTION",
+  "primary_truth_component_prefix":"RT_",
+  "retuning_authorized":false,
+  "score_recomputation_authorized":false,
+  "ranking_recomputation_authorized":false,
+  "interpretation":"mechanistic specificity; not AUROC benchmark"
+}

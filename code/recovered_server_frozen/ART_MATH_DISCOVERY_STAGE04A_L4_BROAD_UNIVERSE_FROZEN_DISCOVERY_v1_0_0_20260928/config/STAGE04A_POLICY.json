@@ -1,0 +1,50 @@
+{
+  "project": "ART_MATH_DISCOVERY",
+  "stage": "Stage04A",
+  "version": "v1.0.0",
+  "scientific_status": "L4_BROAD_UNIVERSE_FROZEN_DISCOVERY",
+  "created_utc_date": "2026-09-28",
+  "discovery_engine": "BYTE_EXACT_STAGE03A_FROZEN_ENGINE",
+  "stage03a_zip": "ART_MATH_DISCOVERY_STAGE03A_FROZEN_ENGINE_L3_VALIDATION_v1_0_0_20260927.zip",
+  "stage03a_zip_sha256": "902bddb7813a6aa04736c4a5dc4cd2439821c8a21efb1c931a98ad0a9a3bfe3c",
+  "stage03a_proposal_q_threshold": 0.005,
+  "stage03a_no_top_k": true,
+  "stage03a_all_union_regions_retained": true,
+  "truth_policy": "NO_STAGE03B_TRUTH_OR_POSTFREEZE_ART_ANNOTATION_BEFORE_STAGE04A_SCORE_FREEZE",
+  "prohibited_discovery_inputs": [
+    "ART_TRUTH_MANIFEST.tsv",
+    "ART_REPEAT_ANCHORS.tsv",
+    "TATATGAATACGTAT",
+    "known ART repeat coordinates",
+    "known ART RT/partner coordinates"
+  ],
+  "arms": {
+    "L4_CURATED": {
+      "description": "Broad external complete phage genomes; not temporally prospective",
+      "release_date_rule": "none beyond provenance capture",
+      "recommended_source": "NCBI Virus/RefSeq complete Caudoviricetes or a separately frozen phage collection"
+    },
+    "L4_PROSPECTIVE": {
+      "description": "Genuine prospective newly public phage genomes",
+      "release_date_rule": "first public release >= 2026-09-29",
+      "prospective_cutoff_utc": "2026-09-29T00:00:00Z",
+      "recommended_source": "NCBI Virus complete genomes filtered with --released-after 2026-09-29"
+    },
+    "L4_METAVIROME": {
+      "description": "Fixed-release metagenomic viral contigs; domain-shift analysis",
+      "release_date_rule": "source release must be frozen in cohort provenance"
+    }
+  },
+  "exact_accession_exclusions": ["MW248466", "MW248466.1", "MW349129", "MW349129.1", "MW349128", "MW349128.1", "MW218148", "MW218148.1"],
+  "primary_endpoints": [
+    "candidate_burden_per_Mb = all frozen union regions / Mb",
+    "fraction_of_sequences_with_at_least_one_union_region",
+    "support-family composition of all frozen union regions",
+    "rank distribution is descriptive only; rank is not a positive/negative cutoff"
+  ],
+  "cluster_weighting": "If cluster_id is supplied, report 1/n_cluster weighted burden in addition to all-genome burden; never use cluster membership to retune the engine",
+  "novelty_annotation": "FORBIDDEN in Stage04A; deferred to Stage04B after hashes freeze",
+  "confirmation": "Optional after primary score freeze; not required for accelerated Stage04A primary burden scan",
+  "null_specificity": "Planned as a separately frozen Stage04N dinucleotide-preserving null arm; not approximated with a weaker shuffle in this accelerated package",
+  "retuning_authorized": false
+}

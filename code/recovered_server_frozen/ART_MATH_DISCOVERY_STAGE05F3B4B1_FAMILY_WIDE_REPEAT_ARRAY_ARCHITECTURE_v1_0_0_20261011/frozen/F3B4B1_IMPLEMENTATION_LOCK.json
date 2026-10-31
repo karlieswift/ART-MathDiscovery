@@ -1,0 +1,37 @@
+{
+  "stage": "Stage05F3B4B1-implementation-freeze",
+  "gate": "PASS_F3B4B1_REPEAT_ARRAY_SCAN_FROZEN_PRE_REPEAT_RESULTS",
+  "gate_pass": true,
+  "input_family_n": 16,
+  "input_locus_n": 1605,
+  "input_rule": "all and only 1605 formal candidate instances in the 16 frozen F3B3D STRONG/SUGGESTIVE survivor families; no repeat-based locus preselection",
+  "candidate_orientation": "all sequences transformed to candidate 5-prime-to-3-prime orientation before UPSTREAM/DOWNSTREAM labeling",
+  "scan_flank_each_side_bp": 10000,
+  "seed_k_values": [
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "min_repeat_copies": 3,
+  "allowed_start_to_start_gap_bp": [
+    60,
+    360
+  ],
+  "max_exact_core_motif_bp": 80,
+  "generic_array_role": "primary descriptive discovery screen; no Anthropic geometry required for detection",
+  "strict_published_art_geometry_annotation": "UPSTREAM; 3-21 copies; every inferred spacer 120-220 bp",
+  "broad_art_like_geometry_annotation": "UPSTREAM; 3-30 copies; median spacer 100-240 bp and >=75% spacers 80-280 bp",
+  "published_art_geometry_used_for_candidate_filtering": false,
+  "family_best_array_rule": "copy_n descending, motif_len descending, spacer_cv ascending, array_span descending, upstream before downstream, motif/candidate lexical tie-break",
+  "absence_call_rule": "presence may be reported from partial contexts; no family-level absence claim; per-locus no-array observation is only labeled when >=5 kb upstream context is present",
+  "partner_analysis_performed": false,
+  "known_art_membership_used": false,
+  "novelty_used": false,
+  "b4b0_all_instances_sha256": "acc14bf1b0f8f7ca44769e93051ff4743bfa63db50618ca9fed14360e1ea7692",
+  "b4b0_family_summary_sha256": "5edf27b1fffe5c5a1b11e82e7e3af5aedc688179535eec088b5b8d270fa2c4f6",
+  "b4b0_gate_sha256": "299154336ec9a3a20cf3b10bc3b48475e4cec801b4facce9a06079e9ec66ca37",
+  "implementation_sha256": "9e3c5b79f807a273e715eff4d01ddd45fdce96cb8047aefdd077ba425e44174f",
+  "claim_boundary": "Frozen repeat-array architecture discovery only. ART-like geometry is an annotation, not a definition of novelty or function."
+}

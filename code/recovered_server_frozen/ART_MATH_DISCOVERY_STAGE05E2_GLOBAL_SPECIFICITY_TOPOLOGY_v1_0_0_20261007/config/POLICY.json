@@ -1,0 +1,21 @@
+{
+  "stage": "Stage05E2",
+  "version": "v1.0.0",
+  "date": "2026-10-07",
+  "primary_family_source": "Stage05E1 primary <=250 bp replicated architecture families",
+  "global_specificity_universe": "all 999 Stage05D1 novelty-first candidates",
+  "compact_orf_radius_bp": 250,
+  "qualifying_repeat_rule": "high_complexity=1; full_span_outside_predicted_CDS=1; overlap_candidate_bp>0",
+  "exact_primary_assay": "EXACT_CORE_PRIMARY_DESCRIPTION",
+  "e2a": "at least one E1 internal edge jointly supported by a D1-999-family-exclusive exact-primary canonical repeat core and a D1-999-family-exclusive compact FAM50 cluster",
+  "e2b": "no E2A edge, but at least one E1 internal edge jointly supported by a D1-999-family-exclusive qualifying canonical repeat-core string (exact or approximate-description) and a D1-999-family-exclusive compact FAM50 cluster",
+  "e2c": "family has at least one family-exclusive repeat-core string or compact FAM50 cluster, but no jointly supported internal edge",
+  "e2d": "no family-exclusive repeat-core string and no family-exclusive compact FAM50 cluster under the frozen audit definitions",
+  "family_exclusive_definition": "all observed occurrences in the global Stage05D1 999-candidate audit universe are contained within the E1 family, with support in >=2 distinct sequence IDs",
+  "review_strata_only": true,
+  "candidate_filtering_performed": false,
+  "uses_structure_results": false,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "claim_boundary": "E2 specificity/topology is an architecture-review layer. Family-exclusive evidence means exclusive within the frozen Stage05D1 audit universe under the stated representation, not globally unique in nature. It does not establish RT activity, ncRNA function, or ART identity."
+}

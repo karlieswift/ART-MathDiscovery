@@ -1,0 +1,15 @@
+{
+  "method_sha256": "cae86a8987d521adde09795250a1513bd672adf8587d1c5ca20430a09ba909ba",
+  "n_genomes": 919,
+  "runtime": {
+    "executable": "/home/hgq/conda-envs/bioh200/bin/python",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+    "python": "3.11.13"
+  },
+  "selection_sha256": "7c5df0690a8ba123e2b39d1786f13740c06b568d693b2294d174c56b630a3953",
+  "source_manifest_sha256": "5eec6d7ee00584c6266b8a953b6112540148b949341e400099b285ce30d235f0",
+  "source_root": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05A_NEW_SOURCE_DISCOVERY_FREEZE_v1_0_0_20261005",
+  "stage": "Stage05B"
+}

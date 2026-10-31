@@ -1,0 +1,17 @@
+CHANGELOG_v1_0_1.txt
+MANIFEST.txt
+POLICY.json
+README_RUN.txt
+collect_stage05e3c.sh
+docs/ART95_VALIDATION_DESIGN.md
+docs/SCIENTIFIC_INTERPRETATION.md
+refs/ART95_EXACT_CATALOGUE_TEMPLATE.tsv
+refs/ART95_PUBLIC_REFERENCE.tsv
+refs/KNOWN_SYSTEM_TERMS.tsv
+run_stage05e3c.sh
+scripts/stage05e3c.py
+scripts/verify_art95_catalogue.py
+tests/fixtures/e3a/outputs/E3A_TEST.tsv
+tests/fixtures/e3b/outputs/STAGE05E3B_REVIEW_QUEUE.tsv
+tests/fixtures/e3b/outputs/STAGE05E3B_SUMMARY.json
+tests/run_selftest.sh

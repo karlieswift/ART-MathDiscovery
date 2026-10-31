@@ -1,0 +1,9 @@
+{
+  "accession": "MW248466.1",
+  "name": "MarsHill",
+  "truth_interval_type": "posthoc_upstream_ART_array_interval_used_in_Stage02B_development_diagnostic",
+  "start0": 213847,
+  "end0": 215071,
+  "truth_use": "POST_BOARD_FREEZE_ONLY",
+  "note": "This interval is used only after the clean two-arm board is frozen. It is not an input to proposal selection, merging, or ranking."
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "Stage05F3B3C-v1.0.3-implementation-freeze",
+  "gate": "PASS_F3B3C_V103_CRLF_FOLDSEEK_HANDOFF_HOTFIX_FROZEN_PRE_FOLDSEEK",
+  "gate_pass": true,
+  "hotfix_type": "IMPLEMENTATION_TEXT_SERIALIZATION_AND_FOLDSEEK_HANDOFF_ONLY",
+  "v102_failure": "Python csv.DictWriter emitted CRLF; Bash read preserved carriage return in final cif_path field, causing first Foldseek query path to be invalid and the set -e pipeline to exit before any .m8 result",
+  "v102_foldseek_result_n_before_hotfix": 0,
+  "boltz_status_sha256": "29260ccbf3ae6a641db1de4be4a18fc46434226a3b6cf5e2c4409d40eb787df6",
+  "boltz_success_n_observed": 22,
+  "boltz_technical_failure_n_observed": 10,
+  "boltz_results_reused": true,
+  "boltz_recomputed": false,
+  "scientific_protocol_changed": false,
+  "shortlist_membership_changed": false,
+  "scientific_threshold_changed": false,
+  "r5c_rules_changed": false,
+  "prepare_jobs_sha256": "7e7bc9e0d256bd314c94e24fdc63ee29e19fc1075a90ca3c0a31ff9ad33456dd",
+  "summarizer_sha256": "f4d75ebac544a006bd8a43fee0208855a1894f74cb97f93367dfdb895e915d77",
+  "runner_sha256": "d416b2ee41f1938cbd2471fc32b7cb8d39e82e18e5335da0f989f7dcb0fb38e0",
+  "claim_boundary": "Implementation handoff repair only; existing v1.0.2 Boltz results are reused byte-for-byte and frozen R5C rules are unchanged."
+}

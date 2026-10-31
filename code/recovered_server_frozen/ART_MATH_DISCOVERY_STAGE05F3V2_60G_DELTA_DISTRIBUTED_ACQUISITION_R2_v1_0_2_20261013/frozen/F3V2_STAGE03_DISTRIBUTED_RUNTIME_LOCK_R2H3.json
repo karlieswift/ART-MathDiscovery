@@ -1,0 +1,20 @@
+{
+  "stage": "Stage05F3V2-Stage03-distributed-runtime-lock",
+  "hotfix": "R2H3",
+  "date": "2026-10-14",
+  "gate": "PASS_F3V2_STAGE03_THREE_HOST_RUNTIME_STANDARDIZED",
+  "gate_pass": true,
+  "hosts": {
+    "r750-1": "SHARD0",
+    "r750-2": "SHARD1",
+    "as-4125": "SHARD2"
+  },
+  "canonical_hmmscan_sha256": "f225ab9d9c12bc2bb90b7b1994fd3de49180278df1bbe2a15002096e91cce480",
+  "rvt_hmm_sha256": "74556bd21fd92b947af2759878c3433361b442f2499a62492166a5416971e25e",
+  "source_universe_changed": false,
+  "translation_changed": false,
+  "hmm_thresholds_changed": false,
+  "candidate_definition_changed": false,
+  "science_change": false,
+  "note": "SHARD2 was fully reset and recomputed after runtime standardization to avoid mixing hmmscan binary payloads."
+}

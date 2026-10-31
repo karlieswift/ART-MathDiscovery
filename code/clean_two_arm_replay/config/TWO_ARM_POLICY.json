@@ -1,0 +1,19 @@
+{
+  "package": "ART_MATH_DISCOVERY_CLEAN_TWO_ARM_REPLAY_v1_0_0_20260929",
+  "scientific_status": "POSTHOC_PAPER_SIMPLIFICATION_REPLAY_FROM_PREUNBLIND_FROZEN_WINDOW_SCORES",
+  "families": ["ACNV_FAMILY", "GENERIC_RECURRENCE"],
+  "q_columns": {"ACNV_FAMILY": "q_acnv_family", "GENERIC_RECURRENCE": "q_recurrence"},
+  "proposal_q_threshold": 0.005,
+  "merge_rule": "strict_interval_overlap_gap0",
+  "ranking": [
+    "support_family_n_desc",
+    "sum_two_family_surprisal_desc",
+    "best_single_family_q_asc",
+    "start0_asc"
+  ],
+  "top_k_survival_cutoff": false,
+  "recompute_sequence_features": false,
+  "retuning_authorized": false,
+  "truth_used_for_board_construction": false,
+  "expected_stage03a_results_tar_sha256": "d46b0246ae4cf965b18663d27eee04ca7c917596d96a5394f44acf87abde6308"
+}

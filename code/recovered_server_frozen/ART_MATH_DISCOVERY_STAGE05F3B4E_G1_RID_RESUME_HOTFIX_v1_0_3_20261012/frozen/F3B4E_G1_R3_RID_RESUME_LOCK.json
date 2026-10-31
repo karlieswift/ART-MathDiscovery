@@ -1,0 +1,22 @@
+{
+  "stage": "Stage05F3B4E-G1-R3-RID-resume-freeze",
+  "gate": "PASS_F3B4E_G1_R3_EXISTING_RID_RESUME_POLICY_FROZEN_PRE_RESULTS",
+  "gate_pass": true,
+  "hotfix_role": "RESULT_BLIND_TRANSPORT_STATE_RESUME_ONLY",
+  "trigger": "R2 obtained RT5 RID CR73H1ST014 but fixed 10800-second client wait expired while server still reported pending",
+  "query_membership_changed": false,
+  "query_sequences_changed": false,
+  "database_scope_changed": false,
+  "evalue_changed": false,
+  "hitlist_size_changed": false,
+  "filtering_changed": false,
+  "novelty_thresholds_changed": false,
+  "existing_rid_reuse_first": true,
+  "poll_interval_seconds": 60,
+  "resume_invocation_max_wait_seconds": 64800,
+  "timeout_semantics": "client timeout only; preserve RID and resume again; never interpret timeout as no-hit",
+  "resubmit_policy": "do not resubmit a valid WAITING/READY RID; resubmit only after explicit expired/UNKNOWN/FAILED state and no retrievable result",
+  "urlapi_client_sha256": "9917c98454844590181d9f9aaee4d230b9017c9dc11b875dcd7dec5ab6f00c29",
+  "summarizer_sha256": "77f883beaf25def207654ca1dfd57d5fe6ac46a993a33f8a6b770a465b1c1d8b",
+  "claim_boundary": "Transport-state persistence only; scientific searches remain RT5 blastp/nr, partner5 blastp/nr, architecture5 megablast/nt under the frozen F3B4E rules."
+}

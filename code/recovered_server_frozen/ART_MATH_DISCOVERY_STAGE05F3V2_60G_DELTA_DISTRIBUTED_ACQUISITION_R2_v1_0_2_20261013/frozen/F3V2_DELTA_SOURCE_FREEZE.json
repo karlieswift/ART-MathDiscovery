@@ -1,0 +1,27 @@
+{
+  "stage": "Stage05F3V2-R2-distributed-source-freeze",
+  "gate": "PASS_F3V2_R2_DISTRIBUTED_54G_SOURCE_BLIND_FREEZE",
+  "gate_pass": true,
+  "delta_accession_n": 254,
+  "delta_nucleotide_bp": 54377819157,
+  "stratum_bp": {
+    "A": 13511001864,
+    "B": 18187915749,
+    "C": 13651554882,
+    "D": 9027346662
+  },
+  "stratum_targets_bp": {
+    "A": 13500000000,
+    "B": 18000000000,
+    "C": 13500000000,
+    "D": 9000000000
+  },
+  "old_accession_overlap_n": 0,
+  "source_selection_used_rt_or_candidate_information": false,
+  "source_r1_stage": "/mnt/202001Main/BioData/hgq/ART_MathDiscovery_v1/ART_MATH_DISCOVERY_STAGE05F3V2_60G_DELTA_STREAMING_SCAN_R1_v1_0_1_20261012",
+  "selected_manifest_sha256": "8faa369c8c974e01a3caccc6ed666210735472fcbd3b144714a662576d939eb5",
+  "acquisition_ledger_sha256": "0f387fb5c94371142edf15f4f8ae2caef3f349f59ff0f023a4499decab8e3e2b",
+  "science_change": false,
+  "operational_change": "A/B/C/D acquired independently and concurrently; each stratum preserves the frozen R1 deterministic candidate order and stop-at-quota semantics; final merge is A-D then rank order.",
+  "claim_boundary": "Distributed acquisition only. It does not change the source universe, frozen quotas, technical filters, six-frame translation, HMM profiles, clustering, repeat rules, structural thresholds, or novelty rules."
+}

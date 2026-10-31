@@ -1,0 +1,4 @@
+accession	name	strict_repeat_core_start0	strict_repeat_core_end0	rt_start0	rt_end0	partner_start0	partner_end0	rt_protein	partner_protein	truth_basis
+MW349129	Madawaska	213194	214001	214289	215795	215796	216621	QQO92858.1	QQO92859.1	DDBJ/GenBank RT annotation + post-freeze repeat-core replay
+MW349128	Machias	218595	219017	219309	220863	220864	221740	QQO92593.1	QQO92594.1	DDBJ/GenBank RT annotation + post-freeze repeat-core replay
+MW218148.1	SA1	9596	10371	10646	12152	12153	12951	QPI16926.1	QPI16927.1	DDBJ CDS + post-freeze homology to annotated ART RTs + repeat-core replay

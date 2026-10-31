@@ -1,0 +1,15 @@
+{
+  "stage": "Stage05D4-R2",
+  "purpose": "Sensitive curated-protein homology triage of frozen Stage05D4-R1 NR90 representatives",
+  "query_tier": "Stage05D4-R1 NR90 representatives",
+  "database": "UniProtKB/Swiss-Prot current_release FASTA",
+  "mmseqs_sensitivity": 7.5,
+  "evalue": 0.001,
+  "max_seqs": 25,
+  "dna_score_recomputed": false,
+  "dna_rank_recomputed": false,
+  "candidate_filtering_authorized": false,
+  "homology_hit_is_identity_assignment": false,
+  "no_hit_is_negative": false,
+  "known_function_text_used_for_triage_only": true
+}

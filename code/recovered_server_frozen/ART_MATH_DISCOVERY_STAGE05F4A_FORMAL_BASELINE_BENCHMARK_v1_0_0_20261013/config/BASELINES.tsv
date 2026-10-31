@@ -1,0 +1,10 @@
+baseline_id	class	primary	requires_annotation	uses_frozen_math_board	description
+ARM_M_FULL_FROZEN	OUR_METHOD	1	0	1	Frozen ACNV-family + generic recurrence region board; no recomputation.
+ACNV_ONLY_FROZEN	DECOMPOSITION	0	0	1	Frozen ACNV-family proposals only.
+RECURRENCE_ONLY_FROZEN	DECOMPOSITION	0	0	1	Frozen generic recurrence proposals only.
+PRODIGAL_RVT_ONLY	PROTEIN_FIRST	0	1	0	Prodigal meta gene calling followed by frozen myRT RVT-All profile HMM; rank by HMM evidence.
+PRODIGAL_RVT_PLUS_FROZEN_REC	PROTEIN_FIRST	1	1	1	Prodigal+RVT identifies RT neighborhoods; frozen recurrence proposals rank those neighborhoods.
+SIXFRAME_RVT_ONLY	PROTEIN_FIRST_UPPER_BOUND	0	0	0	Annotation-independent six-frame stop-to-stop translation followed by frozen RVT-All HMM; rank by HMM evidence.
+SIXFRAME_RVT_PLUS_FROZEN_REC	PROTEIN_FIRST_UPPER_BOUND	1	0	1	Six-frame+RVT identifies RT neighborhoods; frozen recurrence proposals rank those neighborhoods.
+TRF_REPEAT_ONLY	CONVENTIONAL_REPEAT_OPTIONAL	0	0	0	Optional Tandem Repeats Finder whole-genome baseline; secondary only.
+TRF_PLUS_RVT_NEIGHBOR	CONVENTIONAL_COMPOSITE_OPTIONAL	0	1	0	Optional TRF + Prodigal/RVT neighborhood composite; secondary only.

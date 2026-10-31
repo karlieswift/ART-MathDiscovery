@@ -1,0 +1,5 @@
+{
+  "stage05c1_archive_sha256": "e0f2e8e5049d2e7ec9526a0c1d1a8cae08d3e32bfa2866a66e5680f8711772fa",
+  "stage05c2a_archive_sha256": "bc0addd8ee17093f4a61895843c25179a0df70ad88a14335f93f0d591f48fdb2",
+  "input_scope": "focused true sequences from prior C2A; no new genome extraction and no HMMER/Prodigal run"
+}

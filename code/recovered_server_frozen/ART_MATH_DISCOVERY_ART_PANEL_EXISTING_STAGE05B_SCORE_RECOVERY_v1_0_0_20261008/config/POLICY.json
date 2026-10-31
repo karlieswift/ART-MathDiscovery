@@ -1,0 +1,13 @@
+{
+  "stage": "ART_PANEL_STAGEA1",
+  "version": "v1.0.0",
+  "target_accessions": ["OR770614.1", "OR836606.1", "LC680885.1", "MN091626.1", "MZ779063.1"],
+  "source_score_stage": "Stage05B new919 frozen score freeze",
+  "expected_stage05b_archive_basename": "ART_STAGE05B_NEW919_SCORE_RESULTS_20261006_081746.tar.gz",
+  "expected_stage05b_archive_sha256": "4fc4f1f09ed92f4e0be9817b14c0c14fe7f9eafd56cc0918cad5e6a73a054ebd",
+  "score_recomputed": false,
+  "retuning_authorized": false,
+  "truth_coordinates_used": false,
+  "repeat_motif_used": false,
+  "purpose": "Recover already-frozen Stage05B per-genome proposal/union evidence for the five exact Anthropic-linked sources; do not rescore genomes already included in the 919-genome Stage05B universe."
+}

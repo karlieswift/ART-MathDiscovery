@@ -1,0 +1,25 @@
+{
+  "future_stage": "Stage04C1",
+  "method": "FINAL_CLEAN_TWO_ARM_ACNV_PLUS_GENERIC_RECURRENCE",
+  "method_parameters_must_match_clean_two_arm_freeze": true,
+  "primary_endpoint": "known_locus_clean_two_arm_region_rank_fraction",
+  "secondary_endpoints": [
+    "known_locus_dual_arm_support",
+    "best_truth_overlap_acnv_window_rank_fraction",
+    "best_truth_overlap_recurrence_window_rank_fraction",
+    "best_recurrence_k",
+    "best_recurrence_lag_bp"
+  ],
+  "predeclared_directional_interpretation": {
+    "ART_and_arrayed_UG27": "recurrence may be strong if sufficient short-sequence recurrence is retained; characteristic lag should be interpretable against array spacing",
+    "nonarray_retrons_and_DRTs": "RT/ncRNA biology alone should not systematically produce an ART-like strong positional-recurrence signature",
+    "UG27_negative_result": "would indicate a boundary of sequence-recurrence detection when repeat units conserve structure more strongly than primary sequence"
+  },
+  "forbidden": [
+    "retune q threshold using control outcomes",
+    "restrict lag range after inspecting known array spacing",
+    "inject RT/partner annotations into scoring",
+    "use truth coordinates before score-board freeze",
+    "interpret this small mechanistic panel as a population AUROC benchmark"
+  ]
+}

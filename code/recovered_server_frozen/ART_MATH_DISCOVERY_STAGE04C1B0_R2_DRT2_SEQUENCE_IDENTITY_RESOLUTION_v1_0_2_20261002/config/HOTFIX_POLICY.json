@@ -1,0 +1,21 @@
+{
+  "stage": "Stage04C1B0-R2",
+  "version": "v1.0.2",
+  "purpose": "repair DRT2 source-record identity verification without reading or modifying C1 scores",
+  "supersedes": "Stage04C1B0-R1 v1.0.1 failed after Ec78 repair because AP006725.1 INSDC source record did not expose the RefSeq WP_ protein_id or modern RT product text required by the resolver",
+  "network_fetch_performed": false,
+  "reuse_failed_v1_flatfiles": true,
+  "score_inputs_read": false,
+  "score_mutation_authorized": false,
+  "retuning_authorized": false,
+  "ec78_primary_rule": "unique 311-aa CDS carrying exact YADD catalytic motif; unchanged from R1",
+  "ec78_annotation_product_required": false,
+  "ec78_ptu_annotation_required": false,
+  "primary_cross_control_anchor": "experimentally established RT coding interval",
+  "coordinate_convention_output": "1-based inclusive and 0-based half-open",
+  "drt2_primary_rule": "exact CDS 598753..600030 on minus strand; translated length exactly 425 aa; exact YCDD at aa267-270 (D269/D270); exact source-translation SHA256 13c58226...; source product/protein_id text not required",
+  "drt2_expected_translation_sha256": "13c58226c9ddaeb54ef404c57893843e80f6ae7248f5b5daeef24597d08c0815",
+  "drt2_source_product_annotation_required": false,
+  "drt2_source_protein_id_required": false,
+  "drt2_literature_refseq_protein": "WP_012737279.1"
+}

@@ -1,0 +1,97 @@
+matched_rt_accession	matched_rt_length	accession	entry	description	aa_length	length_delta	afsp_key	afsp_target
+O00939	1031	Q9TY96	SERA6_PLAF7	Serine-repeat antigen protein 6 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=SERA6 PE=1 SV=3	1031	0	225425627	AF-Q9TY96-F1-model_v6
+O00939	1031	Q2JSB7	IF2_SYNJA	Translation initiation factor IF-2 OS=Synechococcus sp. (strain JA-3-3Ab) OX=321327 GN=infB PE=3 SV=1	1031	0	5737670	AF-Q2JSB7-F1-model_v6
+O00939	1031	Q6ZQ03	FNBP4_MOUSE	Formin-binding protein 4 OS=Mus musculus OX=10090 GN=Fnbp4 PE=1 SV=2	1031	0	140326032	AF-Q6ZQ03-F1-model_v6
+O13339	988	P06695	TNP5_PSEAI	Transposase for transposon Tn501 OS=Pseudomonas aeruginosa OX=287 GN=tnpA PE=3 SV=1	988	0	93311994	AF-P06695-F1-model_v6
+O13339	988	Q8PBH3	UVRA_XANCP	UvrABC system protein A OS=Xanthomonas campestris pv. campestris (strain ATCC 33913 / DSM 3586 / NCPPB 528 / LMG 568 / P 25) OX=190485 GN=uvrA PE=3 SV=1	988	0	212399392	AF-Q8PBH3-F1-model_v6
+O13339	988	Q10MI0	SRL2_ORYSJ	Protein SEMI-ROLLED LEAF 2 OS=Oryza sativa subsp. japonica OX=39947 GN=SRL2 PE=2 SV=1	988	0	234207536	AF-Q10MI0-F1-model_v6
+O14746	1132	Q5ZIB2	FBF1_CHICK	Fas-binding factor 1 homolog OS=Gallus gallus OX=9031 GN=FBF1 PE=2 SV=1	1132	0	34236908	AF-Q5ZIB2-F1-model_v6
+O14746	1132	Q9Y2H2	SAC2_HUMAN	Phosphatidylinositide 4-phosphatase SAC2 OS=Homo sapiens OX=9606 GN=INPP5F PE=1 SV=3	1132	0	109812549	AF-Q9Y2H2-F1-model_v6
+O14746	1132	Q91VX2	UBAP2_MOUSE	Ubiquitin-associated protein 2 OS=Mus musculus OX=10090 GN=Ubap2 PE=1 SV=1	1132	0	225529422	AF-Q91VX2-F1-model_v6
+O70372	1122	Q49379	ADP1_MYCGL	Adhesin P1 OS=Mycoplasmoides gallisepticum OX=2096 GN=gapA PE=3 SV=1	1122	0	5118482	AF-Q49379-F1-model_v6
+O70372	1122	Q9UQL6	HDAC5_HUMAN	Histone deacetylase 5 OS=Homo sapiens OX=9606 GN=HDAC5 PE=1 SV=2	1122	0	146090948	AF-Q9UQL6-F1-model_v6
+O70372	1122	Q80V94	AP4E1_MOUSE	AP-4 complex subunit epsilon-1 OS=Mus musculus OX=10090 GN=Ap4e1 PE=1 SV=3	1122	0	52442691	AF-Q80V94-F1-model_v6
+O76332	1132	P29130	PHYB_TOBAC	Phytochrome B OS=Nicotiana tabacum OX=4097 GN=PHYB PE=2 SV=2	1132	0	68233467	AF-P29130-F1-model_v6
+O76332	1132	Q2KN93	CYTSA_DANRE	Cytospin-A OS=Danio rerio OX=7955 GN=specc1la PE=2 SV=2	1132	0	177979358	AF-Q2KN93-F1-model_v6
+O76332	1132	F4HRT5	CRWN1_ARATH	Protein CROWDED NUCLEI 1 OS=Arabidopsis thaliana OX=3702 GN=CRWN1 PE=1 SV=1	1132	0	205697800	AF-F4HRT5-F1-model_v6
+O77448	1117	Q9VMA3	CUP_DROME	Protein cup OS=Drosophila melanogaster OX=7227 GN=cup PE=1 SV=3	1117	0	93660076	AF-Q9VMA3-F1-model_v6
+O77448	1117	Q80ZA5	S4A10_RAT	Sodium-driven chloride bicarbonate exchanger OS=Rattus norvegicus OX=10116 GN=Slc4a10 PE=1 SV=1	1117	0	97586310	AF-Q80ZA5-F1-model_v6
+O77448	1117	Q0CPP9	MSH3_ASPTN	DNA mismatch repair protein msh3 OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) OX=341663 GN=msh3 PE=3 SV=1	1117	0	157435977	AF-Q0CPP9-F1-model_v6
+P08548	1260	Q55GU9	MSH6_DICDI	DNA mismatch repair protein Msh6 OS=Dictyostelium discoideum OX=44689 GN=msh6 PE=3 SV=1	1260	0	64969260	AF-Q55GU9-F1-model_v6
+P08548	1260	A5DUP0	U507_LODEL	UPF0507 protein LELG_01076 OS=Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239) OX=379508 GN=LELG_01076 PE=3 SV=1	1260	0	205178276	AF-A5DUP0-F1-model_v6
+P08548	1260	D7PF45	SHIP2_PIG	Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 2 OS=Sus scrofa OX=9823 GN=INPPL1 PE=1 SV=2	1260	0	180730420	AF-D7PF45-F1-model_v6
+P0DV59	374	P27712	YFIB_SPICI	Uncharacterized protein in fibril gene 3'region (Fragment) OS=Spiroplasma citri OX=2133 PE=4 SV=1	374	0	30686739	AF-P27712-F1-model_v6
+P0DV59	374	B9RU15	ATXR5_RICCO	Probable Histone-lysine N-methyltransferase ATXR5 OS=Ricinus communis OX=3988 GN=ATXR5 PE=1 SV=1	374	0	40789638	AF-B9RU15-F1-model_v6
+P0DV59	374	A1JKS2	ISPG_YERE8	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (flavodoxin) OS=Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081) OX=393305 GN=ispG PE=3 SV=1	374	0	44128916	AF-A1JKS2-F1-model_v6
+P0DV86	316	P58679	ISPH_SALTY	4-hydroxy-3-methylbut-2-enyl diphosphate reductase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=ispH PE=3 SV=1	316	0	229539021	AF-P58679-F1-model_v6
+P0DV86	316	B7J403	BIOB_ACIF2	Biotin synthase OS=Acidithiobacillus ferrooxidans (strain ATCC 23270 / DSM 14882 / CIP 104768 / NCIMB 8455) OX=243159 GN=bioB PE=3 SV=1	316	0	218329491	AF-B7J403-F1-model_v6
+P0DV86	316	Q72XW6	WHIA_BACC1	Probable cell division protein WhiA OS=Bacillus cereus (strain ATCC 10987 / NRS 248) OX=222523 GN=whiA PE=3 SV=1	316	0	222110246	AF-Q72XW6-F1-model_v6
+P0DV89	379	P31882	HYPD_AZOVI	Hydrogenase maturation factor HypD OS=Azotobacter vinelandii OX=354 GN=hypD PE=3 SV=1	379	0	85717283	AF-P31882-F1-model_v6
+P0DV89	379	Q5VJ58	CYB_INDIN	Cytochrome b OS=Indri indri OX=34827 GN=MT-CYB PE=3 SV=1	379	0	88552411	AF-Q5VJ58-F1-model_v6
+P0DV89	379	Q7MN59	PROB_VIBVY	Glutamate 5-kinase OS=Vibrio vulnificus (strain YJ016) OX=196600 GN=proB PE=3 SV=2	379	0	104622867	AF-Q7MN59-F1-model_v6
+P0DV94	315	Q01727	MSHR_MOUSE	Melanocyte-stimulating hormone receptor OS=Mus musculus OX=10090 GN=Mc1r PE=2 SV=2	315	0	4202143	AF-Q01727-F1-model_v6
+P0DV94	315	A7FNK3	FMT_YERP3	Methionyl-tRNA formyltransferase OS=Yersinia pseudotuberculosis serotype O:1b (strain IP 31758) OX=349747 GN=fmt PE=3 SV=1	315	0	238608143	AF-A7FNK3-F1-model_v6
+P0DV94	315	A6VJ61	RFCS_METM7	Replication factor C small subunit OS=Methanococcus maripaludis (strain C7 / ATCC BAA-1331) OX=426368 GN=rfcS PE=3 SV=1	315	0	160969597	AF-A6VJ61-F1-model_v6
+P11660	368	Q5LRY5	PROB_RUEPO	Glutamate 5-kinase OS=Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3) OX=246200 GN=proB PE=3 SV=1	368	0	166284104	AF-Q5LRY5-F1-model_v6
+P11660	368	P56139	DXR_HELPY	1-deoxy-D-xylulose 5-phosphate reductoisomerase OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 GN=dxr PE=3 SV=1	368	0	112931243	AF-P56139-F1-model_v6
+P11660	368	Q9YIB5	QPCT_BOTJA	Glutaminyl-peptide cyclotransferase OS=Bothrops jararaca OX=8724 GN=QPCT PE=2 SV=1	368	0	232992641	AF-Q9YIB5-F1-model_v6
+P19593	608	Q9FGX1	ACLB2_ARATH	ATP-citrate synthase beta chain protein 2 OS=Arabidopsis thaliana OX=3702 GN=ACLB-2 PE=1 SV=1	608	0	182277834	AF-Q9FGX1-F1-model_v6
+P19593	608	P94323	NODM_BRADU	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] OS=Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110) OX=224911 GN=nodM PE=3 SV=3	608	0	83582036	AF-P94323-F1-model_v6
+P19593	608	Q03156	ALBU2_SALSA	Albumin 2 OS=Salmo salar OX=8030 GN=alb2 PE=2 SV=1	608	0	154871075	AF-Q03156-F1-model_v6
+P21328	916	Q8CSX1	SYI_STAES	Isoleucine--tRNA ligase OS=Staphylococcus epidermidis (strain ATCC 12228 / FDA PCI 1200) OX=176280 GN=ileS PE=3 SV=1	916	0	43273693	AF-Q8CSX1-F1-model_v6
+P21328	916	Q3T052	ITIH4_BOVIN	Inter-alpha-trypsin inhibitor heavy chain H4 OS=Bos taurus OX=9913 GN=ITIH4 PE=1 SV=1	916	0	151730493	AF-Q3T052-F1-model_v6
+P21328	916	Q07421	PMA1_AJECA	Plasma membrane ATPase OS=Ajellomyces capsulatus OX=5037 GN=PMA1 PE=3 SV=1	916	0	77591134	AF-Q07421-F1-model_v6
+P21329	916	P55283	CADH4_HUMAN	Cadherin-4 OS=Homo sapiens OX=9606 GN=CDH4 PE=1 SV=2	916	0	77684465	AF-P55283-F1-model_v6
+P21329	916	Q49WX5	SYI_STAS1	Isoleucine--tRNA ligase OS=Staphylococcus saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 20229 / NCIMB 8711 / NCTC 7292 / S-41) OX=342451 GN=ileS PE=3 SV=1	916	0	180379549	AF-Q49WX5-F1-model_v6
+P21329	916	Q9WYV0	UVRA_THEMA	UvrABC system protein A OS=Thermotoga maritima (strain ATCC 43589 / DSM 3109 / JCM 10099 / NBRC 100826 / MSB8) OX=243274 GN=uvrA PE=1 SV=1	916	0	112293829	AF-Q9WYV0-F1-model_v6
+P23070	320	P32520	FLAA1_BRAHO	Flagellar filament outer layer protein flaA1 OS=Brachyspira hyodysenteriae OX=159 GN=flaA1 PE=1 SV=1	320	0	20594225	AF-P32520-F1-model_v6
+P23070	320	A8LJK6	MDH_DINSH	Malate dehydrogenase OS=Dinoroseobacter shibae (strain DSM 16493 / NCIMB 14021 / DFL 12) OX=398580 GN=mdh PE=3 SV=1	320	0	144280370	AF-A8LJK6-F1-model_v6
+P23070	320	Q02250	HEM2_METSC	Delta-aminolevulinic acid dehydratase OS=Methanothermus sociabilis OX=2181 GN=hemB PE=3 SV=1	320	0	195157505	AF-Q02250-F1-model_v6
+P23071	427	A6T701	AROA_KLEP7	3-phosphoshikimate 1-carboxyvinyltransferase OS=Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578) OX=272620 GN=aroA PE=3 SV=1	427	0	150421186	AF-A6T701-F1-model_v6
+P23071	427	B5ZUE5	PROA_RHILW	Gamma-glutamyl phosphate reductase OS=Rhizobium leguminosarum bv. trifolii (strain WSM2304) OX=395492 GN=proA PE=3 SV=1	427	0	227008570	AF-B5ZUE5-F1-model_v6
+P23071	427	Q13X07	ENO_PARXL	Enolase OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=eno PE=3 SV=1	427	0	217412715	AF-Q13X07-F1-model_v6
+P23072	485	A8G3X5	GLGA_PROM2	Glycogen synthase OS=Prochlorococcus marinus (strain MIT 9215) OX=93060 GN=glgA PE=3 SV=1	485	0	18262869	AF-A8G3X5-F1-model_v6
+P23072	485	Q8AAP9	CYSN_BACTN	Sulfate adenylyltransferase subunit 1 OS=Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / JCM 5827 / CCUG 10774 / NCTC 10582 / VPI-5482 / E50) OX=226186 GN=cysN PE=3 SV=1	485	0	62223098	AF-Q8AAP9-F1-model_v6
+P23072	485	P30082	GLR_RAT	Glucagon receptor OS=Rattus norvegicus OX=10116 GN=Gcgr PE=1 SV=2	485	0	128726249	AF-P30082-F1-model_v6
+P31843	142	B5EQH8	RL13_ACIF5	Large ribosomal subunit protein uL13 OS=Acidithiobacillus ferrooxidans (strain ATCC 53993 / BNL-5-31) OX=380394 GN=rplM PE=3 SV=1	142	0	159089840	AF-B5EQH8-F1-model_v6
+P31843	142	Q2S3M6	NDK_SALRD	Nucleoside diphosphate kinase OS=Salinibacter ruber (strain DSM 13855 / M31) OX=309807 GN=ndk PE=3 SV=1	142	0	215642292	AF-Q2S3M6-F1-model_v6
+P31843	142	A3D8R4	RL13_SHEB5	Large ribosomal subunit protein uL13 OS=Shewanella baltica (strain OS155 / ATCC BAA-1091) OX=325240 GN=rplM PE=3 SV=1	142	0	28369883	AF-A3D8R4-F1-model_v6
+P71276	408	B0SEH8	DAPAT_LEPBA	LL-diaminopimelate aminotransferase OS=Leptospira biflexa serovar Patoc (strain Patoc 1 / Ames) OX=355278 GN=dapL PE=3 SV=1	408	0	66969059	AF-B0SEH8-F1-model_v6
+P71276	408	Q7MA48	NUOD_WOLSU	NADH-quinone oxidoreductase subunit D OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W) OX=273121 GN=nuoD PE=3 SV=1	408	0	24069051	AF-Q7MA48-F1-model_v6
+P71276	408	Q8IEG9	LIPLA_PLAF7	Lipoate--protein ligase 1 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=LipL1 PE=1 SV=1	408	0	183225769	AF-Q8IEG9-F1-model_v6
+Q06163	884	Q54KD8	MLH1_DICDI	DNA mismatch repair protein Mlh1 OS=Dictyostelium discoideum OX=44689 GN=mlh1 PE=3 SV=1	884	0	204542714	AF-Q54KD8-F1-model_v6
+Q06163	884	P51381	SECA_PORPU	Protein translocase subunit SecA OS=Porphyra purpurea OX=2787 GN=secA PE=3 SV=1	884	0	187492590	AF-P51381-F1-model_v6
+Q06163	884	Q03466	EBS1_YEAST	Nonsense-mediated mRNA decay factor EBS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=EBS1 PE=1 SV=1	884	0	232081412	AF-Q03466-F1-model_v6
+Q1PS67	1090	Q802R8	SMC6_TAKRU	Structural maintenance of chromosomes protein 6 OS=Takifugu rubripes OX=31033 GN=smc6 PE=2 SV=1	1090	0	103855630	AF-Q802R8-F1-model_v6
+Q1PS67	1090	P28349	NIT4_NEUCR	Nitrogen assimilation transcription factor nit-4 OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=nit-4 PE=4 SV=2	1090	0	198727995	AF-P28349-F1-model_v6
+Q1PS67	1090	F4K6B8	RGI4_ARATH	Leucine-rich repeat receptor-like serine/threonine-protein kinase RGI4 OS=Arabidopsis thaliana OX=3702 GN=RGI4 PE=1 SV=1	1090	0	131864246	AF-F4K6B8-F1-model_v6
+Q27ID4	1125	Q924Z6	XPO6_MOUSE	Exportin-6 OS=Mus musculus OX=10090 GN=Xpo6 PE=1 SV=2	1125	0	129710742	AF-Q924Z6-F1-model_v6
+Q27ID4	1125	Q96QU8	XPO6_HUMAN	Exportin-6 OS=Homo sapiens OX=9606 GN=XPO6 PE=1 SV=1	1125	0	190135881	AF-Q96QU8-F1-model_v6
+Q27ID4	1125	P16065	GCY_STRPU	Speract receptor OS=Strongylocentrotus purpuratus OX=7668 PE=2 SV=1	1125	0	164646371	AF-P16065-F1-model_v6
+Q46666	311	Q7M9W3	ACCA_WOLSU	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W) OX=273121 GN=accA PE=3 SV=1	311	0	154900741	AF-Q7M9W3-F1-model_v6
+Q46666	311	Q9CN86	MDH_PASMU	Malate dehydrogenase OS=Pasteurella multocida (strain Pm70) OX=272843 GN=mdh PE=3 SV=1	311	0	98453408	AF-Q9CN86-F1-model_v6
+Q46666	311	P0A789	PYRB_SHIFL	Aspartate carbamoyltransferase catalytic subunit OS=Shigella flexneri OX=623 GN=pyrB PE=3 SV=2	311	0	214787717	AF-P0A789-F1-model_v6
+Q47526	312	E2NPN0	METAA_CATMR	Homoserine O-acetyltransferase OS=Catenibacterium mitsuokai (strain DSM 15897 / JCM 10609 / CCUG 48821 A / CIP 106738 / RCA14-39) OX=451640 GN=metAA PE=1 SV=1	312	0	96029926	AF-E2NPN0-F1-model_v6
+Q47526	312	A1SJI9	ARGB_NOCSJ	Acetylglutamate kinase OS=Nocardioides sp. (strain ATCC BAA-499 / JS614) OX=196162 GN=argB PE=3 SV=1	312	0	110836795	AF-A1SJI9-F1-model_v6
+Q47526	312	Q9PKT7	TRXB_CHLMU	Thioredoxin reductase OS=Chlamydia muridarum (strain MoPn / Nigg) OX=243161 GN=trxB PE=3 SV=1	312	0	27501205	AF-Q9PKT7-F1-model_v6
+Q4KTA7	1074	Q13393	PLD1_HUMAN	Phospholipase D1 OS=Homo sapiens OX=9606 GN=PLD1 PE=1 SV=1	1074	0	237815702	AF-Q13393-F1-model_v6
+Q4KTA7	1074	Q6UY14	ATL4_HUMAN	ADAMTS-like protein 4 OS=Homo sapiens OX=9606 GN=ADAMTSL4 PE=1 SV=2	1074	0	41189849	AF-Q6UY14-F1-model_v6
+Q4KTA7	1074	Q1ZXK2	FORG_DICDI	Formin-G OS=Dictyostelium discoideum OX=44689 GN=forG PE=1 SV=1	1074	0	209717915	AF-Q1ZXK2-F1-model_v6
+Q673L6	1125	Q55BQ3	SCY2_DICDI	Probable inactive serine/threonine-protein kinase scy2 OS=Dictyostelium discoideum OX=44689 GN=scy2 PE=3 SV=1	1125	0	174840599	AF-Q55BQ3-F1-model_v6
+Q673L6	1125	Q06807	TIE2_BOVIN	Angiopoietin-1 receptor OS=Bos taurus OX=9913 GN=TEK PE=2 SV=1	1125	0	54963474	AF-Q06807-F1-model_v6
+Q673L6	1125	Q6C3D7	STE20_YARLI	Serine/threonine-protein kinase STE20 OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284591 GN=STE20 PE=3 SV=1	1125	0	34814777	AF-Q6C3D7-F1-model_v6
+Q6A548	1123	Q70EL4	UBP43_HUMAN	Ubiquitin carboxyl-terminal hydrolase 43 OS=Homo sapiens OX=9606 GN=USP43 PE=1 SV=2	1123	0	57932889	AF-Q70EL4-F1-model_v6
+Q6A548	1123	P11578	ITAM_CAVPO	Integrin alpha-M OS=Cavia porcellus OX=10141 GN=ITGAM PE=2 SV=2	1123	0	101285013	AF-P11578-F1-model_v6
+Q6A548	1123	Q2QP54	PETS_ORYSJ	Polyprotein of EF-Ts, chloroplastic OS=Oryza sativa subsp. japonica OX=39947 GN=PETs PE=2 SV=1	1123	0	48975818	AF-Q2QP54-F1-model_v6
+Q8LKW0	1259	A2QBZ0	SEC31_ASPNC	Protein transport protein sec31 OS=Aspergillus niger (strain ATCC MYA-4892 / CBS 513.88 / FGSC A1513) OX=425011 GN=sec31 PE=3 SV=1	1259	0	89227672	AF-A2QBZ0-F1-model_v6
+Q8LKW0	1259	F4HVS0	BTSL2_ARATH	Zinc finger protein BRUTUS-like At1g74770 OS=Arabidopsis thaliana OX=3702 GN=At1g74770 PE=2 SV=1	1259	0	63356076	AF-F4HVS0-F1-model_v6
+Q8LKW0	1259	D2TN57	TAMB_CITRI	Translocation and assembly module subunit TamB OS=Citrobacter rodentium (strain ICC168) OX=637910 GN=tamB PE=1 SV=1	1259	0	182639987	AF-D2TN57-F1-model_v6
+Q95SX7	906	Q8FYD8	SECA_BRUSU	Protein translocase subunit SecA OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=secA PE=3 SV=1	906	0	118366552	AF-Q8FYD8-F1-model_v6
+Q95SX7	906	B9JB90	SECA_RHIR8	Protein translocase subunit SecA OS=Rhizobium rhizogenes (strain K84 / ATCC BAA-868) OX=311403 GN=secA PE=3 SV=1	906	0	146401136	AF-B9JB90-F1-model_v6
+Q95SX7	906	A0Q5P9	SECA_FRATN	Protein translocase subunit SecA OS=Francisella tularensis subsp. novicida (strain ATCC 15482 / CCUG 33449 / U112) OX=401614 GN=secA PE=3 SV=1	906	0	27782140	AF-A0Q5P9-F1-model_v6
+Q9NBX4	908	Q5B6W0	SEC24_EMENI	Protein transport protein sec24 OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) OX=227321 GN=sec24 PE=3 SV=1	908	0	114217158	AF-Q5B6W0-F1-model_v6
+Q9NBX4	908	A4XHU5	Y864_CALS8	UPF0182 protein Csac_0864 OS=Caldicellulosiruptor saccharolyticus (strain ATCC 43494 / DSM 8903 / Tp8T 6331) OX=351627 GN=Csac_0864 PE=3 SV=1	908	0	178397284	AF-A4XHU5-F1-model_v6
+Q9NBX4	908	P0CS78	SPB1_CRYD1	AdoMet-dependent rRNA methyltransferase SPB1 OS=Cryptococcus deneoformans (strain JEC21 / ATCC MYA-565) OX=214684 GN=SPB1 PE=3 SV=1	908	0	18219855	AF-P0CS78-F1-model_v6
+Q9SPU7	1123	P10857	SYLC_NEUCR	Leucine--tRNA ligase, cytoplasmic OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=leu-6 PE=3 SV=2	1123	0	207539110	AF-P10857-F1-model_v6
+Q9SPU7	1123	P36505	PHY1_PHYPA	Phytochrome 1 OS=Physcomitrium patens OX=3218 GN=PHY1 PE=2 SV=2	1123	0	184317820	AF-P36505-F1-model_v6
+Q9SPU7	1123	Q6BPK1	MED14_DEBHA	Mediator of RNA polymerase II transcription subunit 14 OS=Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / BCRC 21394 / JCM 1990 / NBRC 0083 / IGC 2968) OX=284592 GN=RGR1 PE=3 SV=2	1123	0	31045308	AF-Q6BPK1-F1-model_v6
